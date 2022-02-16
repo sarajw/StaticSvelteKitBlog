@@ -1,41 +1,44 @@
 <header>
-  <p class="name"><a href="/">Sara J. Wallén</a></p>
+  <h1><a href="/">Sara J. Wallén</a></h1>
 
   <nav>
     <ul>
       <li>
-        <a href="/blog">Blog</a>
+        <h2><a href="/blog">Blog</a></h2>
       </li>
       <li>
-        <a href="/stuff">Stuff</a>
+        <h2><a href="/stuff">Stuff</a></h2>
       </li>
       <li>
-        <a href="/contact">Contact</a>
+        <h2><a href="/contact">Contact</a></h2>
       </li>
     </ul>
   </nav>
 </header>
 
 <style>
-  header {
-    height: 3rem;
-    line-height: 3rem;
-    padding: 0 1rem;
-    text-transform: lowercase;
-  }
-
   header,
-  nav,
   ul {
     display: flex;
     justify-content: space-between;
+    gap: 0 1rem;
   }
 
-  .name {
-    text-align: center;
+  header {
+    line-height: var(--headheight);
+    padding: 0.25rem 1rem 0;
+    text-transform: uppercase;
+    flex-wrap: wrap;
   }
 
-  ul {
-    gap: 1rem;
+  h1 {
+    margin-right: auto;
+  }
+  h1:hover:after {
+    content: "🏠";
+  }
+
+  nav {
+    margin-left: auto;
   }
 </style>

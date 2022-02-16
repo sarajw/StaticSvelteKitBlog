@@ -1,8 +1,87 @@
+:root {
+
+	/* colours  */
+	--background: hsl(200, 15%, 70%);
+	--text: hsl(200, 15%, 10%);
+	--edges: 2px -2px 4px -3px hsl(200, 15%, 20%);
+	--shadow: rgba(0, 0, 0, 0.5);
+	
+	--links: hsl(200, 15%, 10%);
+	--hover: hsl(200, 15%, 30%);
+	
+	--bass: hsl(200, 15%, 95%);
+	--tenor: hsl(200, 15%, 90%);
+	--alto: hsl(200, 15%, 85%);
+	--soprano: hsl(200, 15%, 80%);
+	
+	--scrollbg: hsl(200, 15%, 85%);
+	--scrollbar: hsl(200, 15%, 75%);
+	--scrollhover: hsl(200, 15%, 70%);
+	
+	/* scaling */
+	--headheight: clamp(40px, 6vw, 60px);
+	
+	/* fonts */
+	--normal: 400;
+	--heavy: 600;	
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+	/* Dark */
+	--background: hsl(200, 15%, 30%);
+	--text: hsl(200, 15%, 90%);
+	--edges: 2px 2px 4px -3px hsl(200, 15%, 80%) inset;
+	--shadow: rgba(255, 255, 255, 0.5);
+	
+	--links: hsl(200, 15%, 90%);
+	--hover: hsl(200, 15%, 70%);
+	
+	--bass: hsl(200, 15%, 5%);
+	--tenor: hsl(200, 15%, 10%);
+	--alto: hsl(200, 15%, 15%);
+	--soprano: hsl(200, 15%, 20%);
+	
+	--scrollbg: hsl(200, 15%, 15%);
+	--scrollbar: hsl(200, 15%, 25%);
+	--scrollhover: hsl(200, 15%, 30%);
+    }
+}
+
+* {
+    outline: 1px dashed;
+}
+
 html {
     font-size: 18px;
     font-family: 'Karla', sans-serif;
+    font-weight: var(--normal);
+	background-color: var(--background);
+}
+
+body {
+	color: var(--text);
+	background-color: var(--bass);
+
+	width: calc(100% - 10px);
+    margin: 5px auto 0;
+
+	border-radius: 5px;
 }
 
 main {
-    height: calc(100vh - 6rem);
+    /* height: calc(100vh - 6rem - 5px); */
+    max-width: 40rem;
+    margin: 0 auto;
+    padding: 3rem 5vw 2rem;
+}
+
+h1 {
+    font-size: clamp(1.5rem, 4vw, 2rem);
+}
+h2 {
+    font-size: clamp(1.2rem, 3vw, 1.5rem);
+}
+h3 {
+    font-size: 1.2rem;
 }
