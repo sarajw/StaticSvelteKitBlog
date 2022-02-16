@@ -10,7 +10,12 @@
   "devDependencies": {
     "@sveltejs/adapter-auto": "next",
     "@sveltejs/kit": "next",
-    "svelte": "^3.44.0"
+    "mdsvex": "^0.10.5",
+    "svelte": "^3.44.0",
+    "svelte-preprocess": "^4.10.3"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "the-new-css-reset": "^1.4.9"
+  }
 }

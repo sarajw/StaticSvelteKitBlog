@@ -1,0 +1,8 @@
+html {
+    font-size: 18px;
+    font-family: 'Karla', sans-serif;
+}
+
+main {
+    height: calc(100vh - 6rem);
+}
