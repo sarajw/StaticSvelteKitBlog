@@ -74,9 +74,14 @@ body {
 }
 
 main {
-    /* height: calc(100vh - 6rem - 5px); */
     margin: 0 auto;
     padding: 7vw 5vw 6vw;
+}
+
+main > :not(.stuff) {
+    max-width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 p, h1, h2, h3 {

@@ -2,7 +2,7 @@
 
 <p>I've made stuff! Look!</p>
 
-<div class="wrapper">
+<div class="stuff">
   <div class="container box1">
     <div class="bigrow">a1</div>
     <div class="bigsq">b</div>
@@ -15,7 +15,7 @@
     <div class="smsq2">c</div>
     <div class="bigrow">d</div>
   </div>
-  <div class="flex-break" />
+  <!-- <div class="flex-break" /> -->
   <div class="container box3">
     <div class="bigsq">a3</div>
     <div class="smsq1">b</div>
@@ -31,10 +31,11 @@
 </div>
 
 <style>
-  .wrapper {
+  .stuff {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 8px;
   }
 
   .container {
@@ -45,8 +46,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 4px;
-    margin: 2px;
+    gap: 8px;
   }
 
   .box1 {
@@ -79,27 +79,27 @@
 
   .bigsq {
     grid-area: bigsq;
-    background-color: rgba(100, 100, 255, 0.5);
+    background-color: rgba(100, 100, 255, 0.25);
   }
   .bigrow {
     grid-area: bigrow;
-    background-color: rgba(255, 100, 100, 0.5);
+    background-color: rgba(255, 100, 100, 0.25);
   }
   .shcol {
     grid-area: shcol;
-    background-color: rgba(100, 255, 100, 0.5);
+    background-color: rgba(100, 255, 100, 0.25);
   }
   .shrow {
     grid-area: shrow;
-    background-color: rgba(255, 255, 100, 0.5);
+    background-color: rgba(255, 255, 100, 0.25);
   }
   .smsq1 {
     grid-area: smsq1;
-    background-color: rgba(100, 255, 255, 0.5);
+    background-color: rgba(100, 255, 255, 0.25);
   }
   .smsq2 {
     grid-area: smsq2;
-    background-color: rgba(255, 100, 255, 0.5);
+    background-color: rgba(255, 100, 255, 0.25);
   }
 
   .flex-break {
@@ -113,15 +113,18 @@
   .box3 div,
   .box4 div {
     flex: 1;
-    border-radius: 3px;
-    padding: 3px;
+    border-radius: 4px;
+    padding: 4px;
   }
 
   @media only screen and (max-width: 600px) {
+    .stuff {
+      gap: 8px;
+    }
     .container {
       width: 90vw;
       height: 90vw;
-      margin: 2px auto;
+      margin: 0 auto;
     }
   }
 </style>

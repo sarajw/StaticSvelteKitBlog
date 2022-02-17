@@ -1,13 +1,11 @@
 <footer>
-  <p><a href="/">{new Date().getFullYear()} Sara J. Wallén</a></p>
+  <a href="/">{new Date().getFullYear()} Sara J. Wallén</a>
 </footer>
 
 <style>
   footer {
     line-height: var(--headheight);
     padding: 0 1rem;
-  }
-  p {
     text-align: center;
   }
 </style>
