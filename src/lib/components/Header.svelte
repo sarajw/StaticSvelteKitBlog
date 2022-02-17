@@ -1,4 +1,8 @@
-<header>
+<script>
+  import homeImg from "$lib/assets/images/home.svg";
+</script>
+
+<header style="--homeImgUrl: url('{homeImg}')">
   <a class="name" href="/">Sara J. Wallén</a>
 
   <nav>
@@ -27,7 +31,7 @@
   header {
     line-height: var(--headheight);
     padding: 0.25rem 1rem 0;
-    text-transform: uppercase;
+    text-transform: lowercase;
     flex-wrap: wrap;
   }
 
@@ -38,7 +42,7 @@
   .name:hover::after {
     display: inline-block;
     content: "";
-    background-image: url("/images/home.svg");
+    background-image: var(--homeImgUrl);
     background-size: var(--h1) var(--h1);
     height: var(--h1);
     width: var(--h1);
