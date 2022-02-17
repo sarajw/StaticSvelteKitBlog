@@ -102,12 +102,6 @@
     background-color: rgba(255, 100, 255, 0.25);
   }
 
-  .flex-break {
-    flex-basis: 100%;
-    overflow: hidden;
-    height: 0;
-  }
-
   .box1 div,
   .box2 div,
   .box3 div,
