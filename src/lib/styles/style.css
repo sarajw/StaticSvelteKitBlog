@@ -24,6 +24,10 @@
 	/* fonts */
 	--normal: 400;
 	--heavy: 600;	
+
+    --h1: clamp(1.5rem, 4vw, 2rem);
+    --h2: clamp(1.2rem, 3vw, 1.5rem);
+    --h3: font-size: clamp(1.0rem, 2vw, 1.2rem);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -71,17 +75,20 @@ body {
 
 main {
     /* height: calc(100vh - 6rem - 5px); */
-    max-width: 40rem;
     margin: 0 auto;
-    padding: 3rem 5vw 2rem;
+    padding: 7vw 5vw 6vw;
+}
+
+p, h1, h2, h3 {
+    margin: 1rem 0;
 }
 
 h1 {
-    font-size: clamp(1.5rem, 4vw, 2rem);
+    font-size: var(--h1);
 }
 h2 {
-    font-size: clamp(1.2rem, 3vw, 1.5rem);
+    font-size: var(--h2);
 }
 h3 {
-    font-size: 1.2rem;
+    font-size: var(--h3);
 }

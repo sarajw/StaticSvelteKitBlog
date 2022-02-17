@@ -1,16 +1,16 @@
 <header>
-  <h1><a href="/">Sara J. Wallén</a></h1>
+  <a class="name" href="/">Sara J. Wallén</a>
 
   <nav>
     <ul>
       <li>
-        <h2><a href="/blog">Blog</a></h2>
+        <a href="/blog">Blog</a>
       </li>
       <li>
-        <h2><a href="/stuff">Stuff</a></h2>
+        <a href="/stuff">Stuff</a>
       </li>
       <li>
-        <h2><a href="/contact">Contact</a></h2>
+        <a href="/contact">Contact</a>
       </li>
     </ul>
   </nav>
@@ -31,14 +31,28 @@
     flex-wrap: wrap;
   }
 
-  h1 {
+  .name {
     margin-right: auto;
+    font-size: var(--h1);
   }
-  h1:hover:after {
-    content: "🏠";
+  .name:hover::after {
+    display: inline-block;
+    content: "";
+    background-image: url("images/home.svg");
+    background-size: var(--h1) var(--h1);
+    height: var(--h1);
+    width: var(--h1);
+    margin-left: 0.5rem;
   }
 
   nav {
     margin-left: auto;
+    font-size: var(--h2);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .name:hover::after {
+      filter: invert(100%);
+    }
   }
 </style>
