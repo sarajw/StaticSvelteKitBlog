@@ -12,8 +12,14 @@ const config = {
 	extensions: ['.svelte', '.md'],
 
 	preprocess: [
-	  sveltePreprocess(),
-	],
+		sveltePreprocess(),
+		mdsvex({
+			extensions: ['.md'],
+			layout: {
+				blog: 'src/routes/blog/_post.svelte'
+			}
+		})
+	]
 };
 
 export default config;

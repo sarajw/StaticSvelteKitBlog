@@ -38,7 +38,7 @@
   .name:hover::after {
     display: inline-block;
     content: "";
-    background-image: url("images/home.svg");
+    background-image: url("/images/home.svg");
     background-size: var(--h1) var(--h1);
     height: var(--h1);
     width: var(--h1);
