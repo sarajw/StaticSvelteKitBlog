@@ -1,7 +1,3 @@
-<h1>Stuff!</h1>
-
-<p>I've made stuff! Look!</p>
-
 <div class="stuff">
   <div class="container box1">
     <div class="bigrow">a1</div>

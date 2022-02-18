@@ -19,16 +19,18 @@
 	--scrollhover: hsl(200, 15%, 70%);
 	
 	/* scaling */
-	--headheight: clamp(40px, 6vw, 60px);
+	--headheight: clamp(40px, 8vw, 60px);
 	
 	/* fonts */
 	--normal: 400;
 	--heavy: 600;	
 
-    --h1: clamp(1.5rem, 5vw, 2rem);
-    --h2: clamp(1.3rem, 4.5vw, 1.5rem);
-    --h3: clamp(1.1rem, 4vw, 1.2rem);
-    --p: clamp(0.9rem, 3.5vw, 1.0rem);
+    --h0: clamp(1.8rem, 6.5vw, 2.5rem);
+    --h1: clamp(1.5rem, 6vw, 2rem);
+    --h2: clamp(1.3rem, 5.5vw, 1.75rem);
+    --h3: clamp(1.1rem, 5vw, 1.5rem);
+    --p: clamp(0.8rem, 4.5vw, 1.0rem);
+    --gap: clamp(0.5rem, 4vw, 0.8rem);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -84,7 +86,7 @@ main {
 }
 
 main > :not(.stuff, .blogIndex) {
-    max-width: 40rem;
+    max-width: 35rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -95,13 +97,17 @@ p, h1, h2, h3 {
 
 h1 {
     font-size: var(--h1);
+    line-height: var(--h0);
 }
 h2 {
     font-size: var(--h2);
+    line-height: var(--h1);
 }
 h3 {
     font-size: var(--h3);
+    line-height: var(--h2);
 }
 p {
     font-size: var(--p);
+    line-height: var(--h3);
 }

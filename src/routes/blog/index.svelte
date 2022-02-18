@@ -29,7 +29,7 @@
             </a>
           </h2>
           <p>{post.meta.exerpt}</p>
-          <p>Published {post.meta.date}</p>
+          <p class="posted">Posted {post.meta.date}</p>
         </article>
       </li>
     {/each}
@@ -59,6 +59,9 @@
   article {
     padding: 0 1rem;
     background-color: var(--tenor);
+  }
+  .posted {
+    text-align: right;
   }
 
   @media only screen and (max-width: 500px) {

@@ -30,7 +30,7 @@
 
   header {
     line-height: var(--headheight);
-    padding: 0.25rem 1rem 0;
+    padding: 0.25rem calc(1rem + 1vw) 0;
     text-transform: lowercase;
     flex-wrap: wrap;
   }
@@ -40,18 +40,21 @@
     font-size: var(--h1);
   }
   .name:hover::after {
-    display: inline-block;
+    position: absolute;
     content: "";
     background-image: var(--homeImgUrl);
-    background-size: var(--h1) var(--h1);
-    height: var(--h1);
-    width: var(--h1);
-    margin-left: 0.5rem;
+    background-size: var(--h3) var(--h3);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: var(--headheight);
+    width: var(--h2);
+    margin-left: 0.1rem;
   }
 
   nav {
     margin-left: auto;
-    font-size: var(--h2);
+    padding-left: 1rem;
+    font-size: var(--h3);
   }
 
   @media (prefers-color-scheme: dark) {

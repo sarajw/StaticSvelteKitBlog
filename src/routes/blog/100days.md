@@ -1,7 +1,7 @@
 ---
 title: "#100DaysOfCode"
 date: "2022/02/17"
-exerpt: Copying and pasting my tweets on the matter (until I work out how to automate that) as I slowly make my way through the 100 days. Not consecutively.
+exerpt: Copying and pasting my tweets on the matter (until I work out how to automate it...) as I slowly make my way through the 100 days. Not consecutively.
 image: twitter.png
 ---
 
