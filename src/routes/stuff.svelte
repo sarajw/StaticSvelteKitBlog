@@ -169,8 +169,10 @@
       gap: 8px;
     }
     .container {
-      width: 90vw;
-      height: 90vw;
+      width: 80vw;
+      min-width: 200px;
+      height: 80vw;
+      min-height: 200px;
       margin: 0 auto;
     }
   }

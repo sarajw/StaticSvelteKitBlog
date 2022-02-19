@@ -60,7 +60,7 @@
 }
 
 * {
-    /* outline: 1px dashed; */
+     outline: 1px dashed;  
 }
 
 html {
@@ -68,12 +68,6 @@ html {
     font-family: 'Karla', sans-serif;
     font-weight: var(--normal);
 	background-color: var(--background);
-}
-
-html, body {
-    min-height: 100%; /* We keep this right? */
-    min-height: 100vh;
-    min-height: -webkit-fill-available;
 }
 
 body > div {
@@ -102,6 +96,7 @@ header {
 }
 main {
     grid-area: main;
+ /*   margin: 0 auto;  */
     padding: 6vw 5vw;
 }
 footer {
