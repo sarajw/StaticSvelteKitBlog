@@ -173,7 +173,6 @@
       min-width: 200px;
       height: 80vw;
       min-height: 200px;
-      margin: 0 auto;
     }
   }
 </style>
