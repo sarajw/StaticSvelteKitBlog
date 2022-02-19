@@ -60,7 +60,7 @@
 }
 
 * {
-    /* outline: 1px dashed;  */
+    /* outline: 1px dashed; */
 }
 
 html {
@@ -70,19 +70,42 @@ html {
 	background-color: var(--background);
 }
 
-body {
+html, body {
+    min-height: 100%; /* We keep this right? */
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+}
+
+body > div {
 	color: var(--text);
 	background-color: var(--bass);
 
 	width: calc(100% - 10px);
-    margin: 5px auto 0;
+    min-height: calc(100vh - 10px);
+    margin: 5px auto;
 
 	border-radius: 5px;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    gap: 0px 0px;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+      
 }
 
+header {
+    grid-area: header;
+}
 main {
-    margin: 0 auto;
-    padding: 7vw 5vw 6vw;
+    grid-area: main;
+    padding: 6vw 5vw;
+}
+footer {
+    grid-area: footer;
 }
 
 main > :not(.stuff, .blogIndex) {
