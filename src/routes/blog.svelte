@@ -45,18 +45,23 @@
   }
   li {
     display: flex;
-    flex: 2 2 70%;
-    max-width: 35rem;
-    min-width: 250px;
+    max-width: 60ch;
+    min-width: 10rem;
     border-radius: 5px;
     overflow: hidden;
   }
   img {
     flex: 1 1 30%;
-    min-width: 200px;
+    min-width: 10rem;
+    aspect-ratio: 1;
     object-fit: cover;
   }
   article {
+    flex: 2 1 70%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    gap: 0;
     padding: 0 1rem;
     background-color: var(--tenor);
   }
@@ -65,8 +70,14 @@
   }
 
   @media only screen and (max-width: 500px) {
+    ul {
+      gap: 5vw;
+    }
     li {
       flex-wrap: wrap;
+    }
+    img {
+      aspect-ratio: 4/3;
     }
   }
 </style>

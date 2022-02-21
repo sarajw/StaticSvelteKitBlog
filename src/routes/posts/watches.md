@@ -1,15 +1,14 @@
 ---
 title: Mechanical Watches
 date: "2021/08/24"
-exerpt: I have a thing about mechanical watches. I only wear one though, the engagement watch (I’m not into diamonds*) that my now husband gave me in 2014.
+exerpt: I have a thing about mechanical watches. I only wear one though, the engagement watch that my now husband gave me in 2014.
 image: hydroconquest.jpg
 ---
 
 I have a thing about mechanical watches. I only wear one though, the engagement watch (I’m not into diamonds*) that my now husband gave me in 2014.
 
-Longines Hydroconquest
-
-Longines Hydroconquest Mechanical Watch
+![Longines Hydroconquest](../images/blog/hydroconquest.jpg)
+<p class="caption">Longines Hydroconquest Mechanical Watch</p>
 
 It’s a silly thing to be honest, if you want an accurate watch that doesn’t have the hassle of changing or charging batteries, get a solar powered one, hands down (or clockwise, ideally).
 
@@ -19,9 +18,8 @@ I still love mine. I feel like it’s sort of alive.
 
 Anyway just in case anyone is intrigued by such tiny mechanics like I am, or also has one that’s suddenly started running super fast out of the blue like mine did last week, I found that it had become magnetised. Mine was running almost a full minute fast every day (literally off the scale)!
 
-Watch Accuracy Meter Readings
-
-Watch Accuracy Meter Readings, Before and After Demagnetisation
+![Watch Accuracy Meter Readings](../images/blog/hydroconquesttoo.png)
+<p class="caption">Watch Accuracy Meter Readings, Before and After Demagnetisation</p>
 
 This fast running happens because the hairspring (that serves as a watch’s ‘pendulum’, if you think of a grandfather clock) coils start to stick together, making the size of the oscillation shorter, so it ticks to and fro faster than it should.
 

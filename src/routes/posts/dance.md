@@ -1,5 +1,5 @@
 ---
-title: Why I Dance, November 2012
+title: Why I Dance, Nov 2012
 date: "2012/11/28"
 exerpt: I began dancing in January 2007 (first, leroc, then I discovered swing/lindy about 5 months later) - really, I was looking for a hobby.
 image: dancing.jpg

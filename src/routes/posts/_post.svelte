@@ -7,17 +7,25 @@
   let datestring = new Date(date).toLocaleString("en-GB", options);
 </script>
 
-<h1>{title}</h1>
-
-<p class="posted">Posted on {datestring}</p>
+<div class="heading">
+  <h1>{title}</h1>
+  <p class="posted">Posted on {datestring}</p>
+</div>
 
 <article class="post">
   <slot />
 </article>
 
 <style>
+  .heading {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    gap: 0 1rem;
+  }
   .posted {
-    text-align: right;
+    margin-left: auto;
   }
   .post :global(li) {
     font-size: var(--p);
@@ -27,6 +35,6 @@
     list-style-type: disc;
   }
   .post :global(h2) {
-    padding-top: var(--h1);
+    margin-top: var(--h2);
   }
 </style>

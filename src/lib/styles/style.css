@@ -4,10 +4,10 @@
 	--background: hsl(200, 15%, 70%);
 	--text: hsl(200, 15%, 10%);
 	--edges: 2px -2px 4px -3px hsl(200, 15%, 20%);
-	--shadow: rgba(0, 0, 0, 0.5);
+	--shadow: rgba(0, 0, 0, 0.25);
 	
-	--links: hsl(200, 15%, 10%);
-	--hover: hsl(200, 15%, 30%);
+	--links: hsl(200, 15%, 30%);
+	--hover: hsl(200, 15%, 50%);
 	
 	--bass: hsl(200, 15%, 95%);
 	--tenor: hsl(200, 15%, 90%);
@@ -30,7 +30,7 @@
     --h2: clamp(1.3rem, 5.5vw, 1.75rem);
     --h3: clamp(1.1rem, 5vw, 1.5rem);
     --p: clamp(0.8rem, 4.5vw, 1.0rem);
-    --gap: clamp(0.5rem, 4vw, 0.8rem);
+    --gap: clamp(0.5rem, 3vw, 0.7rem);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -39,7 +39,7 @@
 	--background: hsl(200, 15%, 30%);
 	--text: hsl(200, 15%, 90%);
 	--edges: 2px 2px 4px -3px hsl(200, 15%, 80%) inset;
-	--shadow: rgba(255, 255, 255, 0.5);
+	--shadow: rgba(255, 255, 255, 0.25);
 	
 	--links: hsl(200, 15%, 90%);
 	--hover: hsl(200, 15%, 70%);
@@ -70,6 +70,13 @@ html {
 	background-color: var(--background);
 }
 
+a {
+	color: var(--links);
+}
+a:hover, a:active {
+	color: var(--hover);
+}
+
 body > div {
 	color: var(--text);
 	background-color: var(--bass);
@@ -97,7 +104,7 @@ header {
 main {
     grid-area: main;
  /*   margin: 0 auto;  */
-    padding: 6vw 5vw;
+    padding: 5vw;
 }
 footer {
     grid-area: footer;
@@ -110,7 +117,7 @@ main > :not(.stuff, .blogIndex) {
 }
 
 p, h1, h2, h3 {
-    margin: 1rem 0;
+    padding: 0.5rem 0;
 }
 
 h1 {

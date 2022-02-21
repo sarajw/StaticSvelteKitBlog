@@ -30,7 +30,7 @@
 
   header {
     line-height: var(--headheight);
-    padding: 0.25rem calc(1rem + 1vw) 0;
+    padding: clamp(0.25rem, 2.55vw, 0.5rem) clamp(0.75rem, 5vw, 1.5rem) 0;
     text-transform: lowercase;
     flex-wrap: wrap;
   }
