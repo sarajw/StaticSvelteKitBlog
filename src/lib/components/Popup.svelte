@@ -1,28 +1,23 @@
+<script>
+  export let image;
+  export let alt;
+  export let title;
+  export let url;
+  const urlNoHttp = new URL(url).host;
+</script>
+
 <article class="popup">
   <button>X</button>
-  <img
-    src="/images/stuff/yasmin_large.png"
-    alt="Yasmin Brinkmann desktop website screenshot"
-  />
+  <img src="/images/stuff/{image}" {alt} />
   <div class="heading">
-    <h2>Yasmin Brinkmann</h2>
+    <h2>{title}</h2>
     <h3>
-      <a href="https://yasmin-brinkmann.de" target="_blank"
-        >yasmin-brinkmann.de</a
-      >
+      <a href={url} target="_blank">{urlNoHttp}</a>
     </h3>
   </div>
-  <p>
-    Sed in enim porta, varius ligula consectetur, placerat ipsum. Vestibulum
-    ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
-    Fusce sollicitudin libero eu turpis tempor, eu rhoncus velit accumsan.
-    Quisque accumsan libero sed ultricies bibendum. Vestibulum et arcu faucibus,
-    vestibulum nunc facilisis, congue justo. Proin sodales, odio in ornare
-    dignissim, purus nibh luctus lectus, et dignissim nulla ante euismod metus.
-    In gravida bibendum hendrerit. Vestibulum sit amet sem nec nunc imperdiet
-    tincidunt. Pellentesque vulputate tincidunt purus, et aliquam ipsum luctus
-    non.
-  </p>
+  <slot name="desc">
+    <p class="missing">No description.</p>
+  </slot>
 </article>
 
 <style>

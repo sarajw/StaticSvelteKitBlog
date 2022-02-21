@@ -1,43 +1,86 @@
 <script>
   import Popup from "$lib/components/Popup.svelte";
   let show_b1 = false;
+  let show_b2 = false;
 </script>
 
 <div class="stuff">
   <section class="container box1">
-    <div class="bigrow" />
-    <div id="yasmin" class="bigsq" on:click={() => (show_b1 = !show_b1)}>
+    <div class="bigrow">a1</div>
+    <div class="bigsq" id="yasmin" on:click={() => (show_b1 = !show_b1)}>
       <img
         src="/images/stuff/yasmin_sqthumb.png"
         alt="Yasmin Brinkmann's landing page thumbnail"
       />
       {#if show_b1}
-        <Popup />
+        <Popup
+          title="Yasmin Brinkmann"
+          url="https://yasmin-brinkmann.de"
+          image="yasmin_large.png"
+          alt="Yasmin Brinkmann desktop website screenshot"
+        >
+          <p slot="desc">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Pellentesque faucibus mi in enim viverra vestibulum. Aliquam
+            volutpat, massa ac commodo ullamcorper, ante nisl feugiat quam, ac
+            gravida ipsum neque sed metus. Phasellus feugiat pretium sem.
+            Vivamus quis porta mauris. Curabitur sagittis velit nisl, eu varius
+            libero convallis in. Pellentesque habitant morbi tristique senectus
+            et netus et malesuada fames ac turpis egestas.
+          </p>
+        </Popup>
       {/if}
     </div>
-    <div class="smsq1">c</div>
-    <div class="smsq2">d</div>
+    <div class="smsq1">c2</div>
+    <div class="smsq2">d2</div>
   </section>
 
   <section class="container box2">
     <div class="smsq1">a2</div>
-    <div class="bigsq">b</div>
-    <div class="smsq2">c</div>
-    <div class="bigrow">d</div>
+    <div class="bigsq" id="mktimelapse" on:click={() => (show_b2 = !show_b2)}>
+      <img
+        src="/images/stuff/mktimelapse_sqthumb.png"
+        alt="MK timelapse GmbH website thumbnail"
+      />
+      {#if show_b2}
+        <Popup
+          title="MK timelapse GmbH"
+          url="https://mktimelapse.com"
+          image="mktimelapse_large.png"
+          alt="MK timelapse GmbH desktop website screenshot"
+        >
+          <p slot="desc">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Pellentesque faucibus mi in enim viverra vestibulum. Aliquam
+            volutpat, massa ac commodo ullamcorper, ante nisl feugiat quam, ac
+            gravida ipsum neque sed metus. Phasellus feugiat pretium sem.
+            Vivamus quis porta mauris. Curabitur sagittis velit nisl, eu varius
+            libero convallis in. Pellentesque habitant morbi tristique senectus
+            et netus et malesuada fames ac turpis egestas. Sed quis accumsan
+            sapien, eget finibus ipsum. Etiam id elementum augue, sit amet
+            laoreet sapien. Sed nec lorem ac ligula fermentum interdum. Proin in
+            egestas mauris, et pharetra turpis. Donec pulvinar, dui a volutpat
+            consequat, est erat efficitur eros, non rhoncus urna erat a ex.
+          </p>
+        </Popup>
+      {/if}
+    </div>
+    <div class="smsq2">c2</div>
+    <div class="bigrow">d2</div>
   </section>
 
   <section class="container box3">
     <div class="bigsq">a3</div>
-    <div class="smsq1">b</div>
-    <div class="shcol">c</div>
-    <div class="shrow">d</div>
+    <div class="smsq1">b3</div>
+    <div class="shcol">c3</div>
+    <div class="shrow">d3</div>
   </section>
 
   <section class="container box4">
     <div class="shcol">a4</div>
-    <div class="shrow">b</div>
-    <div class="bigsq">c</div>
-    <div class="smsq1">d</div>
+    <div class="shrow">b4</div>
+    <div class="bigsq">c4</div>
+    <div class="smsq1">d4</div>
   </section>
 </div>
 
