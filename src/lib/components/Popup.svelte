@@ -16,7 +16,7 @@
     </h3>
   </div>
   <slot name="desc">
-    <p class="missing">No description.</p>
+    <div class="missing">No description.</div>
   </slot>
 </article>
 
@@ -58,7 +58,7 @@
     padding: 1rem 1rem 0.5rem;
     border-radius: 0.5rem;
     border: 0.5rem solid var(--tenor);
-    box-shadow: 0 0 0 10rem var(--shadow);
+    box-shadow: 0 0 0 30rem var(--shadow);
     overflow: auto;
     z-index: 10;
   }

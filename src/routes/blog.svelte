@@ -47,7 +47,7 @@
     display: flex;
     max-width: 60ch;
     min-width: 10rem;
-    border-radius: 5px;
+    border-radius: 0.5rem;
     overflow: hidden;
   }
   img {
@@ -63,7 +63,7 @@
     grid-template-rows: auto 1fr auto;
     gap: 0;
     padding: 0 1rem;
-    background-color: var(--tenor);
+    background-color: var(--tenorpop);
   }
   .posted {
     text-align: right;

@@ -19,15 +19,17 @@
           image="yasmin_large.png"
           alt="Yasmin Brinkmann desktop website screenshot"
         >
-          <p slot="desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Pellentesque faucibus mi in enim viverra vestibulum. Aliquam
-            volutpat, massa ac commodo ullamcorper, ante nisl feugiat quam, ac
-            gravida ipsum neque sed metus. Phasellus feugiat pretium sem.
-            Vivamus quis porta mauris. Curabitur sagittis velit nisl, eu varius
-            libero convallis in. Pellentesque habitant morbi tristique senectus
-            et netus et malesuada fames ac turpis egestas.
-          </p>
+          <div slot="desc">
+            <p>
+              A friend from swing dancing needed a new landing page, and
+              gracefully agreed to my coding it from scratch as a learning
+              exercise.
+            </p>
+            <p>
+              Written in Notepad++ (!), pure "vanilla" HTML, CSS and a just
+              smattering of JavaScript :)
+            </p>
+          </div>
         </Popup>
       {/if}
     </div>
@@ -49,19 +51,17 @@
           image="mktimelapse_large.png"
           alt="MK timelapse GmbH desktop website screenshot"
         >
-          <p slot="desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Pellentesque faucibus mi in enim viverra vestibulum. Aliquam
-            volutpat, massa ac commodo ullamcorper, ante nisl feugiat quam, ac
-            gravida ipsum neque sed metus. Phasellus feugiat pretium sem.
-            Vivamus quis porta mauris. Curabitur sagittis velit nisl, eu varius
-            libero convallis in. Pellentesque habitant morbi tristique senectus
-            et netus et malesuada fames ac turpis egestas. Sed quis accumsan
-            sapien, eget finibus ipsum. Etiam id elementum augue, sit amet
-            laoreet sapien. Sed nec lorem ac ligula fermentum interdum. Proin in
-            egestas mauris, et pharetra turpis. Donec pulvinar, dui a volutpat
-            consequat, est erat efficitur eros, non rhoncus urna erat a ex.
-          </p>
+          <div slot="desc">
+            <p>
+              I work for MK timelapse GmbH, which in 2019 really needed an
+              updated website. I hopped on to Wix, chose a template and then
+              modified it heavily to reflect the feel of the new (at the time)
+              MK logo.
+            </p>
+            <p>
+              I plan to revisit the design of this site using maybe Webflow.
+            </p>
+          </div>
         </Popup>
       {/if}
     </div>
@@ -85,9 +85,6 @@
 </div>
 
 <style>
-  #yasmin {
-    object-fit: cover;
-  }
   .stuff {
     display: flex;
     flex-wrap: wrap;
@@ -106,7 +103,7 @@
 
   .container div,
   .container img {
-    border-radius: 5px;
+    border-radius: 0.5rem;
   }
 
   .box1 {
@@ -139,27 +136,27 @@
 
   .bigsq {
     grid-area: bigsq;
-    background-color: rgba(100, 100, 255, 0.25);
+    background-color: rgba(100, 100, 150, 0.25);
   }
   .bigrow {
     grid-area: bigrow;
-    background-color: rgba(255, 100, 100, 0.25);
+    background-color: rgba(150, 100, 100, 0.25);
   }
   .shcol {
     grid-area: shcol;
-    background-color: rgba(100, 255, 100, 0.25);
+    background-color: rgba(100, 150, 100, 0.25);
   }
   .shrow {
     grid-area: shrow;
-    background-color: rgba(255, 255, 100, 0.25);
+    background-color: rgba(150, 150, 100, 0.25);
   }
   .smsq1 {
     grid-area: smsq1;
-    background-color: rgba(100, 255, 255, 0.25);
+    background-color: rgba(100, 150, 150, 0.25);
   }
   .smsq2 {
     grid-area: smsq2;
-    background-color: rgba(255, 100, 255, 0.25);
+    background-color: rgba(150, 100, 150, 0.25);
   }
 
   @media only screen and (max-width: 600px) {

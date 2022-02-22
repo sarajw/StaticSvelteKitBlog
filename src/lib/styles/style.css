@@ -1,7 +1,9 @@
 :root {
+	
+	--popcolourHS: 170,30%;
 
 	/* colours  */
-	--background: hsl(200, 15%, 70%);
+	--background: hsl(var(--popcolourHS), 70%);
 	--text: hsl(200, 15%, 10%);
 	--edges: 2px -2px 4px -3px hsl(200, 15%, 20%);
 	--shadow: rgba(0, 0, 0, 0.25);
@@ -14,10 +16,15 @@
 	--alto: hsl(200, 15%, 85%);
 	--soprano: hsl(200, 15%, 80%);
 	
+	--basspop: hsl(var(--popcolourHS), 95%);
+	--tenorpop: hsl(var(--popcolourHS), 90%);
+	--altopop: hsl(var(--popcolourHS), 85%);
+	--sopranopop: hsl(var(--popcolourHS), 80%);
+	
 	--scrollbg: hsl(200, 15%, 85%);
 	--scrollbar: hsl(200, 15%, 75%);
 	--scrollhover: hsl(200, 15%, 70%);
-	
+
 	/* scaling */
 	--headheight: clamp(40px, 8vw, 60px);
 	
@@ -36,7 +43,7 @@
 @media (prefers-color-scheme: dark) {
     :root {
 	/* Dark */
-	--background: hsl(200, 15%, 30%);
+	--background: hsl(var(--popcolourHS), 30%);
 	--text: hsl(200, 15%, 90%);
 	--edges: 2px 2px 4px -3px hsl(200, 15%, 80%) inset;
 	--shadow: rgba(255, 255, 255, 0.25);
@@ -48,6 +55,11 @@
 	--tenor: hsl(200, 15%, 10%);
 	--alto: hsl(200, 15%, 15%);
 	--soprano: hsl(200, 15%, 20%);
+	
+	--basspop: hsl(var(--popcolourHS), 10%);
+	--tenorpop: hsl(var(--popcolourHS), 15%);
+	--altopop: hsl(var(--popcolourHS), 20%);
+	--sopranopop: hsl(var(--popcolourHS), 25%);
 	
 	--scrollbg: hsl(200, 15%, 15%);
 	--scrollbar: hsl(200, 15%, 25%);
@@ -73,7 +85,10 @@ html {
 a {
 	color: var(--links);
 }
-a:hover, a:active {
+a:hover {
+	color: hsl(var(--popcolourHS), 50%);
+}
+a:active {
 	color: var(--hover);
 }
 
