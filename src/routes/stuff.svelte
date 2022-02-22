@@ -1,17 +1,36 @@
 <script>
   import Popup from "$lib/components/Popup.svelte";
+  import Ascii from "$lib/assets/ascii-art.txt?raw";
+  let show_a1 = false;
   let show_b1 = false;
   let show_b2 = false;
+  let show_c4 = false;
 </script>
+
+<svelte:head>
+  <title>sara j. wallén | Stuff</title>
+</svelte:head>
 
 <div class="stuff">
   <section class="container box1">
-    <div class="bigrow">a1</div>
-    <div class="bigsq" id="yasmin" on:click={() => (show_b1 = !show_b1)}>
-      <img
-        src="/images/stuff/yasmin_sqthumb.png"
-        alt="Yasmin Brinkmann's landing page thumbnail"
-      />
+    <div
+      class="bigrow"
+      style="background-image: url('/images/stuff/binnenalster_small.jpg')"
+      on:click={() => (show_a1 = !show_a1)}
+    >
+      {#if show_a1}
+        <Popup
+          title="Photography: Hamburg Binnenalster"
+          image="binnenalster.jpg"
+          alt="A photo of the Hamburg Binnenalster"
+        />
+      {/if}
+    </div>
+    <div
+      class="bigsq"
+      style="background-image: url('/images/stuff/yasmin_sqthumb.png')"
+      on:click={() => (show_b1 = !show_b1)}
+    >
       {#if show_b1}
         <Popup
           title="Yasmin Brinkmann"
@@ -39,11 +58,11 @@
 
   <section class="container box2">
     <div class="smsq1">a2</div>
-    <div class="bigsq" id="mktimelapse" on:click={() => (show_b2 = !show_b2)}>
-      <img
-        src="/images/stuff/mktimelapse_sqthumb.png"
-        alt="MK timelapse GmbH website thumbnail"
-      />
+    <div
+      class="bigsq"
+      style="background-image: url('/images/stuff/mktimelapse_sqthumb.png')"
+      on:click={() => (show_b2 = !show_b2)}
+    >
       {#if show_b2}
         <Popup
           title="MK timelapse GmbH"
@@ -79,7 +98,22 @@
   <section class="container box4">
     <div class="shcol">a4</div>
     <div class="shrow">b4</div>
-    <div class="bigsq">c4</div>
+    <div
+      class="bigsq"
+      style="background-image: url('/images/stuff/ascii.png')"
+      on:click={() => (show_c4 = !show_c4)}
+    >
+      {#if show_c4}
+        <Popup title="Ascii Art" rawtext={Ascii}>
+          <div slot="desc">
+            <p>
+              When I was 15 or so I frequented several USENET newsgroups,
+              particularly alt.fan.eddie-izzard and alt.ascii-art:
+            </p>
+          </div>
+        </Popup>
+      {/if}
+    </div>
     <div class="smsq1">d4</div>
   </section>
 </div>
@@ -101,9 +135,10 @@
     gap: 8px;
   }
 
-  .container div,
-  .container img {
+  .container div {
     border-radius: 0.5rem;
+    background-size: cover;
+    background-position: center;
   }
 
   .box1 {

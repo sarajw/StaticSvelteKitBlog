@@ -3,39 +3,49 @@
   export let alt;
   export let title;
   export let url;
-  const urlNoHttp = new URL(url).host;
+  export let rawtext;
+  let urlNoHttp;
+  if (url) {
+    urlNoHttp = new URL(url).host;
+  }
 </script>
 
 <article class="popup">
   <button>X</button>
-  <img src="/images/stuff/{image}" {alt} />
+  {#if image}<img src="/images/stuff/{image}" {alt} />{/if}
   <div class="heading">
     <h2>{title}</h2>
-    <h3>
-      <a href={url} target="_blank">{urlNoHttp}</a>
-    </h3>
+    {#if url}
+      <h3>
+        <a href={url} target="_blank">{urlNoHttp}</a>
+      </h3>
+    {/if}
   </div>
-  <slot name="desc">
-    <div class="missing">No description.</div>
-  </slot>
+  <slot name="desc" />
+  {#if rawtext}
+    <pre>{@html rawtext}</pre>
+  {/if}
 </article>
 
 <style>
   button {
-    position: absolute;
-    top: 0.5rem;
-    right: 0.5rem;
+    position: fixed;
+    top: calc(1.5 * var(--headheight) + 1rem);
+    right: calc(5% + 1rem);
     width: 2rem;
     height: 2rem;
     line-height: 2rem;
     font-size: 1.5rem;
     text-align: center;
-    background-color: var(--alto);
+    background-color: var(--sopranopop);
     border-radius: 50%;
+  }
+  button:hover {
+    background-color: var(--hoverpop);
   }
 
   a {
-    border-bottom: 1px solid var(--soprano);
+    border-bottom: 1px solid var(--sopranopop);
   }
   a:hover {
     border-bottom: 1px solid var(--hover);
@@ -52,7 +62,8 @@
     position: fixed;
     top: calc(1.5 * var(--headheight));
     left: 5%;
-    max-width: 90%;
+    width: 90%;
+    min-height: 50%;
     max-height: calc(90% - var(--headheight));
     background-color: var(--tenor);
     padding: 1rem 1rem 0.5rem;
@@ -68,6 +79,7 @@
 
   .popup::-webkit-scrollbar {
     width: 0.5rem;
+    height: 0.5rem;
   }
   .popup::-webkit-scrollbar-track {
     background: transparent;
@@ -78,5 +90,12 @@
   }
   .popup::-webkit-scrollbar-thumb:hover {
     background: var(--scrollhover);
+  }
+
+  pre {
+    white-space: pre;
+    font-family: "Lucida Console", monospace;
+    width: max-content;
+    margin: 0 auto;
   }
 </style>

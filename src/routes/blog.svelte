@@ -1,4 +1,3 @@
-<!-- src/routes/blog/index.svelte -->
 <script context="module">
   export const load = async ({ fetch }) => {
     const posts = await fetch("/api/posts.json");
@@ -15,6 +14,11 @@
 <script>
   export let posts;
 </script>
+
+<!-- src/routes/blog/index.svelte -->
+<svelte:head>
+  <title>sara j. wallén | Blog</title>
+</svelte:head>
 
 <section class="blogIndex">
   <ul>

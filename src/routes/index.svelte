@@ -1,5 +1,5 @@
 <svelte:head>
-  <title>Hey! Ho! Let's Go!</title>
+  <title>sara j. wallén | Blogolio</title>
 </svelte:head>
 
 <h1>Welcome to my Blogolio!</h1>

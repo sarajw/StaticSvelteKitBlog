@@ -1,4 +1,3 @@
-<!-- _post.svelte -->
 <script>
   export let title;
   export let date;
@@ -6,6 +5,10 @@
   let options = { year: "numeric", month: "long", day: "numeric" };
   let datestring = new Date(date).toLocaleString("en-GB", options);
 </script>
+
+<svelte:head>
+  <title>sara j. wallén | {title}</title>
+</svelte:head>
 
 <div class="heading">
   <h1>{title}</h1>
