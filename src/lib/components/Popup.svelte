@@ -2,15 +2,16 @@
   export let image;
   export let alt;
   export let title;
-  export let url;
-  export let localImg;
   export let rawtext;
+
+  export let url;
+  export let local;
+
   let urlNoHttp = "";
   if (url) {
     urlNoHttp = new URL(url).host;
-  }
-  if (localImg) {
-    urlNoHttp = localImg;
+  } else if (local) {
+    urlNoHttp = local;
   }
 </script>
 
@@ -21,7 +22,9 @@
     <h2>{title}</h2>
     {#if urlNoHttp}
       <h3>
-        <a href={url ? url : `/images/stuff/${localImg}`}>{urlNoHttp}</a>
+        <a href={url ? url : `/images/stuff/${local}`} rel="external"
+          >{url ? urlNoHttp : local}</a
+        >
       </h3>
     {/if}
   </div>

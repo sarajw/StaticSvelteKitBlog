@@ -18,10 +18,11 @@
       style="background-image: url('/images/stuff/binnenalster_small.jpg')"
       on:click={() => (show_a1 = !show_a1)}
     >
+      <h1 class="caption">Hamburg Photo</h1>
       {#if show_a1}
         <Popup
           title="Hamburg Binnenalster"
-          localImg="binnenalster.jpg"
+          local="binnenalster.jpg"
           image="binnenalster.jpg"
           alt="A photo of the Hamburg Binnenalster"
         />
@@ -32,6 +33,7 @@
       style="background-image: url('/images/stuff/yasmin_sqthumb.png')"
       on:click={() => (show_b1 = !show_b1)}
     >
+      <h1 class="caption">Yasmin</h1>
       {#if show_b1}
         <Popup
           title="Yasmin Brinkmann"
@@ -64,6 +66,7 @@
       style="background-image: url('/images/stuff/mktimelapse_sqthumb.png')"
       on:click={() => (show_b2 = !show_b2)}
     >
+      <h1 class="caption">MK timelapse</h1>
       {#if show_b2}
         <Popup
           title="MK timelapse GmbH"
@@ -104,6 +107,7 @@
       style="background-image: url('/images/stuff/ascii.png')"
       on:click={() => (show_c4 = !show_c4)}
     >
+      <h1 class="caption">ASCII Art</h1>
       {#if show_c4}
         <Popup title="Ascii Art" rawtext={Ascii}>
           <div slot="desc">
@@ -141,6 +145,25 @@
     border-radius: 0.5rem;
     background-size: cover;
     background-position: center;
+    overflow: hidden;
+  }
+  .container button:hover,
+  .container button:focus {
+    background-color: var(--sopranopop);
+    background-repeat: no-repeat;
+    background-size: 0;
+  }
+  .caption {
+    visibility: hidden;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: var(--heavy);
+    line-height: 100%;
+    text-align: center;
+  }
+  button:hover .caption,
+  button:focus .caption {
+    visibility: visible;
   }
 
   .box1 {
