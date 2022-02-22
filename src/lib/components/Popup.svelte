@@ -3,10 +3,14 @@
   export let alt;
   export let title;
   export let url;
+  export let localImg;
   export let rawtext;
-  let urlNoHttp;
+  let urlNoHttp = "";
   if (url) {
     urlNoHttp = new URL(url).host;
+  }
+  if (localImg) {
+    urlNoHttp = localImg;
   }
 </script>
 
@@ -15,9 +19,9 @@
   {#if image}<img src="/images/stuff/{image}" {alt} />{/if}
   <div class="heading">
     <h2>{title}</h2>
-    {#if url}
+    {#if urlNoHttp}
       <h3>
-        <a href={url} target="_blank">{urlNoHttp}</a>
+        <a href={url ? url : `/images/stuff/${localImg}`}>{urlNoHttp}</a>
       </h3>
     {/if}
   </div>

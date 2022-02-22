@@ -13,20 +13,21 @@
 
 <div class="stuff">
   <section class="container box1">
-    <div
+    <button
       class="bigrow"
       style="background-image: url('/images/stuff/binnenalster_small.jpg')"
       on:click={() => (show_a1 = !show_a1)}
     >
       {#if show_a1}
         <Popup
-          title="Photography: Hamburg Binnenalster"
+          title="Hamburg Binnenalster"
+          localImg="binnenalster.jpg"
           image="binnenalster.jpg"
           alt="A photo of the Hamburg Binnenalster"
         />
       {/if}
-    </div>
-    <div
+    </button>
+    <button
       class="bigsq"
       style="background-image: url('/images/stuff/yasmin_sqthumb.png')"
       on:click={() => (show_b1 = !show_b1)}
@@ -51,14 +52,14 @@
           </div>
         </Popup>
       {/if}
-    </div>
+    </button>
     <div class="smsq1">c2</div>
     <div class="smsq2">d2</div>
   </section>
 
   <section class="container box2">
     <div class="smsq1">a2</div>
-    <div
+    <button
       class="bigsq"
       style="background-image: url('/images/stuff/mktimelapse_sqthumb.png')"
       on:click={() => (show_b2 = !show_b2)}
@@ -83,7 +84,7 @@
           </div>
         </Popup>
       {/if}
-    </div>
+    </button>
     <div class="smsq2">c2</div>
     <div class="bigrow">d2</div>
   </section>
@@ -98,7 +99,7 @@
   <section class="container box4">
     <div class="shcol">a4</div>
     <div class="shrow">b4</div>
-    <div
+    <button
       class="bigsq"
       style="background-image: url('/images/stuff/ascii.png')"
       on:click={() => (show_c4 = !show_c4)}
@@ -113,7 +114,7 @@
           </div>
         </Popup>
       {/if}
-    </div>
+    </button>
     <div class="smsq1">d4</div>
   </section>
 </div>
@@ -135,7 +136,8 @@
     gap: 8px;
   }
 
-  .container div {
+  .container div,
+  .container button {
     border-radius: 0.5rem;
     background-size: cover;
     background-position: center;
