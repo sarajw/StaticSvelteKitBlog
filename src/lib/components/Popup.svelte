@@ -70,10 +70,10 @@
   .popup {
     position: fixed;
     top: calc(1.5 * var(--headheight));
-    left: 5%;
-    width: 90%;
+    left: calc(0.5 * var(--headheight));
+    right: calc(0.5 * var(--headheight));
     min-height: 30%;
-    max-height: calc(90% - var(--headheight));
+    max-height: calc(100% - 2 * var(--headheight));
     background-color: var(--tenor);
     padding: 2vw 2vw 1vw;
     border-radius: 0.5rem;

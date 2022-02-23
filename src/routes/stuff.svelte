@@ -26,47 +26,47 @@
       style="background-image: url('/images/stuff/binnenalster_small.jpg')"
     >
       <h1 on:click={() => (show_a1 = true)} class="caption">Hamburg</h1>
-      {#if show_a1}
-        <Popup
-          on:closePopup={popupClose}
-          title="Hamburg Binnenalster"
-          local="binnenalster.jpg"
-          image="binnenalster.jpg"
-          alt="A photo of the Hamburg Binnenalster"
-          ><div slot="desc">
-            <p>A photo I took :)</p>
-          </div>
-        </Popup>
-      {/if}
     </button>
+    {#if show_a1}
+      <Popup
+        on:closePopup={popupClose}
+        title="Hamburg Binnenalster"
+        local="binnenalster.jpg"
+        image="binnenalster.jpg"
+        alt="A photo of the Hamburg Binnenalster"
+        ><div slot="desc">
+          <p>A photo I took :)</p>
+        </div>
+      </Popup>
+    {/if}
     <button
       class="bigsq"
       id="b1"
       style="background-image: url('/images/stuff/yasmin_sqthumb.png')"
     >
       <h1 on:click={() => (show_b1 = true)} class="caption">Yasmin</h1>
-      {#if show_b1}
-        <Popup
-          on:closePopup={popupClose}
-          title="Yasmin Brinkmann"
-          url="https://yasmin-brinkmann.de"
-          image="yasmin_large.png"
-          alt="Yasmin Brinkmann desktop website screenshot"
-        >
-          <div slot="desc">
-            <p>
-              A friend from swing dancing needed a new landing page, and
-              gracefully agreed to my coding it from scratch as a learning
-              exercise.
-            </p>
-            <p>
-              Written in Notepad++ (!), pure "vanilla" HTML, CSS and a just
-              smattering of JavaScript :)
-            </p>
-          </div>
-        </Popup>
-      {/if}
     </button>
+    {#if show_b1}
+      <Popup
+        on:closePopup={popupClose}
+        title="Yasmin Brinkmann"
+        url="https://yasmin-brinkmann.de"
+        image="yasmin_large.png"
+        alt="Yasmin Brinkmann desktop website screenshot"
+      >
+        <div slot="desc">
+          <p>
+            A friend from swing dancing needed a new landing page, and
+            gracefully agreed to my coding it from scratch as a learning
+            exercise.
+          </p>
+          <p>
+            Written in Notepad++ (!), pure "vanilla" HTML, CSS and a just
+            smattering of JavaScript :)
+          </p>
+        </div>
+      </Popup>
+    {/if}
     <div class="smsq1" id="c2" />
     <div class="smsq2" id="d2" />
   </section>
@@ -81,28 +81,25 @@
       <h1 on:click={() => (show_b2 = true)} class="caption">
         MK time&shy;lapse
       </h1>
-      {#if show_b2}
-        <Popup
-          on:closePopup={popupClose}
-          title="MK timelapse GmbH"
-          url="https://mktimelapse.com"
-          image="mktimelapse_large.png"
-          alt="MK timelapse GmbH desktop website screenshot"
-        >
-          <div slot="desc">
-            <p>
-              I work for MK timelapse GmbH, which in 2019 really needed an
-              updated website. I hopped on to Wix, chose a template and then
-              modified it heavily to reflect the feel of the new (at the time)
-              MK logo.
-            </p>
-            <p>
-              I plan to revisit the design of this site using maybe Webflow.
-            </p>
-          </div>
-        </Popup>
-      {/if}
     </button>
+    {#if show_b2}
+      <Popup
+        on:closePopup={popupClose}
+        title="MK timelapse GmbH"
+        url="https://mktimelapse.com"
+        image="mktimelapse_large.png"
+        alt="MK timelapse GmbH desktop website screenshot"
+      >
+        <div slot="desc">
+          <p>
+            I work for MK timelapse GmbH, which in 2019 really needed an updated
+            website. I hopped on to Wix, chose a template and then modified it
+            heavily to reflect the feel of the new (at the time) MK logo.
+          </p>
+          <p>I plan to revisit the design of this site using maybe Webflow.</p>
+        </div>
+      </Popup>
+    {/if}
     <div class="smsq2" id="c2" />
     <div class="bigrow" id="d2" />
   </section>
@@ -122,17 +119,17 @@
       style="background-image: url('/images/stuff/ascii.png')"
     >
       <h1 on:click={() => (show_c4 = true)} class="caption">ASCII Art</h1>
-      {#if show_c4}
-        <Popup on:closePopup={popupClose} title="Ascii Art" rawtext={Ascii}>
-          <div slot="desc">
-            <p>
-              When I was 15 or so I frequented several USENET newsgroups,
-              particularly alt.fan.eddie-izzard and alt.ascii-art:
-            </p>
-          </div>
-        </Popup>
-      {/if}
     </button>
+    {#if show_c4}
+      <Popup on:closePopup={popupClose} title="Ascii Art" rawtext={Ascii}>
+        <div slot="desc">
+          <p>
+            When I was 15 or so I frequented several USENET newsgroups,
+            particularly alt.fan.eddie-izzard and alt.ascii-art:
+          </p>
+        </div>
+      </Popup>
+    {/if}
     <div class="smsq1" id="d4" />
   </section>
 </div>
