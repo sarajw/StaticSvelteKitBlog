@@ -23,19 +23,19 @@
 <section class="blogIndex">
   <ul>
     {#each posts as post}
-      <li>
-        <!-- svelte-ignore a11y-missing-attribute -->
-        <img src="../images/blog/{post.meta.image}" />
-        <article>
-          <h2>
-            <a href={post.path}>
+      <a href={post.path}>
+        <li>
+          <!-- svelte-ignore a11y-missing-attribute -->
+          <img src="../images/blog/{post.meta.image}" />
+          <article>
+            <h2>
               {post.meta.title}
-            </a>
-          </h2>
-          <p>{post.meta.exerpt}</p>
-          <p class="posted">Posted {post.meta.date}</p>
-        </article>
-      </li>
+            </h2>
+            <p>{post.meta.exerpt}</p>
+            <p class="posted">Posted {post.meta.date}</p>
+          </article>
+        </li>
+      </a>
     {/each}
   </ul>
 </section>

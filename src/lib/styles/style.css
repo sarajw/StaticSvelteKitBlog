@@ -84,16 +84,28 @@ html {
 	background-color: var(--background);
 }
 
+
+
 a {
 	color: var(--links);
 }
+a:not(header a,footer a, .blogIndex a) {
+    border-bottom: 1px solid var(--sopranopop);
+}
 a:hover, a:active {
 	color: var(--hoverpop);
+}
+a:not(header a,footer a, .blogIndex a):hover {
+    border-bottom: 1px solid var(--hover);
 }
 a:focus, button:focus {
 	outline: 0.1rem dashed var(--hoverpop);
 	outline-offset: 0.25rem;
 	border-radius: 0.25em;
+}
+
+button {
+	cursor: pointer;
 }
 
 body > div {
@@ -122,7 +134,6 @@ header {
 }
 main {
     grid-area: main;
- /*   margin: 0 auto;  */
     padding: 5vw;
 }
 footer {

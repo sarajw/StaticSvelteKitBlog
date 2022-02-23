@@ -1,6 +1,6 @@
 ---
 title: "#100DaysOfCode"
-date: "2022/02/17"
+date: "around 2022/02/22"
 exerpt: Copying and pasting my tweets on the matter as I slowly make my way through nonconsecutively the 100 days.
 image: twitter.png
 ---
@@ -10,6 +10,14 @@ image: twitter.png
 Added a pop colour to my 'blogolio' amongst other little fixes. The front, stuff and contact pages need content.
 
 I also need to work on my main landing page - I want to keep it, but the styling needs an overhaul, and I must locally host the font...
+
+### Day 16 continued
+Notes to self:
+* Focus highlighting - outline (+offset?) or border? ✅ done
+* Prioritise accessibility.
+* Consider elements expanding in place instead of introducing modals, ooh.
+* Host http://sarawallen.com font(s) locally.
+* Make the ascii-art text responsive.
 
 ## Day 15/#100DaysOfCode
 

@@ -5,6 +5,13 @@
   let show_b1 = false;
   let show_b2 = false;
   let show_c4 = false;
+
+  function popupClose(event) {
+    show_a1 = false;
+    show_b1 = false;
+    show_b2 = false;
+    show_c4 = false;
+  }
 </script>
 
 <svelte:head>
@@ -15,27 +22,32 @@
   <section class="container box1">
     <button
       class="bigrow"
+      id="a1"
       style="background-image: url('/images/stuff/binnenalster_small.jpg')"
-      on:click={() => (show_a1 = !show_a1)}
     >
-      <h1 class="caption">Hamburg Photo</h1>
+      <h1 on:click={() => (show_a1 = true)} class="caption">Hamburg</h1>
       {#if show_a1}
         <Popup
+          on:closePopup={popupClose}
           title="Hamburg Binnenalster"
           local="binnenalster.jpg"
           image="binnenalster.jpg"
           alt="A photo of the Hamburg Binnenalster"
-        />
+          ><div slot="desc">
+            <p>A photo I took :)</p>
+          </div>
+        </Popup>
       {/if}
     </button>
     <button
       class="bigsq"
+      id="b1"
       style="background-image: url('/images/stuff/yasmin_sqthumb.png')"
-      on:click={() => (show_b1 = !show_b1)}
     >
-      <h1 class="caption">Yasmin</h1>
+      <h1 on:click={() => (show_b1 = true)} class="caption">Yasmin</h1>
       {#if show_b1}
         <Popup
+          on:closePopup={popupClose}
           title="Yasmin Brinkmann"
           url="https://yasmin-brinkmann.de"
           image="yasmin_large.png"
@@ -55,20 +67,23 @@
         </Popup>
       {/if}
     </button>
-    <div class="smsq1">c2</div>
-    <div class="smsq2">d2</div>
+    <div class="smsq1" id="c2" />
+    <div class="smsq2" id="d2" />
   </section>
 
   <section class="container box2">
-    <div class="smsq1">a2</div>
+    <div class="smsq1" id="a2" />
     <button
       class="bigsq"
+      id="b2"
       style="background-image: url('/images/stuff/mktimelapse_sqthumb.png')"
-      on:click={() => (show_b2 = !show_b2)}
     >
-      <h1 class="caption">MK timelapse</h1>
+      <h1 on:click={() => (show_b2 = true)} class="caption">
+        MK time&shy;lapse
+      </h1>
       {#if show_b2}
         <Popup
+          on:closePopup={popupClose}
           title="MK timelapse GmbH"
           url="https://mktimelapse.com"
           image="mktimelapse_large.png"
@@ -88,28 +103,27 @@
         </Popup>
       {/if}
     </button>
-    <div class="smsq2">c2</div>
-    <div class="bigrow">d2</div>
+    <div class="smsq2" id="c2" />
+    <div class="bigrow" id="d2" />
   </section>
 
   <section class="container box3">
-    <div class="bigsq">a3</div>
-    <div class="smsq1">b3</div>
-    <div class="shcol">c3</div>
-    <div class="shrow">d3</div>
+    <div class="bigsq" id="a3" />
+    <div class="smsq1" id="b3" />
+    <div class="shcol" id="c3" />
+    <div class="shrow" id="d3" />
   </section>
 
   <section class="container box4">
-    <div class="shcol">a4</div>
-    <div class="shrow">b4</div>
+    <div class="shcol" id="a4" />
+    <div class="shrow" id="b4" />
     <button
       class="bigsq"
       style="background-image: url('/images/stuff/ascii.png')"
-      on:click={() => (show_c4 = !show_c4)}
     >
-      <h1 class="caption">ASCII Art</h1>
+      <h1 on:click={() => (show_c4 = true)} class="caption">ASCII Art</h1>
       {#if show_c4}
-        <Popup title="Ascii Art" rawtext={Ascii}>
+        <Popup on:closePopup={popupClose} title="Ascii Art" rawtext={Ascii}>
           <div slot="desc">
             <p>
               When I was 15 or so I frequented several USENET newsgroups,
@@ -119,7 +133,7 @@
         </Popup>
       {/if}
     </button>
-    <div class="smsq1">d4</div>
+    <div class="smsq1" id="d4" />
   </section>
 </div>
 
@@ -155,11 +169,14 @@
   }
   .caption {
     visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
     text-transform: uppercase;
+    text-align: center;
     color: #fff;
     font-weight: var(--heavy);
-    line-height: 100%;
-    text-align: center;
   }
   button:hover .caption,
   button:focus .caption {
