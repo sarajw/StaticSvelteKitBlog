@@ -53,7 +53,7 @@
     min-width: 10rem;
     border-radius: 0.5rem;
     overflow: hidden;
-    background-color: var(--tenor2nd);
+    background-color: var(--tenorpop);
   }
   li:hover {
     background-color: var(--basspop);

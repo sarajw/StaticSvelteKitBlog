@@ -101,7 +101,7 @@ html {
 
 
 
-a {
+a:not(.blogIndex a) {
 	color: var(--linkspop);
 }
 a:not(header a,footer a, .blogIndex a) {
