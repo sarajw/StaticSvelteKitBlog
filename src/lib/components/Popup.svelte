@@ -47,13 +47,13 @@
   button {
     position: fixed;
     top: calc(1.5 * var(--headheight) + 2vw);
-    right: calc(5% + 2vw);
+    right: calc(0.5 * var(--headheight) + 2vw);
     width: calc(2rem + 1vw);
     aspect-ratio: 1;
     line-height: calc(2rem + 1vw);
     font-size: calc(1.5rem + 1vw);
     text-align: center;
-    background-color: var(--sopranopop);
+    background-color: var(--background);
     border-radius: 50%;
   }
   button:hover {

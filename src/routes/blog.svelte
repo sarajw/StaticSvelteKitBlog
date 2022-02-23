@@ -53,6 +53,13 @@
     min-width: 10rem;
     border-radius: 0.5rem;
     overflow: hidden;
+    background-color: var(--tenor2nd);
+  }
+  li:hover {
+    background-color: var(--basspop);
+  }
+  li:hover img {
+    opacity: 0.66;
   }
   img {
     flex: 1 1 30%;
@@ -67,7 +74,12 @@
     grid-template-rows: auto 1fr auto;
     gap: 0;
     padding: 0 1rem;
-    background-color: var(--tenorpop);
+  }
+  li:hover {
+    background-color: var(--basspop);
+  }
+  li:hover img {
+    opacity: 0.66;
   }
   .posted {
     text-align: right;

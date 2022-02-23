@@ -49,6 +49,8 @@
     height: var(--headheight);
     width: var(--h2);
     margin-left: 0.1rem;
+    filter: invert(53%) sepia(92%) saturate(389%) hue-rotate(7deg)
+      brightness(88%) contrast(92%);
   }
 
   nav {
@@ -59,7 +61,8 @@
 
   @media (prefers-color-scheme: dark) {
     .name:hover::after {
-      filter: invert(100%);
+      filter: invert(66%) sepia(54%) saturate(653%) hue-rotate(5deg)
+        brightness(98%) contrast(86%);
     }
   }
 </style>

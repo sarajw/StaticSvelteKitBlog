@@ -1,16 +1,19 @@
 :root {
 	
-	--popcolourHS: 170,30%;
+	--popcolourHS: 165,50%;
+	--2ndcolourHS: 45,75%;
 
 	/* colours  */
-	--background: hsl(var(--popcolourHS), 70%);
+	--background: hsl(var(--2ndcolourHS), 50%);
 	--text: hsl(200, 15%, 10%);
 	--edges: 2px -2px 4px -3px hsl(200, 15%, 20%);
 	--shadow: rgba(0, 0, 0, 0.25);
 	
 	--links: hsl(200, 15%, 30%);
+	--linkspop: hsl(var(--popcolourHS), 40%);
 	--hover: hsl(200, 15%, 50%);
-	--hoverpop: hsl(var(--popcolourHS), 50%);
+	--hoverpop: hsl(var(--popcolourHS), 40%);
+	--hover2nd: hsl(var(--2ndcolourHS), 40%);
 	
 	--bass: hsl(200, 15%, 95%);
 	--tenor: hsl(200, 15%, 90%);
@@ -21,6 +24,11 @@
 	--tenorpop: hsl(var(--popcolourHS), 80%);
 	--altopop: hsl(var(--popcolourHS), 70%);
 	--sopranopop: hsl(var(--popcolourHS), 60%);
+	
+	--bass2nd: hsl(var(--2ndcolourHS), 90%);
+	--tenor2nd: hsl(var(--2ndcolourHS), 80%);
+	--alto2nd: hsl(var(--2ndcolourHS), 70%);
+	--soprano2nd: hsl(var(--2ndcolourHS), 60%);
 	
 	--scrollbg: hsl(200, 15%, 85%);
 	--scrollbar: hsl(200, 15%, 75%);
@@ -44,14 +52,16 @@
 @media (prefers-color-scheme: dark) {
     :root {
 	/* Dark */
-	--background: hsl(var(--popcolourHS), 30%);
+	--background: hsl(var(--2ndcolourHS), 30%);
 	--text: hsl(200, 15%, 90%);
 	--edges: 2px 2px 4px -3px hsl(200, 15%, 80%) inset;
 	--shadow: rgba(255, 255, 255, 0.25);
 	
 	--links: hsl(200, 15%, 90%);
+	--linkspop: hsl(var(--popcolourHS), 50%);
 	--hover: hsl(200, 15%, 70%);
 	--hoverpop: hsl(var(--popcolourHS), 50%);
+	--hover2nd: hsl(var(--2ndcolourHS), 50%);
 	
 	--bass: hsl(200, 15%, 5%);
 	--tenor: hsl(200, 15%, 10%);
@@ -62,6 +72,11 @@
 	--tenorpop: hsl(var(--popcolourHS), 20%);
 	--altopop: hsl(var(--popcolourHS), 30%);
 	--sopranopop: hsl(var(--popcolourHS), 40%);
+	
+	--bass2nd: hsl(var(--2ndcolourHS), 10%);
+	--tenor2nd: hsl(var(--2ndcolourHS), 20%);
+	--alto2nd: hsl(var(--2ndcolourHS), 30%);
+	--soprano2nd: hsl(var(--2ndcolourHS), 40%);
 	
 	--scrollbg: hsl(200, 15%, 15%);
 	--scrollbar: hsl(200, 15%, 25%);
@@ -87,19 +102,19 @@ html {
 
 
 a {
-	color: var(--links);
+	color: var(--linkspop);
 }
 a:not(header a,footer a, .blogIndex a) {
-    border-bottom: 1px solid var(--sopranopop);
+    border-bottom: 1px solid var(--hover2nd);
 }
 a:hover, a:active {
-	color: var(--hoverpop);
+	color: var(--hover2nd);
 }
 a:not(header a,footer a, .blogIndex a):hover {
-    border-bottom: 1px solid var(--hover);
+    border-bottom: 1px solid var(--hoverpop);
 }
-a:focus, button:focus {
-	outline: 0.1rem dashed var(--hoverpop);
+:focus {
+	outline: 0.1rem dashed var(--hover2nd);
 	outline-offset: 0.25rem;
 	border-radius: 0.25em;
 }

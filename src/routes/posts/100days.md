@@ -5,6 +5,14 @@ exerpt: Copying and pasting my tweets on the matter as I slowly make my way thro
 image: twitter.png
 ---
 
+## Day 17/#100DaysOfCode 
+
+So the focus highlighting is back. I've made the function of the popups a little better. The ascii-art is now somewhat more viewable on mobiles.
+
+I've connected it to http://blog.sarawallen.com! 🎉
+
+And http://sarawallen.com now has styling to match :)
+
 ## Day 16/#100DaysOfCode 
 
 Added a pop colour to my 'blogolio' amongst other little fixes. The front, stuff and contact pages need content.
