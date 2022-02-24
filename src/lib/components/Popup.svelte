@@ -84,12 +84,13 @@
   .popup {
     margin: 0 auto;
     min-height: 30%;
-    max-height: calc(100% - 2 * var(--headheight));
+    max-height: 100%;
     background-color: var(--bass);
     padding: 1vw 2vw 1vw;
     border-radius: 0.5rem;
     border: 1vw solid var(--bass);
     overflow: auto;
+    overscroll-behavior: contain;
     z-index: 10;
   }
   .popup img {

@@ -26,10 +26,10 @@
 	--alto: hsl(var(--grey) 85%);
 	--soprano: hsl(var(--grey) 80%);
 	
-	--basspop: hsl(var(--pop) 90%);
-	--tenorpop: hsl(var(--pop) 80%);
+	--basspop: hsl(var(--pop) 80%);
+	--tenorpop: hsl(var(--pop) 75%);
 	--altopop: hsl(var(--pop) 70%);
-	--sopranopop: hsl(var(--pop) 60%);
+	--sopranopop: hsl(var(--pop) 65%);
 	
 	--scrollbg: hsl(var(--grey) 85%);
 	--scrollbar: hsl(var(--grey) 75%);
@@ -74,10 +74,10 @@
 	--alto: hsl(var(--grey) 15%);
 	--soprano: hsl(var(--grey) 20%);
 	
-	--basspop: hsl(var(--pop) 10%);
-	--tenorpop: hsl(var(--pop) 20%);
+	--basspop: hsl(var(--pop) 20%);
+	--tenorpop: hsl(var(--pop) 25%);
 	--altopop: hsl(var(--pop) 30%);
-	--sopranopop: hsl(var(--pop) 40%);
+	--sopranopop: hsl(var(--pop) 35%);
 
 	--bass2nd: hsl(var(--2nd) 10%);
 	--tenor2nd: hsl(var(--2nd) 20%);
@@ -104,8 +104,6 @@ html {
     font-weight: var(--normal);
 	background-color: var(--background);
 }
-
-
 
 a {
 	color: var(--linkspop);

@@ -53,15 +53,20 @@
     min-width: 10rem;
     border-radius: 0.5rem;
     overflow: hidden;
-    background-color: var(--tenorpop);
     color: var(--text);
+    transition: transform 0.2s ease;
+    box-shadow: 2px 2px 10px -8px var(--shadow);
   }
   li:hover {
-    color: var(--hover2nd);
-    background-color: var(--basspop);
+    transition: transform 0.1s ease;
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px 10px -9px var(--shadow);
   }
   li:hover img {
-    opacity: 0.66;
+    opacity: 0.9;
+  }
+  li:hover article {
+    background-color: var(--basspop);
   }
   img {
     flex: 1 1 30%;
@@ -76,6 +81,7 @@
     grid-template-rows: auto 1fr auto;
     gap: 0;
     padding: 0 1rem;
+    background-color: var(--tenorpop);
   }
   .posted {
     text-align: right;

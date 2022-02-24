@@ -34,10 +34,7 @@
         local="binnenalster.jpg"
         image="binnenalster.jpg"
         alt="A photo of the Hamburg Binnenalster"
-        ><div slot="desc">
-          <p>A photo I took :)</p>
-        </div>
-      </Popup>
+      />
     {/if}
     <button
       class="bigsq"
@@ -67,8 +64,8 @@
         </div>
       </Popup>
     {/if}
-    <div class="smsq1" id="c2" />
-    <div class="smsq2" id="d2" />
+    <div class="smsq1" id="c1" />
+    <div class="smsq2" id="d1" />
   </section>
 
   <section class="container box2">
@@ -108,7 +105,15 @@
     <div class="bigsq" id="a3" />
     <div class="smsq1" id="b3" />
     <div class="shcol" id="c3" />
-    <div class="shrow" id="d3" />
+    <button
+      class="shrow"
+      id="d3"
+      style="background-image: url('/images/stuff/tumblr_small.png')"
+    >
+      <a href="https://swingtanzerin.tumblr.com" target="_blank"
+        ><h1 class="caption">Tumblr</h1></a
+      >
+    </button>
   </section>
 
   <section class="container box4">
@@ -151,18 +156,25 @@
     gap: 8px;
   }
 
-  .container div,
+  .container > div,
   .container button {
     border-radius: 0.5rem;
     background-size: cover;
     background-position: center;
     overflow: hidden;
+    transition: transform 0.2s ease;
+    box-shadow: 2px 2px 10px -8px var(--shadow);
   }
-  .container button:hover,
-  .container button:focus {
+  .container > button:hover,
+  .container > button:focus,
+  .container > div:hover,
+  .container > div:focus {
     background-color: var(--sopranopop);
     background-repeat: no-repeat;
     background-size: 0;
+    transition: transform 0.1s ease;
+    transform: translate(1px, 1px);
+    box-shadow: 2px 2px 10px -9px var(--shadow);
   }
   .caption {
     visibility: hidden;
