@@ -22,42 +22,46 @@
   function close() {
     dispatch("closePopup");
   }
+  function doNothing() {}
 </script>
 
-<article class="popup">
-  <button on:click={close}>X</button>
-  {#if image}<img src="/images/stuff/{image}" {alt} />{/if}
-  <div class="heading">
-    <h2>{title}</h2>
-    {#if urlNoHttp}
-      <h3>
-        <a href={url ? url : `/images/stuff/${local}`} rel="external"
-          >{url ? urlNoHttp : local}</a
-        >
-      </h3>
+<div on:click={close} class="popwrap">
+  <article on:click={(event) => event.stopPropagation()} class="popup">
+    <button on:click={close}>X</button>
+    {#if image}<img src="/images/stuff/{image}" {alt} />{/if}
+    <div class="heading">
+      <h2>{title}</h2>
+      {#if urlNoHttp}
+        <h3>
+          <a href={url ? url : `/images/stuff/${local}`} rel="external"
+            >{url ? urlNoHttp : local}</a
+          >
+        </h3>
+      {/if}
+    </div>
+    <slot name="desc" />
+    {#if rawtext}
+      <pre>{@html rawtext}</pre>
     {/if}
-  </div>
-  <slot name="desc" />
-  {#if rawtext}
-    <pre>{@html rawtext}</pre>
-  {/if}
-</article>
+  </article>
+</div>
 
 <style>
   button {
-    position: fixed;
-    top: calc(1.5 * var(--headheight) + 2vw);
+    position: absolute;
+    top: calc(0.5 * var(--headheight) + 2vw);
     right: calc(0.5 * var(--headheight) + 2vw);
     width: calc(2rem + 1vw);
     aspect-ratio: 1;
     line-height: calc(2rem + 1vw);
     font-size: calc(1.5rem + 1vw);
     text-align: center;
-    background-color: var(--background);
+    color: var(--textinv);
+    background-color: var(--linkspop);
     border-radius: 50%;
   }
   button:hover {
-    background-color: var(--hoverpop);
+    background-color: var(--hover2nd);
   }
 
   .heading {
@@ -67,22 +71,29 @@
     justify-content: space-between;
     gap: 0 0.5rem;
   }
-  .popup {
+
+  .popwrap {
     position: fixed;
-    top: calc(1.5 * var(--headheight));
-    left: calc(0.5 * var(--headheight));
-    right: calc(0.5 * var(--headheight));
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: calc(0.5 * var(--headheight));
+    background-color: var(--shadowpop);
+  }
+  .popup {
+    margin: 0 auto;
     min-height: 30%;
     max-height: calc(100% - 2 * var(--headheight));
-    background-color: var(--tenor);
-    padding: 2vw 2vw 1vw;
+    background-color: var(--bass);
+    padding: 1vw 2vw 1vw;
     border-radius: 0.5rem;
-    border: 1vw solid var(--tenor);
-    box-shadow: 0 0 0 30rem var(--shadow);
+    border: 1vw solid var(--bass);
     overflow: auto;
     z-index: 10;
   }
   .popup img {
+    margin: 0.5em 0 0;
     border-radius: 5px;
   }
 

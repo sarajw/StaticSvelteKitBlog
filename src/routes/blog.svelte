@@ -54,8 +54,10 @@
     border-radius: 0.5rem;
     overflow: hidden;
     background-color: var(--tenorpop);
+    color: var(--text);
   }
   li:hover {
+    color: var(--hover2nd);
     background-color: var(--basspop);
   }
   li:hover img {
@@ -74,12 +76,6 @@
     grid-template-rows: auto 1fr auto;
     gap: 0;
     padding: 0 1rem;
-  }
-  li:hover {
-    background-color: var(--basspop);
-  }
-  li:hover img {
-    opacity: 0.66;
   }
   .posted {
     text-align: right;
