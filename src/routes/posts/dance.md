@@ -10,9 +10,8 @@ This was posted a good decade ago. Since then a lot has happened, my writing sty
 
 Of course in these pandemic times there has been no almost no going out and social dancing at all (I went once in October 2021 before another big COVID-19 wave kicked off), and that’s been so very hard.
 
-Performing with Swing Dance Bristol
-
-Performing with Swing Dance Bristol (image credit Christopher Allen)
+![Performing with Swing Dance Bristol](/images/blog/dancing.jpg)
+<p class="caption">Performing with Swing Dance Bristol (image credit Christopher Allen)</p>
 
 ## Original Blog Post
 There’s a few facets to this. I’ll try to keep it coherent!

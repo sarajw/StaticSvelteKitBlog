@@ -57,25 +57,14 @@
     transition: transform 0.2s ease;
     box-shadow: 2px 2px 10px -8px var(--shadow);
   }
-  li:hover {
-    transition: transform 0.1s ease;
-    transform: translate(2px, 2px);
-    box-shadow: 2px 2px 10px -9px var(--shadow);
-  }
-  li:hover img {
-    opacity: 0.9;
-  }
-  li:hover article {
-    background-color: var(--basspop);
-  }
   img {
-    flex: 1 1 30%;
+    flex: 1 1 40%;
     min-width: 10rem;
     aspect-ratio: 1;
     object-fit: cover;
   }
   article {
-    flex: 2 1 70%;
+    flex: 2 1 60%;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr auto;
@@ -85,6 +74,20 @@
   }
   .posted {
     text-align: right;
+  }
+  a:hover li,
+  a:focus li {
+    transition: transform 0.1s ease;
+    transform: translate(1px, 1px);
+    box-shadow: 2px 2px 10px -9px var(--shadow);
+  }
+  a:hover img,
+  a:focus img {
+    opacity: 0.9;
+  }
+  a:hover article,
+  a:focus article {
+    background-color: var(--basspop);
   }
 
   @media only screen and (max-width: 500px) {

@@ -1,6 +1,6 @@
 :root {
 	
-	--pop: 165 50%;
+	--pop: 175 50%;
 	--2nd: 45 75%;
 	--grey: 0 0%;
 
@@ -30,6 +30,11 @@
 	--tenorpop: hsl(var(--pop) 75%);
 	--altopop: hsl(var(--pop) 70%);
 	--sopranopop: hsl(var(--pop) 65%);
+
+	--bass2nd: hsl(var(--2nd) 80%);
+	--tenor2nd: hsl(var(--2nd) 75%);
+	--alto2nd: hsl(var(--2nd) 70%);
+	--soprano2nd: hsl(var(--2nd) 65%);
 	
 	--scrollbg: hsl(var(--grey) 85%);
 	--scrollbar: hsl(var(--grey) 75%);
@@ -47,7 +52,8 @@
     --h2: clamp(1.3rem, 5.5vw, 1.75rem);
     --h3: clamp(1.1rem, 5vw, 1.5rem);
     --p: clamp(0.8rem, 4.5vw, 1.0rem);
-    --gap: clamp(0.5rem, 3vw, 0.7rem);
+    --sml: clamp(0.6rem, 4vw, 0.8rem);
+    --gap: clamp(0.4rem, 3vw, 0.6rem);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -79,10 +85,10 @@
 	--altopop: hsl(var(--pop) 30%);
 	--sopranopop: hsl(var(--pop) 35%);
 
-	--bass2nd: hsl(var(--2nd) 10%);
-	--tenor2nd: hsl(var(--2nd) 20%);
+	--bass2nd: hsl(var(--2nd) 20%);
+	--tenor2nd: hsl(var(--2nd) 25%);
 	--alto2nd: hsl(var(--2nd) 30%);
-	--soprano2nd: hsl(var(--2nd) 40%);
+	--soprano2nd: hsl(var(--2nd) 35%);
 	
 	--scrollbg: hsl(var(--grey) 15%);
 	--scrollbar: hsl(var(--grey) 25%);
@@ -112,10 +118,10 @@ a:hover, a:active {
 	color: var(--hover2nd);
 }
 a:not(header a,footer a, .blogIndex a) {
-    border-bottom: 1px solid var(--sopranopop);
+    border-bottom: 1px solid var(--hover2nd);
 }
 a:not(header a,footer a, .blogIndex a):hover {
-    border-bottom: 1px solid var(--hover);
+    border-bottom: 1px solid var(--linkspop);
 }
 :focus {
 	outline: 0.1rem dashed var(--hoverpop);
@@ -192,4 +198,8 @@ b, strong {
 
 i, em {
 	font-style: italic;
+}
+
+s, del {
+	text-decoration: line-through;
 }

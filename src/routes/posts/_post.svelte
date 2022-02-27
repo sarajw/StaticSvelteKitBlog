@@ -26,6 +26,7 @@
     width: 100%;
     align-items: center;
     gap: 0 1rem;
+    color: var(--hover2nd);
   }
   .posted {
     margin-left: auto;
@@ -38,6 +39,17 @@
     list-style-type: disc;
   }
   .post :global(h2) {
-    margin-top: var(--h2);
+    margin-top: var(--p);
+    color: var(--linkspop);
+  }
+  .post :global(img) {
+    display: block;
+    border-radius: 0.25rem;
+    margin: 1rem auto 0;
+  }
+  .post :global(.caption) {
+    text-align: center;
+    margin-top: -0.5rem;
+    font-size: var(--sml);
   }
 </style>

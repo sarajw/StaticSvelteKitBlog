@@ -5,6 +5,28 @@ exerpt: Copying and pasting my tweets on the matter as I slowly make my way thro
 image: twitter.png
 ---
 
+![Twitter account @sarajwallen](/images/blog/twitter.png)
+<p class="caption">My twitter account is <a href="https://twitter.com/sarajwallen">@sarajwallen</a> :)</p>
+
+## ~~Day 18/#100DaysOfCode~~<br>Day 19/#100DaysOfCode 
+
+I dunno now, I did some things earlier but I've already forgotten what they were? Ukraine-related news and anxiety (rightly) overwhelms everything else.
+
+Слава Україні!
+
+### Day 19 continued
+...this should have been Day 19/#100DaysOfCode 
+
+Like I say, distracted.
+
+I am planning stuff though, trying to find a niche of things to make - I am considering mocking up old TV idents and teletext pages in HTML & CSS for fun :)
+
+## Day 18/#100DaysOfCode 
+
+Added a secondary pop colour. Not sure about them... And the light/dark modes also need a manual toggle.
+
+My popups/modals have been made way better with JavaScript event.stopPropagation() and CSS overscroll-behavior: contain 🚀
+
 ## Day 17/#100DaysOfCode 
 
 So the focus highlighting is back. I've made the function of the popups a little better. The ascii-art is now somewhat more viewable on mobiles.

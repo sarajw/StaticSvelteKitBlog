@@ -58,8 +58,8 @@
             exercise.
           </p>
           <p>
-            Written in Notepad++ (!), pure "vanilla" HTML, CSS and a just
-            smattering of JavaScript :)
+            Written in Notepad++ (!), pure "vanilla" HTML, CSS and a smattering
+            of JavaScript :)
           </p>
         </div>
       </Popup>
