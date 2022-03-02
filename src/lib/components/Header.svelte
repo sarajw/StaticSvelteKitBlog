@@ -1,24 +1,64 @@
 <script>
-  import homeImg from "$lib/assets/images/home.svg";
+  let homeSelected = false;
+  let blogSelected = false;
+  let portfolioSelected = false;
+  let contactSelected = false;
+
+  function highlight(path) {
+    switch (path) {
+      case "home":
+        homeSelected = true;
+        blogSelected = false;
+        portfolioSelected = false;
+        contactSelected = false;
+        console.log("you clicked on " + path);
+        break;
+      case "blog":
+        homeSelected = false;
+        blogSelected = true;
+        portfolioSelected = false;
+        contactSelected = false;
+        console.log("you clicked on " + path);
+        break;
+      case "portfolio":
+        homeSelected = false;
+        blogSelected = false;
+        portfolioSelected = true;
+        contactSelected = false;
+        console.log("you clicked on " + path);
+        break;
+      case "contact":
+        homeSelected = false;
+        blogSelected = false;
+        portfolioSelected = false;
+        contactSelected = true;
+        console.log("you clicked on " + path);
+        break;
+    }
+  }
 </script>
 
-<header style="--homeImgUrl: url('{homeImg}')">
-  <a class="name" href="/">Sara J. Wallén</a>
-
+<header>
+  <a class="name" class:homeSelected on:click={() => highlight("home")} href="/"
+    >Sara J. Wallén</a
+  >
   <nav>
     <ul>
-      <li>
-        <a href="/blog">Blog</a>
+      <li class:blogSelected>
+        <a href="/blog" on:click={() => highlight("blog")}>Blog</a>
       </li>
-      <li>
-        <a href="/stuff">Stuff</a>
+      <li class:portfolioSelected>
+        <a href="/portfolio" on:click={() => highlight("portfolio")}
+          >Portfolio</a
+        >
       </li>
-      <li>
-        <a href="/contact">Contact</a>
+      <li class:contactSelected>
+        <a href="/contact" on:click={() => highlight("contact")}>Contact</a>
       </li>
     </ul>
   </nav>
 </header>
+<div class="shoulders" />
 
 <style>
   header,
@@ -39,19 +79,6 @@
     margin-right: auto;
     font-size: var(--h1);
   }
-  .name:hover::after {
-    position: absolute;
-    content: "";
-    background-image: var(--homeImgUrl);
-    background-size: var(--h3) var(--h3);
-    background-repeat: no-repeat;
-    background-position: center;
-    height: var(--headheight);
-    width: var(--h2);
-    margin-left: 0.1rem;
-    filter: invert(53%) sepia(92%) saturate(389%) hue-rotate(7deg)
-      brightness(88%) contrast(92%);
-  }
 
   nav {
     margin-left: auto;
@@ -59,10 +86,45 @@
     font-size: var(--h3);
   }
 
-  @media (prefers-color-scheme: dark) {
-    .name:hover::after {
-      filter: invert(66%) sepia(54%) saturate(653%) hue-rotate(5deg)
-        brightness(98%) contrast(86%);
-    }
+  .homeSelected,
+  .blogSelected,
+  .portfolioSelected,
+  .contactSelected {
+    position: relative;
+    background-color: var(--bass);
+  }
+
+  .homeSelected::before,
+  .blogSelected::before,
+  .portfolioSelected::before,
+  .contactSelected::before {
+    position: absolute;
+    content: " ";
+    left: -0.75rem;
+    width: 0.75rem;
+    height: var(--headheight);
+    background-color: var(--bass);
+    border-top-left-radius: 0.5rem;
+    z-index: 1;
+  }
+  .homeSelected::after,
+  .blogSelected::after,
+  .portfolioSelected::after,
+  .contactSelected::after {
+    position: absolute;
+    content: " ";
+    right: -0.75rem;
+    width: 0.75rem;
+    height: var(--headheight);
+    background-color: var(--bass);
+    border-top-right-radius: 0.5rem;
+    z-index: 1;
+  }
+
+  .shoulders {
+    height: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    background-color: var(--bass);
   }
 </style>

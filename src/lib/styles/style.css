@@ -21,10 +21,12 @@
 	--hoverpop: hsl(var(--pop) 40%);
 	--hover2nd: hsl(var(--2nd) 40%);
 	
-	--bass: hsl(var(--grey) 95%);
-	--tenor: hsl(var(--grey) 90%);
-	--alto: hsl(var(--grey) 85%);
-	--soprano: hsl(var(--grey) 80%);
+	--bottom: #fff;
+	--bass: hsl(var(--grey) 90%);
+	--tenor: hsl(var(--grey) 85%);
+	--alto: hsl(var(--grey) 80%);
+	--soprano: hsl(var(--grey) 75%);
+	--ultra: hsl(var(--grey) 70%);
 	
 	--basspop: hsl(var(--pop) 80%);
 	--tenorpop: hsl(var(--pop) 75%);
@@ -75,10 +77,12 @@
 	--hoverpop: hsl(var(--pop) 40%);
 	--hover2nd: hsl(var(--2nd) 40%);
 	
-	--bass: hsl(var(--grey) 5%);
-	--tenor: hsl(var(--grey) 10%);
-	--alto: hsl(var(--grey) 15%);
-	--soprano: hsl(var(--grey) 20%);
+	--bottom: #000;
+	--bass: hsl(var(--grey) 10%);
+	--tenor: hsl(var(--grey) 15%);
+	--alto: hsl(var(--grey) 20%);
+	--soprano: hsl(var(--grey) 25%);
+	--ultra: hsl(var(--grey) 30%);
 	
 	--basspop: hsl(var(--pop) 20%);
 	--tenorpop: hsl(var(--pop) 25%);
@@ -124,9 +128,11 @@ a:not(header a,footer a, .blogIndex a):hover {
     border-bottom: 1px solid var(--linkspop);
 }
 :focus {
+	position: relative;
 	outline: 0.1rem dashed var(--hoverpop);
 	outline-offset: 0.25rem;
 	border-radius: 0.25em;
+	z-index: 10;
 }
 
 button {
@@ -135,7 +141,7 @@ button {
 
 body > div {
 	color: var(--text);
-	background-color: var(--bass);
+	background-color: var(--bottom);
 
 	width: calc(100% - 10px);
     min-height: calc(100vh - 10px);
@@ -145,10 +151,11 @@ body > div {
 
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto 1fr auto;
+    grid-template-rows: auto 0.5rem 1fr auto;
     gap: 0px 0px;
     grid-template-areas:
         "header"
+		"shoulders"
         "main"
         "footer";
       
@@ -157,12 +164,17 @@ body > div {
 header {
     grid-area: header;
 }
+.shoulders {
+    grid-area: shoulders;
+}
 main {
     grid-area: main;
+	background-color: var(--bass);
     padding: 5vw;
 }
 footer {
     grid-area: footer;
+	background-color: var(--bass);
 }
 
 main > :not(.stuff, .blogIndex) {
