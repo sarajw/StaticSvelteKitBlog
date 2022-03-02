@@ -39,9 +39,7 @@
 </script>
 
 <header>
-  <a class="name" class:homeSelected on:click={() => highlight("home")} href="/"
-    >Sara J. Wallén</a
-  >
+  <a class="name" on:click={() => highlight("home")} href="/">Sara J. Wallén</a>
   <nav>
     <ul>
       <li class:blogSelected>
@@ -58,7 +56,13 @@
     </ul>
   </nav>
 </header>
-<div class="shoulders" />
+<div
+  class="shoulders"
+  class:homeSelected
+  class:blogSelected
+  class:portfolioSelected
+  class:contactSelected
+/>
 
 <style>
   header,
@@ -86,18 +90,16 @@
     font-size: var(--h3);
   }
 
-  .homeSelected,
-  .blogSelected,
-  .portfolioSelected,
-  .contactSelected {
+  li.blogSelected,
+  li.portfolioSelected,
+  li.contactSelected {
     position: relative;
     background-color: var(--bass);
   }
 
-  .homeSelected::before,
-  .blogSelected::before,
-  .portfolioSelected::before,
-  .contactSelected::before {
+  li.blogSelected::before,
+  li.portfolioSelected::before,
+  li.contactSelected::before {
     position: absolute;
     content: " ";
     left: -0.75rem;
@@ -107,10 +109,9 @@
     border-top-left-radius: 0.5rem;
     z-index: 1;
   }
-  .homeSelected::after,
-  .blogSelected::after,
-  .portfolioSelected::after,
-  .contactSelected::after {
+  li.blogSelected::after,
+  li.portfolioSelected::after,
+  li.contactSelected::after {
     position: absolute;
     content: " ";
     right: -0.75rem;
