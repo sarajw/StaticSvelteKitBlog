@@ -8,6 +8,19 @@ image: twitter.png
 ![Twitter account @sarajwallen](/images/blog/twitter.png)
 <p class="caption">My twitter account is <a href="https://twitter.com/sarajwallen">@sarajwallen</a> :)</p>
 
+
+## Day 20/#100DaysOfCode
+
+Well, it's a start! This was the header from an old Channel 4 Teletext page I used to read avidly as a teen, Mega-zine:
+
+~~https://inspiring-chandrasekhar-d972e0.netlify.app~~<br> *link no longer functional*
+
+Not a patch on your site @andrewjnile but fun to do!
+
+### Day 20 continued
+ 
+Can now be found at https://mega-zine.netlify.app
+
 ## ~~Day 18/#100DaysOfCode~~<br>Day 19/#100DaysOfCode 
 
 I dunno now, I did some things earlier but I've already forgotten what they were? Ukraine-related news and anxiety (rightly) overwhelms everything else.

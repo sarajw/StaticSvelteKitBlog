@@ -4,12 +4,16 @@
   let show_a1 = false;
   let show_b1 = false;
   let show_b2 = false;
+  let show_d2 = false;
+  let show_b3 = false;
   let show_c4 = false;
 
   function popupClose(event) {
     show_a1 = false;
     show_b1 = false;
     show_b2 = false;
+    show_d2 = false;
+    show_b3 = false;
     show_c4 = false;
   }
 </script>
@@ -23,18 +27,30 @@
     <button
       class="bigrow"
       id="a1"
-      style="background-image: url('/images/stuff/binnenalster_small.jpg')"
+      style="background-image: url('/images/stuff/sarawallen_com.png')"
     >
-      <h1 on:click={() => (show_a1 = true)} class="caption">Hamburg</h1>
+      <h1 on:click={() => (show_a1 = true)} class="caption">
+        sara&#8203;wallen.com
+      </h1>
     </button>
     {#if show_a1}
       <Popup
         on:closePopup={popupClose}
-        title="Hamburg Binnenalster"
-        local="binnenalster.jpg"
-        image="binnenalster.jpg"
-        alt="A photo of the Hamburg Binnenalster"
-      />
+        title="sarawallen.com"
+        url="https://sarawallen.com"
+        image="sarawallen_com_large.png"
+        alt="Sara's main landing page"
+      >
+        <div slot="desc">
+          <p>
+            I had an idea about using the behaviour of the CSS property
+            "position: sticky" to make a stack of cards that would land on top
+            of each other when scrolling. Well, I made it and immediately
+            applied it to my landing page :)
+          </p>
+          <p>Written in Notepad++ in HTML and CSS only!</p>
+        </div>
+      </Popup>
     {/if}
     <button
       class="bigsq"
@@ -98,12 +114,56 @@
       </Popup>
     {/if}
     <div class="smsq2" id="c2" />
-    <div class="bigrow" id="d2" />
+    <button
+      class="bigrow"
+      id="d2"
+      style="background-image: url('/images/stuff/binnenalster_small.jpg')"
+    >
+      <h1 on:click={() => (show_d2 = true)} class="caption">Hamburg</h1>
+    </button>
+    {#if show_d2}
+      <Popup
+        on:closePopup={popupClose}
+        title="Hamburg Binnenalster"
+        local="binnenalster.jpg"
+        image="binnenalster.jpg"
+        alt="A photo of the Hamburg Binnenalster"
+      />
+    {/if}
   </section>
 
   <section class="container box3">
     <div class="bigsq" id="a3" />
-    <div class="smsq1" id="b3" />
+    <button
+      class="smsq1"
+      id="b3"
+      style="background-image: url('/images/stuff/mega-zine.png')"
+    >
+      <h2 on:click={() => (show_b3 = true)} class="caption">Mega-zine</h2>
+    </button>
+    {#if show_b3}
+      <Popup
+        on:closePopup={popupClose}
+        title="Channel 4 Teletext's Mega-zine"
+        url="https://mega-zine.netlify.app/"
+        image="mega-zine.png"
+        alt="Mega-zine teletext mock-up screenshot"
+      >
+        <div slot="desc">
+          <p>
+            This is a mock-up in HTML and CSS of an old and slightly strange
+            Channel 4 Teletext page I used to read avidly as a teen, Mega-zine.
+          </p>
+          <p>
+            With thanks to <a href="https://zinemuseum.co.uk/"
+              >The Mega-zine Museum</a
+            >
+            and <a href="https://teletextart.tumblr.com/">teletext art</a> for the
+            great quality almost-source materials I could copy!
+          </p>
+        </div>
+      </Popup>
+    {/if}
     <div class="shcol" id="c3" />
     <button
       class="shrow"

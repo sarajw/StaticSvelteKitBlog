@@ -94,7 +94,8 @@
     z-index: 10;
   }
   .popup img {
-    margin: 0.5em 0 0;
+    display: block;
+    margin: 0.5em auto 0;
     border-radius: 5px;
   }
 
