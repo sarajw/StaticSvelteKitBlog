@@ -27,7 +27,7 @@
 </script>
 
 <svelte:head>
-  <title>sara j. wallén | Stuff</title>
+  <title>sara j. wallén | Portfolio</title>
 </svelte:head>
 
 <div class="portfolio">
@@ -82,8 +82,8 @@
             exercise.
           </p>
           <p>
-            Written in Notepad++ (!), pure "vanilla" HTML, CSS and a smattering
-            of JavaScript :)
+            Written in pure "vanilla" HTML, CSS and a smattering of JavaScript
+            :)
           </p>
         </div>
       </Popup>
@@ -136,7 +136,11 @@
         local="binnenalster.jpg"
         image="binnenalster.jpg"
         alt="A photo of the Hamburg Binnenalster"
-      />
+      >
+        <div slot="desc">
+          <p>A nice photo I took :)</p>
+        </div></Popup
+      >
     {/if}
   </section>
 
