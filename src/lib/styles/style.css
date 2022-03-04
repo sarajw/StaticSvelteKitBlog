@@ -43,7 +43,7 @@
 	--scrollhover: hsl(var(--grey) 70%);
 
 	/* scaling */
-	--headheight: clamp(40px, 8vw, 70px);
+	--headheight: clamp(50px, 10vw, 100px);
 	
 	/* fonts */
 	--normal: 400;
@@ -98,6 +98,9 @@
 	--scrollbg: hsl(var(--grey) 15%);
 	--scrollbar: hsl(var(--grey) 25%);
 	--scrollhover: hsl(var(--grey) 30%);
+
+	--homeFilter: invert(70%) sepia(19%) saturate(1212%) hue-rotate(125deg) brightness(90%) contrast(89%);
+	--homeFilterHover: invert(76%) sepia(55%) saturate(5389%) hue-rotate(14deg) brightness(90%) contrast(80%);
     
 	/* fonts */
 	--normal: 300;
@@ -119,7 +122,7 @@ html {
 a {
 	color: var(--linkspop);
 }
-a:hover, a:active {
+a:hover, a:active, a:focus {
 	color: var(--hover2nd);
 }
 a:not(header a,footer a, .blogIndex a) {
