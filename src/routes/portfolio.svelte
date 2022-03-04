@@ -1,3 +1,11 @@
+<script context="module">
+  export const load = async () => {
+    return {
+      stuff: { color: "var(--alto)" },
+    };
+  };
+</script>
+
 <script>
   import Popup from "$lib/components/Popup.svelte";
   import Ascii from "$lib/assets/ascii-art.txt?raw";
@@ -22,7 +30,7 @@
   <title>sara j. wallén | Stuff</title>
 </svelte:head>
 
-<div class="stuff">
+<div class="portfolio">
   <section class="container box1">
     <button
       class="bigrow"
@@ -200,7 +208,7 @@
 </div>
 
 <style>
-  .stuff {
+  .portfolio {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -306,7 +314,7 @@
   }
 
   @media only screen and (max-width: 600px) {
-    .stuff {
+    .portfolio {
       gap: 8px;
     }
     .container {

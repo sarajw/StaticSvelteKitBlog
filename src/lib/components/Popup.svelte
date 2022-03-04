@@ -17,16 +17,13 @@
     urlNoHttp = local;
   }
 
-  let closePopup;
-
   function close() {
     dispatch("closePopup");
   }
-  function doNothing() {}
 </script>
 
 <div on:click={close} class="popwrap">
-  <article on:click={(event) => event.stopPropagation()} class="popup">
+  <article on:click|stopPropagation class="popup">
     <button on:click={close}>X</button>
     {#if image}<img src="/images/stuff/{image}" {alt} />{/if}
     <div class="heading">
@@ -80,6 +77,7 @@
     left: 0;
     padding: calc(0.5 * var(--headheight));
     background-color: var(--shadowpop);
+    z-index: 20;
   }
   .popup {
     margin: 0 auto;

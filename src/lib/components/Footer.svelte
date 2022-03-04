@@ -1,4 +1,8 @@
-<footer>
+<script>
+  import { page } from "$app/stores";
+</script>
+
+<footer style:background-color={$page.stuff.color ?? "var(--bass)"}>
   <a href="/">{new Date().getFullYear()} Sara J. Wallén</a>
 </footer>
 

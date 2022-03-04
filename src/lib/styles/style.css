@@ -22,11 +22,11 @@
 	--hover2nd: hsl(var(--2nd) 40%);
 	
 	--bottom: #fff;
-	--bass: hsl(var(--grey) 90%);
-	--tenor: hsl(var(--grey) 85%);
-	--alto: hsl(var(--grey) 80%);
-	--soprano: hsl(var(--grey) 75%);
-	--ultra: hsl(var(--grey) 70%);
+	--bass: hsl(var(--grey) 95%);
+	--tenor: hsl(var(--grey) 90%);
+	--alto: hsl(var(--grey) 85%);
+	--soprano: hsl(var(--grey) 80%);
+	--ultra: hsl(var(--grey) 75%);
 	
 	--basspop: hsl(var(--pop) 80%);
 	--tenorpop: hsl(var(--pop) 75%);
@@ -43,7 +43,7 @@
 	--scrollhover: hsl(var(--grey) 70%);
 
 	/* scaling */
-	--headheight: clamp(40px, 8vw, 60px);
+	--headheight: clamp(40px, 8vw, 70px);
 	
 	/* fonts */
 	--normal: 400;
@@ -61,6 +61,7 @@
 @media (prefers-color-scheme: dark) {
     :root {
 	/* Dark */
+
 	--background: hsl(var(--2nd) 30%);
 	--text: hsl(var(--grey) 90%);
 	--textinv: hsl(var(--grey) 10%);
@@ -147,15 +148,15 @@ body > div {
     min-height: calc(100vh - 10px);
     margin: 5px auto;
 
-	border-radius: 5px;
+	border-radius: 0.5rem;
+	overflow:hidden;
 
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto 0.5rem 1fr auto;
+    grid-template-rows: auto 1fr auto;
     gap: 0px 0px;
     grid-template-areas:
         "header"
-		"shoulders"
         "main"
         "footer";
       
@@ -164,13 +165,11 @@ body > div {
 header {
     grid-area: header;
 }
-.shoulders {
-    grid-area: shoulders;
-}
 main {
     grid-area: main;
-	background-color: var(--bass);
     padding: 5vw;
+	border-top-left-radius: 0.5rem;
+	border-top-right-radius: 0.5rem;
 }
 footer {
     grid-area: footer;
