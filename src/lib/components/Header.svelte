@@ -96,8 +96,8 @@
     height: 2em;
     line-height: 2em;
     margin: 0 -0.25em;
-    border-top-left-radius: 0.5rem;
-    border-top-right-radius: 0.5rem;
+    border-top-left-radius: var(--border-radii);
+    border-top-right-radius: var(--border-radii);
   }
   li:hover {
     z-index: 5 !important;

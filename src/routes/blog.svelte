@@ -52,7 +52,7 @@
     display: flex;
     max-width: 60ch;
     min-width: 10rem;
-    border-radius: 0.5rem;
+    border-radius: var(--border-radii);
     overflow: hidden;
     color: var(--text);
     transition: transform 0.2s ease;

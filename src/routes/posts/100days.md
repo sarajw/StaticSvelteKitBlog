@@ -5,9 +5,23 @@ exerpt: Copying and pasting my tweets on the matter as I slowly make my way thro
 image: twitter.png
 ---
 
-![Twitter account @sarajwallen](/images/blog/twitter.png)
+[![Twitter account @sarajwallen](/images/blog/twitter.png)](https://twitter.com/sarajwallen)
 <p class="caption">My twitter account is <a href="https://twitter.com/sarajwallen">@sarajwallen</a> :)</p>
 
+
+## Day 22/#100DaysOfCode 
+
+Unsure whether I want to merge http://sarawallen.com and http://blog.sarawallen.com just yet.
+
+The former is made with pure HTML & CSS, it would almost be sad to stuff it into the other one!
+
+I'm very pleased with the blog's navigation now, though.
+
+## Day 21/#100DaysOfCode 
+
+I have been wrangling the tabs and colours in the navigation of my blog, definitely got some work to do to get tabs to come forward when active, but am slowly finding my way.
+
+Also thank you Svelte for afterUpdate()! Took me a while to find it though...
 
 ## Day 20/#100DaysOfCode
 

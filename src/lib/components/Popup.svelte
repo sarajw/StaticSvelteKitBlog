@@ -85,7 +85,7 @@
     max-height: 100%;
     background-color: var(--bass);
     padding: 1vw 2vw 1vw;
-    border-radius: 0.5rem;
+    border-radius: var(--border-radii);
     border: 1vw solid var(--bass);
     overflow: auto;
     overscroll-behavior: contain;
@@ -94,7 +94,7 @@
   .popup img {
     display: block;
     margin: 0.5em auto 0;
-    border-radius: 5px;
+    border-radius: calc(var(--border-radii) / 2);
   }
 
   .popup::-webkit-scrollbar {
@@ -106,7 +106,7 @@
   }
   .popup::-webkit-scrollbar-thumb {
     background: var(--scrollbar);
-    border-radius: 0.5rem;
+    border-radius: var(--border-radii);
   }
   .popup::-webkit-scrollbar-thumb:hover {
     background: var(--scrollhover);

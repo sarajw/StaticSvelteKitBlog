@@ -14,8 +14,8 @@
 	--shadow2nd: hsl(var(--2nd) 75% / 0.9);
 	
 	--links: hsl(var(--grey) 30%);
-	--linkspop: hsl(var(--pop) 30%);
-	--links2nd: hsl(var(--2nd) 30%);
+	--linkspop: hsl(var(--pop) 40%);
+	--links2nd: hsl(var(--2nd) 40%);
 
 	--hover: hsl(var(--grey) 50%);
 	--hoverpop: hsl(var(--pop) 40%);
@@ -42,8 +42,12 @@
 	--scrollbar: hsl(var(--grey) 75%);
 	--scrollhover: hsl(var(--grey) 70%);
 
+	--homeFilter: invert(60%) sepia(6%) saturate(3338%) hue-rotate(126deg) brightness(84%) contrast(98%);
+	--homeFilterHover: invert(76%) sepia(55%) saturate(5389%) hue-rotate(14deg) brightness(90%) contrast(80%);
+
 	/* scaling */
 	--headheight: clamp(50px, 10vw, 100px);
+	--border-radii: 0.4rem;
 	
 	/* fonts */
 	--normal: 400;
@@ -100,7 +104,6 @@
 	--scrollhover: hsl(var(--grey) 30%);
 
 	--homeFilter: invert(70%) sepia(19%) saturate(1212%) hue-rotate(125deg) brightness(90%) contrast(89%);
-	--homeFilterHover: invert(76%) sepia(55%) saturate(5389%) hue-rotate(14deg) brightness(90%) contrast(80%);
     
 	/* fonts */
 	--normal: 300;
@@ -135,7 +138,7 @@ a:not(header a,footer a, .blogIndex a):hover {
 	position: relative;
 	outline: 0.1rem dashed var(--hoverpop);
 	outline-offset: 0.25rem;
-	border-radius: 0.25em;
+	border-radius: var(--border-radii);
 	z-index: 10;
 }
 
@@ -151,7 +154,7 @@ body > div {
     min-height: calc(100vh - 10px);
     margin: 5px auto;
 
-	border-radius: 0.5rem;
+	border-radius: var(--border-radii);
 	overflow:hidden;
 
     display: grid;
@@ -171,8 +174,8 @@ header {
 main {
     grid-area: main;
     padding: 5vw;
-	border-top-left-radius: 0.5rem;
-	border-top-right-radius: 0.5rem;
+	border-top-left-radius: var(--border-radii);
+	border-top-right-radius: var(--border-radii);
 }
 footer {
     grid-area: footer;

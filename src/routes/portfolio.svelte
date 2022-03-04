@@ -226,7 +226,7 @@
 
   .container > div,
   .container button {
-    border-radius: 0.5rem;
+    border-radius: var(--border-radii);
     background-size: cover;
     background-position: center;
     overflow: hidden;
