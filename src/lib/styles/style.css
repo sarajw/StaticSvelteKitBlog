@@ -155,7 +155,6 @@ body > div {
     margin: 5px auto;
 
 	border-radius: var(--border-radii);
-	overflow:hidden;
 
     display: grid;
     grid-template-columns: 1fr;
@@ -180,6 +179,8 @@ main {
 footer {
     grid-area: footer;
 	background-color: var(--bass);
+	border-bottom-left-radius: var(--border-radii);
+	border-bottom-right-radius: var(--border-radii);
 }
 
 main > :not(.portfolio, .blogIndex) {

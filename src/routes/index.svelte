@@ -23,11 +23,12 @@
   section {
     position: relative;
     top: 50%;
-    transform: translateY(-60%);
+    transform: translateY(-50%);
     border-radius: calc(2 * var(--border-radii));
     background-color: var(--bass);
     box-shadow: 3px 3px 20px -10px black;
     padding: 0 1rem 0.5rem;
+    margin: 1rem auto;
   }
   img {
     position: absolute;
