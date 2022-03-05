@@ -14,15 +14,37 @@
 
 <p class="emailLink"><a href="mailto:webdev@sarawallen.com">Email me!</a></p>
 
-<form name="contact" method="POST" data-netlify="true">
+<form
+  name="contact"
+  method="POST"
+  data-netlify="true"
+  Content-Type="application/x-www-form-urlencoded"
+>
   <p>
-    <label>Your Name: <input type="text" name="name" /></label>
+    <label
+      >Your Name: <input
+        type="text"
+        name="name"
+        placeholder="This form isn't quite"
+      /></label
+    >
   </p>
   <p>
-    <label>Your Email: <input type="email" name="email" /></label>
+    <label
+      >Your Email: <input
+        type="email"
+        name="email"
+        placeholder="working-just@yet.so"
+      /></label
+    >
   </p>
   <p>
-    <label class="message">Message: <textarea name="message" /></label>
+    <label class="message"
+      >Message: <textarea
+        name="message"
+        placeholder="please use the email link!"
+      /></label
+    >
   </p>
   <button type="submit"><b>Send</b></button>
 </form>
