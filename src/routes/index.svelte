@@ -7,12 +7,8 @@
 </svelte:head>
 
 <section>
-  <h1>Welcome to my Blog&shy;olio!</h1>
+  <h1>Welcome!</h1>
   <img src={headShot} width="400" alt="headshot" />
-  <p>
-    Yes it's a daft name.
-    <br />But that's OK.
-  </p>
   <p>
     Hi! I'm Sara.
     <br />Take a look around :)
@@ -28,7 +24,7 @@
     background-color: var(--bass);
     box-shadow: 3px 3px 20px -10px black;
     padding: 0 1rem 0.5rem;
-    margin: 1rem auto;
+    margin: calc(var(--headheight) * 1 / 3) auto;
   }
   img {
     position: absolute;

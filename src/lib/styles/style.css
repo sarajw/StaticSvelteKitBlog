@@ -172,7 +172,8 @@ header {
 }
 main {
     grid-area: main;
-    padding: 5vw;
+	min-height: 32rem;
+    padding: 5vw 5vw calc(5vw + (var(--headheight) * 2 / 3));
 	border-top-left-radius: var(--border-radii);
 	border-top-right-radius: var(--border-radii);
 }

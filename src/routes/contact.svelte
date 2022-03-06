@@ -13,8 +13,6 @@
 
 <h1>Get in touch:</h1>
 
-<p class="emailLink"><a href="mailto:webdev@sarawallen.com">Email me!</a></p>
-
 <form
   name="contact"
   method="POST"
@@ -22,33 +20,29 @@
   Content-Type="application/x-www-form-urlencoded"
 >
   <input type="hidden" name="form-name" value="contact" />
-  <p>
-    <label
-      >Name: <input
-        type="text"
-        name="name"
-        placeholder="This form is not quite"
-      /></label
-    >
+  <p class="emailLink">
+    <a href="mailto:webdev@sarawallen.com"><h3>webdev@sarawallen.com</h3></a>
+    Click^ to use your own email app,
+    <br />or feel free to use this form:
   </p>
   <p>
     <label
-      >Email: <input
-        type="email"
-        name="email"
-        placeholder="working yet, so"
-      /></label
+      >Name:
+      <br /><input type="text" name="name" /></label
     >
   </p>
   <p>
-    <label class="message"
-      >Message: <textarea
-        name="message"
-        placeholder="please use the email link"
-      /></label
+    <label
+      >Email:
+      <br /><input type="email" name="email" /></label
     >
   </p>
-  <button type="submit"><b>Send</b></button>
+  <p>
+    <label class="message">Message:<br /><textarea name="message" /></label>
+  </p>
+  <p>
+    <button type="submit"><b>Send</b></button>
+  </p>
 </form>
 
 <style>
@@ -56,21 +50,14 @@
     text-align: center;
   }
   form {
-    width: fit-content;
-    display: block;
-    margin: 0 auto;
-  }
-  label {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
+    width: min-content;
   }
   input,
   textarea {
-    margin-left: 0.5rem;
     border: 1px solid var(--hoverpop);
-    width: 15rem;
+    background-color: var(--alto);
     border-radius: calc(var(--border-radii) / 2);
+    min-width: 30ch;
   }
   button {
     display: block;
@@ -78,7 +65,7 @@
     border-radius: calc(var(--border-radii) / 2);
     color: var(--textinv);
     background-color: var(--linkspop);
-    margin: 0 0 0 auto;
+    margin: 0 auto;
   }
   button:hover,
   button:focus,
