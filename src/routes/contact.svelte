@@ -14,7 +14,12 @@
 
 <p class="emailLink"><a href="mailto:webdev@sarawallen.com">Email me!</a></p>
 
-<form name="contact" method="POST" netlify>
+<form
+  name="contact"
+  method="POST"
+  data-netlify="true"
+  Content-Type="application/x-www-form-urlencoded"
+>
   <p>
     <label
       >Name: <input
@@ -29,7 +34,7 @@
       >Email: <input
         type="email"
         name="email"
-        placeholder="working just yet, so"
+        placeholder="working yet, so"
       /></label
     >
   </p>
