@@ -20,7 +20,7 @@
       >Name: <input
         type="text"
         name="name"
-        placeholder="This form isn't quite"
+        placeholder="This form is not quite"
       /></label
     >
   </p>
@@ -29,7 +29,7 @@
       >Email: <input
         type="email"
         name="email"
-        placeholder="working-just@yet.so"
+        placeholder="working just yet, so"
       /></label
     >
   </p>
@@ -37,7 +37,7 @@
     <label class="message"
       >Message: <textarea
         name="message"
-        placeholder="please use the email link!"
+        placeholder="please use the email link"
       /></label
     >
   </p>
