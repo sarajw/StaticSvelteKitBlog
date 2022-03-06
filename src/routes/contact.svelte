@@ -18,11 +18,12 @@
   name="contact"
   method="POST"
   data-netlify="true"
+  action="/contact"
   Content-Type="application/x-www-form-urlencoded"
 >
   <p>
     <label
-      >Your Name: <input
+      >Name: <input
         type="text"
         name="name"
         placeholder="This form isn't quite"
@@ -31,7 +32,7 @@
   </p>
   <p>
     <label
-      >Your Email: <input
+      >Email: <input
         type="email"
         name="email"
         placeholder="working-just@yet.so"
