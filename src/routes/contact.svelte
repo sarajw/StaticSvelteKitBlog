@@ -4,6 +4,7 @@
       stuff: { color: "var(--soprano)" },
     };
   };
+  export const prerender = true;
 </script>
 
 <svelte:head>
@@ -20,6 +21,7 @@
   data-netlify="true"
   Content-Type="application/x-www-form-urlencoded"
 >
+  <input type="hidden" name="form-name" value="contact" />
   <p>
     <label
       >Name: <input
