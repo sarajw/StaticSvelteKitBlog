@@ -14,13 +14,7 @@
 
 <p class="emailLink"><a href="mailto:webdev@sarawallen.com">Email me!</a></p>
 
-<form
-  name="contact"
-  method="POST"
-  data-netlify="true"
-  action="/contact"
-  Content-Type="application/x-www-form-urlencoded"
->
+<form name="contact" method="POST" netlify>
   <p>
     <label
       >Name: <input
