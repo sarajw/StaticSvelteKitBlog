@@ -9,10 +9,7 @@
 <section>
   <h1>Welcome!</h1>
   <img src={headShot} width="400" alt="headshot" />
-  <p>
-    Hi! I'm Sara.
-    <br />Take a look around :)
-  </p>
+  <p>Hi! I'm Sara. Do have a look around :)</p>
 </section>
 
 <style>

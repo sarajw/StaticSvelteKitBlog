@@ -46,8 +46,8 @@
 <style>
   button {
     position: absolute;
-    top: calc(0.5 * var(--headheight) + 2vw);
-    right: calc(0.5 * var(--headheight) + 2vw);
+    top: 4vw;
+    right: 4vw;
     width: calc(2rem + 1vw);
     aspect-ratio: 1;
     line-height: calc(2rem + 1vw);
@@ -75,7 +75,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    padding: calc(0.5 * var(--headheight));
+    padding: 2.5vw;
     background-color: var(--shadowpop);
     z-index: 20;
   }
@@ -84,7 +84,7 @@
     min-height: 30%;
     max-height: 100%;
     background-color: var(--bass);
-    padding: 1vw 2vw 1vw;
+    padding: 2vw 2vw 1vw;
     border-radius: var(--border-radii);
     border: 1vw solid var(--bass);
     overflow: auto;
@@ -93,7 +93,7 @@
   }
   .popup img {
     display: block;
-    margin: 0.5em auto 0;
+    margin: 0 auto;
     border-radius: calc(var(--border-radii) / 2);
   }
 

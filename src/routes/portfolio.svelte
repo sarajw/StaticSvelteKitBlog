@@ -6,6 +6,7 @@
   let show_b2 = false;
   let show_d2 = false;
   let show_b3 = false;
+  let show_c3 = false;
   let show_c4 = false;
 
   function popupClose(event) {
@@ -14,6 +15,7 @@
     show_b2 = false;
     show_d2 = false;
     show_b3 = false;
+    show_c3 = false;
     show_c4 = false;
   }
 </script>
@@ -174,10 +176,25 @@
       id="d3"
       style="background-image: url('/images/stuff/tumblr_small.png')"
     >
-      <a href="https://swingtanzerin.tumblr.com" target="_blank"
-        ><h1 class="caption">Tumblr</h1></a
-      >
+      <h1 on:click={() => (show_c3 = true)} class="caption">Tumblr</h1>
     </button>
+    {#if show_c3}
+      <Popup
+        on:closePopup={popupClose}
+        title="Swintänzerin"
+        url="https://swingtanzerin.tumblr.com/"
+        image="tumblr.png"
+        alt="A wall with stickers reading DER HUSTLE IST HART and DER STRUGGLE SO REAL"
+      >
+        <div slot="desc">
+          <p>There is a lot of stuff on this old tumblr of mine:</p>
+          <p>
+            Swing dance DJ sets, lindy-hop discussion, photography and crochet
+            projects. Enjoy!
+          </p>
+        </div>
+      </Popup>
+    {/if}
   </section>
 
   <section class="container box4">
