@@ -1,7 +1,7 @@
 :root {
 	
 	--pop: 175 50%;
-	--2nd: 45 75%;
+	--2nd: 45 100%;
 	--grey: 0 0%;
 
 	/* colours  */
@@ -134,7 +134,7 @@ a:not(header a,footer a, .blogIndex a) {
 a:not(header a,footer a, .blogIndex a):hover {
     border-bottom: 1px solid var(--linkspop);
 }
-:focus {
+:focus:not(html) {
 	position: relative;
 	outline: 0.1rem dashed var(--hoverpop);
 	outline-offset: 0.25rem;
@@ -174,14 +174,10 @@ main {
     grid-area: main;
 	min-height: 32rem;
     padding: 5vw 5vw calc(5vw + (var(--headheight) * 2 / 3));
-	border-top-left-radius: var(--border-radii);
-	border-top-right-radius: var(--border-radii);
+	border-radius: var(--border-radii);
 }
 footer {
     grid-area: footer;
-	background-color: var(--bass);
-	border-bottom-left-radius: var(--border-radii);
-	border-bottom-right-radius: var(--border-radii);
 }
 
 main > :not(.portfolio, .blogIndex) {

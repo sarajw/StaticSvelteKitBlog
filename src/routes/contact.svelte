@@ -1,9 +1,4 @@
 <script context="module">
-  export const load = async () => {
-    return {
-      stuff: { color: "var(--soprano)" },
-    };
-  };
   export const prerender = true;
 </script>
 
@@ -21,9 +16,9 @@
 >
   <input type="hidden" name="form-name" value="contact" />
   <p class="emailLink">
-    <a href="mailto:webdev@sarawallen.com"><h3>webdev@sarawallen.com</h3></a>
-    Click^ to use your own email app,
-    <br />or feel free to use this form:
+    <a href="mailto:webdev@sarawallen.com">webdev@sarawallen.com</a>
+    <br />Click^ to use your own email app,
+    <br />otherwise please use the form:
   </p>
   <p>
     <label
@@ -48,6 +43,11 @@
 <style>
   .emailLink {
     text-align: center;
+  }
+  .emailLink a {
+    display: inline-block;
+    font-size: var(--h3);
+    margin-bottom: 0.5rem;
   }
   form {
     width: min-content;

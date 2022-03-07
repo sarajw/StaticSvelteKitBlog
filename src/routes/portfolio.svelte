@@ -1,11 +1,3 @@
-<script context="module">
-  export const load = async () => {
-    return {
-      stuff: { color: "var(--alto)" },
-    };
-  };
-</script>
-
 <script>
   import Popup from "$lib/components/Popup.svelte";
   import Ascii from "$lib/assets/ascii-art.txt?raw";

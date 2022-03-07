@@ -4,7 +4,6 @@
     const allPosts = await posts.json();
 
     return {
-      stuff: { color: "var(--tenor)" },
       props: {
         posts: allPosts,
       },

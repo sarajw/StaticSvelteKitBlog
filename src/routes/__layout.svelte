@@ -3,27 +3,51 @@
   import Header from "$lib/components/Header.svelte";
   import Footer from "$lib/components/Footer.svelte";
   import { page } from "$app/stores";
+  import { afterUpdate } from "svelte";
   import "the-new-css-reset/css/reset.css";
+  import lightTile from "$lib/assets/images/lighttile.png";
   import "$lib/styles/font.css";
   import "$lib/styles/style.css";
-  import lightTile from "$lib/assets/images/lighttile.png";
+
+  let route;
+  afterUpdate(() => {
+    route = $page.url.pathname.slice(1);
+  });
 </script>
 
 <Header />
-{#if $page.url.pathname == "/"}
-  <main
-    style="
-    background: var(--bass) url({lightTile});
-    background-size: clamp(50px, 25vw, 400px);
-    background-repeat: repeat;
-    background-position: center;
-    "
-  >
+{#if route == ""}
+  <main class="index" style="--tile: url({lightTile})">
     <slot />
   </main>
 {:else}
-  <main style:background-color={$page.stuff.color ?? "var(--bass)"}>
+  <main class={route}>
     <slot />
   </main>
 {/if}
 <Footer />
+
+<style>
+  .index {
+    background-image: linear-gradient(
+        var(--bass) 0%,
+        transparent 30%,
+        transparent 70%,
+        var(--bass) 100%
+      ),
+      var(--tile);
+    background-color: var(--bass);
+    background-size: clamp(200px, 25vw, 400px);
+    background-repeat: repeat;
+    background-position: center;
+  }
+  .blog {
+    background-color: var(--tenor);
+  }
+  .portfolio {
+    background-color: var(--alto);
+  }
+  .contact {
+    background-color: var(--soprano);
+  }
+</style>

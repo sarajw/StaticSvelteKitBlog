@@ -9,6 +9,15 @@ image: twitter.png
 <p class="caption">My twitter account is <a href="https://twitter.com/sarajwallen">@sarajwallen</a> :)</p>
 
 
+## Day 23/#100DaysOfCode
+
+* Sort out contact form* ✅
+* Make my sites function in mobile-landscape-mode 😵 - eeh, mostly ✅
+
+*The contact form was a proper pain, it took me a while to work out what Netlify needed me to do to make it work.
+
+Next up: Custom submission and error pages!
+
 ## Day 22/#100DaysOfCode 
 
 Unsure whether I want to merge http://sarawallen.com and http://blog.sarawallen.com just yet.
