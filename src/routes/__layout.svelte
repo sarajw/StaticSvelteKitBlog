@@ -29,6 +29,15 @@
 <Footer />
 
 <style>
+  :root {
+    --basstransp: rgba(242, 242, 242, 0);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --basstransp: rgba(26, 26, 26, 0);
+    }
+  }
+
   .index {
     background-color: var(--bass);
     background-size: cover, clamp(200px, 25vw, 400px);
@@ -36,8 +45,8 @@
     background-position: center, center;
     background-image: linear-gradient(
         var(--bass),
-        rgba(242, 242, 242, 0) 30%,
-        rgba(242, 242, 242, 0) 70%,
+        var(--basstransp) 30%,
+        var(--basstransp) 70%,
         var(--bass)
       ),
       var(--tile);
