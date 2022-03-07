@@ -23,10 +23,10 @@
 	
 	--bottom: #fff;
 	--bass: hsl(var(--grey) 95%);
-	--tenor: hsl(var(--grey) 90%);
-	--alto: hsl(var(--grey) 85%);
-	--soprano: hsl(var(--grey) 80%);
-	--ultra: hsl(var(--grey) 75%);
+	--tenor: hsl(var(--grey) 92.5%);
+	--alto: hsl(var(--grey) 90%);
+	--soprano: hsl(var(--grey) 87.5%);
+	--ultra: hsl(var(--grey) 85%);
 	
 	--basspop: hsl(var(--pop) 80%);
 	--tenorpop: hsl(var(--pop) 75%);

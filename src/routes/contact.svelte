@@ -13,6 +13,7 @@
   method="POST"
   data-netlify="true"
   Content-Type="application/x-www-form-urlencoded"
+  action="/thankyou"
 >
   <input type="hidden" name="form-name" value="contact" />
   <p class="emailLink">
@@ -55,9 +56,14 @@
   input,
   textarea {
     border: 1px solid var(--hoverpop);
-    background-color: var(--alto);
+    background-color: var(--tenor);
     border-radius: calc(var(--border-radii) / 2);
     min-width: 30ch;
+    padding: 0.25rem 0.5rem;
+  }
+  textarea {
+    height: 9.5rem;
+    resize: vertical;
   }
   button {
     display: block;

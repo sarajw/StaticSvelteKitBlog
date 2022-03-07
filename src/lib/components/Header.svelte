@@ -8,8 +8,10 @@
   let portfolioZindex = 2;
   let contactZindex = 1;
 
+  let path = $page.url.pathname;
+
   afterUpdate(() => {
-    let path = $page.url.pathname;
+    path = $page.url.pathname;
 
     switch (path) {
       case "/":
@@ -31,6 +33,7 @@
         contactZindex = 1;
         break;
       case "/contact":
+      case "/thankyou":
         homeZindex = 1;
         blogZindex = 2;
         portfolioZindex = 3;

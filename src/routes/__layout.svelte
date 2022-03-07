@@ -9,7 +9,8 @@
   import "$lib/styles/font.css";
   import "$lib/styles/style.css";
 
-  let route;
+  let route = $page.url.pathname.slice(1);
+
   afterUpdate(() => {
     route = $page.url.pathname.slice(1);
   });
@@ -47,7 +48,8 @@
   .portfolio {
     background-color: var(--alto);
   }
-  .contact {
+  .contact,
+  .thankyou {
     background-color: var(--soprano);
   }
 </style>
