@@ -31,10 +31,10 @@
 <style>
   .index {
     background-image: linear-gradient(
-        var(--bass),
+        rgba(242, 242, 242, 1),
         rgba(242, 242, 242, 0) 30%,
         rgba(242, 242, 242, 0) 70%,
-        var(--bass)
+        rgba(242, 242, 242, 1)
       ),
       var(--tile);
     background-color: var(--bass);
