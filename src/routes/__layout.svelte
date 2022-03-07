@@ -30,17 +30,17 @@
 
 <style>
   .index {
+    background-color: var(--bass);
+    background-size: cover, clamp(200px, 25vw, 400px);
+    background-repeat: no-repeat, repeat;
+    background-position: center, center;
     background-image: linear-gradient(
-        rgba(242, 242, 242, 1),
+        var(--bass),
         rgba(242, 242, 242, 0) 30%,
         rgba(242, 242, 242, 0) 70%,
-        rgba(242, 242, 242, 1)
+        var(--bass)
       ),
       var(--tile);
-    background-color: var(--bass);
-    background-size: clamp(200px, 25vw, 400px);
-    background-repeat: repeat;
-    background-position: center;
   }
   .blog {
     background-color: var(--tenor);

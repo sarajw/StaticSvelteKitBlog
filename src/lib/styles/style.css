@@ -134,7 +134,7 @@ a:not(header a,footer a, .blogIndex a) {
 a:not(header a,footer a, .blogIndex a):hover {
     border-bottom: 1px solid var(--linkspop);
 }
-:focus {
+:focus:not(html, body) {
 	position: relative;
 	outline: 0.1rem dashed var(--hoverpop);
 	outline-offset: 0.25rem;
