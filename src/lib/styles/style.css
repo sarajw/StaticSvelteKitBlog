@@ -1,7 +1,7 @@
 :root {
 	
 	--pop: 175 50%;
-	--2nd: 45 100%;
+	--2nd: 325 35%;
 	--grey: 0 0%;
 
 	/* colours  */
@@ -43,7 +43,7 @@
 	--scrollhover: hsl(var(--grey) 70%);
 
 	--homeFilter: invert(60%) sepia(6%) saturate(3338%) hue-rotate(126deg) brightness(84%) contrast(98%);
-	--homeFilterHover: invert(76%) sepia(55%) saturate(5389%) hue-rotate(14deg) brightness(90%) contrast(80%);
+	--homeFilterHover: invert(32%) sepia(18%) saturate(1644%) hue-rotate(272deg) brightness(92%) contrast(87%);
 
 	/* scaling */
 	--headheight: clamp(50px, 10vw, 100px);

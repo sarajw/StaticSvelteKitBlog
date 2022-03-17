@@ -250,7 +250,7 @@
   .container > button:focus,
   .container > div:hover,
   .container > div:focus {
-    background-color: var(--sopranopop);
+    background-color: var(--soprano2nd);
     background-repeat: no-repeat;
     background-size: 0;
     transition: transform 0.1s ease;
