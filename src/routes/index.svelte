@@ -20,12 +20,14 @@
     border-radius: calc(2 * var(--border-radii));
     background-color: var(--bass);
     box-shadow: 3px 3px 20px -10px black;
-    padding: 0 1rem 0.5rem;
-    margin: calc(var(--headheight) * 1 / 3) auto;
+    padding: 0 1.25rem 0.5rem;
   }
   img {
     position: absolute;
-    max-width: 50%;
+    width: 40vmin;
+    height: 49vmin;
+    max-width: 300px;
+    max-height: 367.5px;
     right: 0;
     bottom: 0;
     border-bottom-right-radius: calc(2 * var(--border-radii));
@@ -33,6 +35,6 @@
   }
   h1,
   p {
-    max-width: 55%;
+    width: 60%;
   }
 </style>
