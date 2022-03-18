@@ -15,20 +15,14 @@
 <style>
   section {
     position: relative;
-    top: calc(50% + var(--headheight) * 1 / 3);
+    bottom: calc(-50% - var(--headheight) * 1 / 3);
     transform: translateY(-50%);
     border-radius: calc(2 * var(--border-radii));
     background-color: var(--bass);
     box-shadow: 3px 3px 20px -10px black;
     padding: 0 1.25rem 0.5rem;
   }
-  @supports (translate: 0) {
-    /* Individual transform properties are supported */
-    section {
-      transform: none;
-      translate: 0 -50%;
-    }
-  }
+
   img {
     position: absolute;
     width: 40vmin;
