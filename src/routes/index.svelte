@@ -22,6 +22,13 @@
     box-shadow: 3px 3px 20px -10px black;
     padding: 0 1.25rem 0.5rem;
   }
+  @supports (translate: 0) {
+    /* Individual transform properties are supported */
+    section {
+      transform: none;
+      translate: 0 -50%;
+    }
+  }
   img {
     position: absolute;
     width: 40vmin;
