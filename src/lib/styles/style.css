@@ -172,8 +172,8 @@ header {
 }
 main {
     grid-area: main;
-	padding: 5vw;
-    /* padding: 5vw 5vw calc(5vw + (var(--headheight) * 2 / 3)); */
+	/* padding: 5vw; */
+    padding: 5vw 5vw calc(5vw + (var(--headheight) * 2 / 3));
 	border-radius: var(--border-radii);
 }
 footer {

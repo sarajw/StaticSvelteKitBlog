@@ -15,7 +15,7 @@
 <style>
   section {
     position: relative;
-    top: 50%;
+    top: calc(50% + var(--headheight) * 1 / 3);
     transform: translateY(-50%);
     border-radius: calc(2 * var(--border-radii));
     background-color: var(--bass);

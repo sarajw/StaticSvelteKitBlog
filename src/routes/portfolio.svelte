@@ -259,9 +259,8 @@
   }
   .caption {
     visibility: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    place-content: center;
     height: 100%;
     text-transform: uppercase;
     text-align: center;
