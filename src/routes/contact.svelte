@@ -6,42 +6,48 @@
   <title>sara j. wallén | Contact</title>
 </svelte:head>
 
-<h1>Get in touch:</h1>
+<div class="contact">
+  <h1>Get in touch:</h1>
 
-<form
-  name="contact"
-  method="POST"
-  data-netlify="true"
-  Content-Type="application/x-www-form-urlencoded"
-  action="/thankyou"
->
-  <input type="hidden" name="form-name" value="contact" />
-  <p class="emailLink">
-    <a href="mailto:webdev@sarawallen.com">webdev@sarawallen.com</a>
-    <br />Click^ to use your own email app,
-    <br />otherwise please use the form:
-  </p>
-  <p>
-    <label
-      >Name:
-      <br /><input type="text" name="name" /></label
-    >
-  </p>
-  <p>
-    <label
-      >Email:
-      <br /><input type="email" name="email" /></label
-    >
-  </p>
-  <p>
-    <label class="message">Message:<br /><textarea name="message" /></label>
-  </p>
-  <p>
-    <button type="submit"><b>Send</b></button>
-  </p>
-</form>
+  <form
+    name="contact"
+    method="POST"
+    data-netlify="true"
+    Content-Type="application/x-www-form-urlencoded"
+    action="/thankyou"
+  >
+    <input type="hidden" name="form-name" value="contact" />
+    <p class="emailLink">
+      <a href="mailto:webdev@sarawallen.com">webdev@sarawallen.com</a>
+      <br />Click^ to use your own email app,
+      <br />otherwise please use the form:
+    </p>
+    <p>
+      <label
+        >Name:
+        <br /><input type="text" name="name" /></label
+      >
+    </p>
+    <p>
+      <label
+        >Email:
+        <br /><input type="email" name="email" /></label
+      >
+    </p>
+    <p>
+      <label class="message">Message:<br /><textarea name="message" /></label>
+    </p>
+    <p>
+      <button type="submit"><b>Send</b></button>
+    </p>
+  </form>
+</div>
 
 <style>
+  .contact {
+    width: fit-content;
+    margin: 5vw auto calc(3vw + var(--h0));
+  }
   .emailLink {
     text-align: center;
   }

@@ -6,22 +6,29 @@
   <title>sara j. wallén | Blogolio</title>
 </svelte:head>
 
-<section>
-  <h1>Welcome!</h1>
-  <img src={headShot} width="400" alt="headshot" />
-  <p>Hi! I'm Sara. Do have a look around :)</p>
-</section>
+<div class="centerer">
+  <article>
+    <h1>Welcome!</h1>
+    <img src={headShot} width="400" alt="headshot" />
+    <p>Hi! I'm Sara. Do have a look around :)</p>
+  </article>
+</div>
 
 <style>
-  section {
-    box-sizing: border-box;
+  .centerer {
+    height: 100%;
+    display: flex;
+    place-content: center;
+    place-items: center;
+  }
+  article {
     position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+    flex-basis: 35rem;
     border-radius: calc(2 * var(--border-radii));
     background-color: var(--bass);
     box-shadow: 3px 3px 20px -10px black;
     padding: 0 1.25rem 0.5rem;
+    margin: 5vw;
   }
 
   img {

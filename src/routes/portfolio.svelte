@@ -226,7 +226,7 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 8px;
-    margin-bottom: 5vw;
+    margin: 5vw 5vw calc(3vw + var(--h0));
   }
 
   .container {

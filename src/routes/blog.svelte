@@ -20,7 +20,7 @@
   <title>sara j. wallén | Blog</title>
 </svelte:head>
 
-<section class="blogIndex">
+<div class="blogIndex">
   <ul>
     {#each posts as post}
       <a href={post.path}>
@@ -38,11 +38,11 @@
       </a>
     {/each}
   </ul>
-</section>
+</div>
 
 <style>
   .blogIndex {
-    margin-bottom: 5vw;
+    margin: 5vw 5vw calc(3vw + var(--h0));
   }
   ul {
     display: flex;
