@@ -125,7 +125,7 @@ html {
 a {
 	color: var(--linkspop);
 }
-a:hover, a:active, a:focus {
+a:hover, a:active, a:focus-visible {
 	color: var(--hover2nd);
 }
 a:not(header a,footer a, .blogIndex a) {
@@ -134,7 +134,7 @@ a:not(header a,footer a, .blogIndex a) {
 a:not(header a,footer a, .blogIndex a):hover {
     border-bottom: 1px solid var(--linkspop);
 }
-:focus:not(html, body) {
+:focus-visible:not(html, body) {
 	position: relative;
 	outline: 0.1rem dashed var(--hoverpop);
 	outline-offset: 0.25rem;

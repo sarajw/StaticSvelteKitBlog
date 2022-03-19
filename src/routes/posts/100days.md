@@ -9,6 +9,69 @@ image: twitter.png
 <p class="caption">My twitter account is <a href="https://twitter.com/sarajwallen">@sarajwallen</a> :)</p>
 
 
+## Day 29/#100DaysOfCode
+
+- lose ugly drop shadows ✅
+- social icons white in dark mode ✅
+- line up h3 headings ✅
+
+- CSS art interactivity ✅
+- social icons to line up based on portrait/landscape ✅
+
+Plus a bunch of other twiddly things, I got lost in the mire of minor CSS tweaks!
+
+### Day 29 continued:
+
+I'm pleased with the interaction (on hover, or tap on mobile) on the CSS art at http://sarawallen.com
+ 
+First I was like boo, you can see how the shapes are constructed, and then I was like oh, cool, you can see how the shapes are constructed!
+
+## Day 28/#100DaysOfCode
+
+Things to fix on landing page:
+- ugly drop shadows
+- social icons should be white for dark mode
+- get all h3 headings to line up
+
+Improvements:
+- CSS art interactivity
+- add privacy policy / 'Impressum'
+- social icons to line up based on portrait/landscape
+
+## Day 27/#100DaysOfCode
+
+The last couple of days, I
+- watched @traversymedia's 2022 guide which was really insightful
+- played with new svh/lvh/dvh etc CSS units on my newly updated old iPhone 7, hope it comes to more (particularly mobile) browsers soon!
+- messed with webflow a bit
+
+## Day 26/#100DaysOfCode 
+
+Using PowerShell at work again, creating image lists for ffmpeg to turn into automated time-lapse videos.
+
+Question for video types - is there a known good codec and compression level that is playable on almost all systems and isn't too lossy? libx264?
+
+## Day 25/#100DaysOfCode (1/4 done!)
+
+* Fix index page for dark mode ✅
+* Investigate linear-gradient Safari issue [it was broken CSS] ✅
+* Work out what element is making the whole page have focus style (the dashed green line) & turn off ✅
+* Finish contact form thank you page ✅
+
+## Day 24/#100DaysOfCode
+
+Fixed some things on http://blog.sarawallen.com ... broken some other things, always the way 😅
+
+### Day 24 continued
+
+Notes to self:
+
+* Fix index page for dark mode
+* Investige linear-gradient Safari discrepancy
+* Work out what element is making the whole page have focus style (the dashed green line) and turn it off
+* Finish contact form thank you page
+* Create custom 404 page
+
 ## Day 23/#100DaysOfCode
 
 * Sort out contact form* ✅

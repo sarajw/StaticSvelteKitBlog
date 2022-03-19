@@ -10,23 +10,27 @@
   <title>sara j. wallén | {title}</title>
 </svelte:head>
 
-<div class="heading">
-  <h1>{title}</h1>
-  <p class="posted">Posted on {datestring}</p>
+<div class="blogpost">
+  <div class="heading">
+    <h1>{title}</h1>
+    <p class="posted">Posted on {datestring}</p>
+  </div>
+
+  <article class="post">
+    <slot />
+  </article>
 </div>
 
-<article class="post">
-  <slot />
-</article>
-
 <style>
+  .blogpost {
+    margin: 5vw 5vw calc(3vw + var(--h0));
+  }
   .heading {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     align-items: center;
     gap: 0 1rem;
-    color: var(--hover2nd);
   }
   .posted {
     margin-left: auto;
@@ -41,6 +45,9 @@
   .post :global(h2) {
     margin-top: var(--p);
     color: var(--linkspop);
+  }
+  .post :global(h3) {
+    color: var(--hover2nd);
   }
   .post :global(img) {
     display: block;

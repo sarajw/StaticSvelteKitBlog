@@ -51,7 +51,8 @@
       ),
       var(--tile);
   }
-  .blog {
+  .blog,
+  [class^="posts"] {
     background-color: var(--tenor);
   }
   .portfolio {
