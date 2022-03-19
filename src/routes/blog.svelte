@@ -41,6 +41,9 @@
 </section>
 
 <style>
+  .blogIndex {
+    margin-bottom: 5vw;
+  }
   ul {
     display: flex;
     flex-wrap: wrap;

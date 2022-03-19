@@ -52,13 +52,14 @@
   }
   form {
     width: min-content;
+    margin-bottom: 5vw;
   }
   input,
   textarea {
     border: 1px solid var(--hoverpop);
     background-color: var(--tenor);
     border-radius: calc(var(--border-radii) / 2);
-    min-width: 30ch;
+    width: 28ch;
     padding: 0.25rem 0.5rem;
   }
   textarea {

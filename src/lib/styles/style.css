@@ -58,7 +58,7 @@
     --h2: clamp(1.3rem, 5.5vw, 1.75rem);
     --h3: clamp(1.1rem, 5vw, 1.5rem);
     --p: clamp(0.8rem, 4.5vw, 1.1rem);
-    --sml: clamp(0.6rem, 4vw, 0.8rem);
+    --sml: clamp(0.6rem, 4vw, 1rem);
     --gap: clamp(0.4rem, 3vw, 0.6rem);
 }
 
@@ -172,8 +172,8 @@ header {
 }
 main {
     grid-area: main;
-	/* padding: 5vw; */
-    padding: 5vw 5vw calc(5vw + (var(--headheight) * 2 / 3));
+	padding: calc(var(--headheight) / 2 );
+    /* padding: 5vw 5vw calc(5vw + (var(--headheight) * 2 / 3)); */
 	border-radius: var(--border-radii);
 }
 footer {
