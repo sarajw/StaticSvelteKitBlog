@@ -23,7 +23,8 @@
 
 <style>
   .blogpost {
-    margin: 5vw 5vw calc(3vw + var(--h0));
+    margin: 5vw auto calc(3vw + var(--h0));
+    max-width: 40rem;
   }
   .heading {
     display: flex;

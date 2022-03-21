@@ -80,7 +80,7 @@
 
 	--hover: hsl(var(--grey) 70%);
 	--hoverpop: hsl(var(--pop) 40%);
-	--hover2nd: hsl(var(--2nd) 40%);
+	--hover2nd: hsl(var(--2nd) 60%);
 	
 	--bottom: #000;
 	--bass: hsl(var(--grey) 10%);
@@ -104,6 +104,7 @@
 	--scrollhover: hsl(var(--grey) 30%);
 
 	--homeFilter: invert(70%) sepia(19%) saturate(1212%) hue-rotate(125deg) brightness(90%) contrast(89%);
+	--homeFilterHover: invert(55%) sepia(10%) saturate(1582%) hue-rotate(272deg) brightness(96%) contrast(88%);
     
 	/* fonts */
 	--normal: 300;

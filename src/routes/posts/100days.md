@@ -9,12 +9,18 @@ image: twitter.png
 <p class="caption">My twitter account is <a href="https://twitter.com/sarajwallen">@sarajwallen</a> :)</p>
 
 
+## Day 30/#100DaysOfCode
+
+I am stuck in ever-decreasing circles of fiddling with stuff on my landing page and blog, I really need to get on with more learning!
+
+Considering joining 
+@flaviocopes' bootcamp this year, and in the meantime I'm looking back into @wesbos' JavaScript notes.
+
 ## Day 29/#100DaysOfCode
 
 - lose ugly drop shadows ✅
 - social icons white in dark mode ✅
 - line up h3 headings ✅
-
 - CSS art interactivity ✅
 - social icons to line up based on portrait/landscape ✅
 
