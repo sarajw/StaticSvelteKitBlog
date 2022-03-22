@@ -79,18 +79,18 @@
     text-align: right;
   }
   a:hover li,
-  a:focus li {
+  a:focus-visible li {
     transition: transform 0.1s ease;
     transform: translate(1px, 1px);
     box-shadow: 2px 2px 10px -9px var(--shadow);
   }
   a:hover img,
-  a:focus img {
+  a:focus-visible img {
     opacity: 0.9;
   }
   a:hover article,
-  a:focus article {
-    background-color: var(--basspop);
+  a:focus-visible article {
+    background-color: var(--bass2nd);
   }
 
   @media only screen and (max-width: 500px) {
