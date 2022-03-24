@@ -8,6 +8,19 @@ image: twitter.png
 [![Twitter account @sarajwallen](/images/blog/twitter.png)](https://twitter.com/sarajwallen)
 <p class="caption">My twitter account is <a href="https://twitter.com/sarajwallen">@sarajwallen</a> :)</p>
 
+## Day 32/#100DaysOfCode 
+
+Apparently if you transform:translate() an element, Firefox still gives it the space it would have taken up before it was moved. A bit like position: relative I suppose?
+
+So now I know... but only after a good period spent scratching my head over it 😅
+
+## Day 31/#100DaysOfCode 
+
+I was fiddling with the HTML <details> tag to try and trick it into becoming an elegant non-js navigation clicky menu.
+
+Well, it worked, but I also wanted it to close when clicking outside, so I had to add JS anyway 😅
+
+Have a look: http://details-nav.netlify.app
 
 ## Day 30/#100DaysOfCode
 
