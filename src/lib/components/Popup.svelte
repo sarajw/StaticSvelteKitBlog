@@ -3,6 +3,7 @@
   const dispatch = createEventDispatcher();
 
   export let image;
+  export let asprat;
   export let alt;
   export let title;
   export let rawtext;
@@ -25,7 +26,11 @@
 <div on:click={close} class="popwrap">
   <article on:click|stopPropagation class="popup">
     <button on:click={close}>X</button>
-    {#if image}<img src="/images/stuff/{image}" {alt} />{/if}
+    {#if image}<img
+        src="/images/stuff/{image}"
+        {alt}
+        style:aspect-ratio={asprat}
+      />{/if}
     <div class="heading">
       <h2>{title}</h2>
       {#if urlNoHttp}

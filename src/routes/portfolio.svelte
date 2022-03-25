@@ -41,6 +41,7 @@
         title="sarawallen.com"
         url="https://sarawallen.com"
         image="sarawallen_com_large.png"
+        asprat="4/3"
         alt="Sara's main landing page"
       >
         <div slot="desc">
@@ -67,6 +68,7 @@
         title="Yasmin Brinkmann"
         url="https://yasmin-brinkmann.de"
         image="yasmin_large.png"
+        asprat="16/9"
         alt="Yasmin Brinkmann desktop website screenshot"
       >
         <div slot="desc">
@@ -103,6 +105,7 @@
         title="MK timelapse GmbH"
         url="https://mktimelapse.com"
         image="mktimelapse_large.png"
+        asprat="16/9"
         alt="MK timelapse GmbH desktop website screenshot"
       >
         <div slot="desc">
@@ -129,6 +132,7 @@
         title="Hamburg Binnenalster"
         local="binnenalster.jpg"
         image="binnenalster.jpg"
+        asprat="4/3"
         alt="A photo of the Hamburg Binnenalster"
       >
         <div slot="desc">
@@ -153,6 +157,7 @@
         title="Channel 4 Teletext's Mega-zine"
         url="https://mega-zine.netlify.app/"
         image="mega-zine.png"
+        asprat="8/5"
         alt="Mega-zine teletext mock-up screenshot"
       >
         <div slot="desc">
@@ -184,6 +189,7 @@
         title="Swintänzerin"
         url="https://swingtanzerin.tumblr.com/"
         image="tumblr.png"
+        asprat="7/5"
         alt="A wall with stickers reading DER HUSTLE IST HART and DER STRUGGLE SO REAL"
       >
         <div slot="desc">
