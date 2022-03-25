@@ -30,6 +30,7 @@
         src="/images/stuff/{image}"
         {alt}
         style:aspect-ratio={asprat}
+        style:background-image="url('/images/placeholder.png')"
       />{/if}
     <div class="heading">
       <h2>{title}</h2>
