@@ -220,3 +220,7 @@ pre, code {
     font-family: 'IBM Plex Mono', monospace;
 	font-weight: 300;
   }
+
+code .comment {
+	font-style: italic;
+}

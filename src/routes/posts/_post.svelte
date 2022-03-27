@@ -65,7 +65,6 @@
   .post :global(pre) {
     margin: 0.5rem 0;
     padding: 0.75rem 1rem;
-    max-width: 100%;
     background-color: var(--textinv);
     border-radius: var(--border-radii);
     white-space: pre-wrap;

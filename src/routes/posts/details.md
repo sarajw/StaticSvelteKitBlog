@@ -70,8 +70,3 @@ It seems like a cute short-cut. And it is to some degree, until you actually wan
 As such you end up writing a bunch of JS anyway, and if you're going to do that - well, you may as well use ```<button>``` and go the (only very slightly) longer way round.
 
 Despite all this I think ```<details>``` is a useful tag to have in our HTML armoury, just not in this particular case.
-
-## P.S.
-I hope this is useful to anyone looking it up and thinking this could have been a handy way to do things!
-
-Also, I am really quite new to more modern web development and I have a LOT to learn, so any comments you have on this are very welcome!
