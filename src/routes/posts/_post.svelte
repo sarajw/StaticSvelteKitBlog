@@ -24,13 +24,14 @@
 <style>
   .blogpost {
     margin: 5vw auto calc(3vw + var(--h0));
-    padding: 0 3vw;
     max-width: 40rem;
+  }
+  .blogpost > * {
+    margin: 0 3vw;
   }
   .heading {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
     align-items: center;
     gap: 0 1rem;
   }
@@ -62,12 +63,21 @@
     font-size: var(--sml);
   }
   .post :global(pre) {
-    font-size: var(--sml);
-    line-height: var(--h3);
-    max-width: fit-content;
     margin: 0.5rem 0;
     padding: 0.75rem 1rem;
+    max-width: 100%;
     background-color: var(--textinv);
     border-radius: var(--border-radii);
+    white-space: pre-wrap;
+  }
+  .post :global(code) {
+    font-size: var(--sml);
+    line-height: var(--h3);
+  }
+  .post :global(h2 code) {
+    font-size: inherit;
+    line-height: inherit;
+    font-family: inherit;
+    font-weight: inherit;
   }
 </style>

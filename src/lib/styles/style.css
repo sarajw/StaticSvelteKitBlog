@@ -50,6 +50,7 @@
 	--border-radii: 0.4rem;
 	
 	/* fonts */
+	--light: 200;
 	--normal: 400;
 	--heavy: 600;	
 
@@ -107,6 +108,7 @@
 	--homeFilterHover: invert(55%) sepia(10%) saturate(1582%) hue-rotate(272deg) brightness(96%) contrast(88%);
     
 	/* fonts */
+	--light: 100;
 	--normal: 300;
 	--heavy: 500;
     }
@@ -214,7 +216,7 @@ s, del {
 	text-decoration: line-through;
 }
 
-pre {
-    white-space: pre;
-    font-family: "Lucida Console", monospace;
+pre, code {
+    font-family: 'IBM Plex Mono', monospace;
+	font-weight: 300;
   }

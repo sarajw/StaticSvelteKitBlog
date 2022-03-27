@@ -6,7 +6,7 @@
   import { afterUpdate } from "svelte";
   import "the-new-css-reset/css/reset.css";
   import lightTile from "$lib/assets/images/lighttile.png";
-  import "$lib/styles/font.css";
+  import "$lib/styles/fonts.css";
   import "$lib/styles/style.css";
 
   let route = $page.url.pathname.slice(1);

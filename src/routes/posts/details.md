@@ -47,12 +47,12 @@ So, in we came with JavaScript. It took me a while to get to the right code to d
 For a long time I was managing to get the click-anywhere-to-close thing to work, but when you clicked on the button itself it immediately reopened the menu. Sigh. Got there in the end, thanks to StackOverflow, of course:
 
 ```js
-let menu = document.getElementById('nav');
+let menu = document.getElementById( 'nav' );
 
 //listen for clicks everywhere
 window.addEventListener('click', function (event) {
   // if clicks are not on the menu button itself
-  if (!event.target.closest('#hamburger')) {
+  if (!event.target.closest( '#hamburger' )) {
     // Hide the menu if open.
     if (menu.open) { menu.removeAttribute('open'); }
   }
