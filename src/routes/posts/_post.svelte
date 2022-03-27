@@ -24,6 +24,7 @@
 <style>
   .blogpost {
     margin: 5vw auto calc(3vw + var(--h0));
+    padding: 0 3vw;
     max-width: 40rem;
   }
   .heading {
