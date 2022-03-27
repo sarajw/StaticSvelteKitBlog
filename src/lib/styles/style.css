@@ -213,3 +213,8 @@ i, em {
 s, del {
 	text-decoration: line-through;
 }
+
+pre {
+    white-space: pre;
+    font-family: "Lucida Console", monospace;
+  }

@@ -60,4 +60,13 @@
     margin-top: -0.5rem;
     font-size: var(--sml);
   }
+  .post :global(pre) {
+    font-size: var(--sml);
+    line-height: var(--h3);
+    width: fit-content;
+    margin: 0.5rem 0;
+    padding: 0.75rem 1rem;
+    background-color: var(--textinv);
+    border-radius: var(--border-radii);
+  }
 </style>

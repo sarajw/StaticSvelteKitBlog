@@ -121,8 +121,6 @@
   }
 
   pre {
-    white-space: pre;
-    font-family: "Lucida Console", monospace;
     font-size: clamp(0.25rem, 2vw, 1rem);
     width: max-content;
     margin: 0 auto;
