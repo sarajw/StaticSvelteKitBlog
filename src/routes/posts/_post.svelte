@@ -64,7 +64,7 @@
   .post :global(pre) {
     font-size: var(--sml);
     line-height: var(--h3);
-    width: fit-content;
+    max-width: fit-content;
     margin: 0.5rem 0;
     padding: 0.75rem 1rem;
     background-color: var(--textinv);

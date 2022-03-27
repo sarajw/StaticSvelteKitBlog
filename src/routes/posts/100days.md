@@ -16,7 +16,7 @@ So now I know... but only after a good period spent scratching my head over it ð
 
 ## Day 31/#100DaysOfCode 
 
-I was fiddling with the HTML <details> tag to try and trick it into becoming an elegant non-js navigation clicky menu.
+I was fiddling with the HTML ```<details>``` tag to try and trick it into becoming an elegant non-js navigation clicky menu.
 
 Well, it worked, but I also wanted it to close when clicking outside, so I had to add JS anyway ðŸ˜…
 
