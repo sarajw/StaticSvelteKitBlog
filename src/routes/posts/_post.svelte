@@ -79,4 +79,43 @@
     font-family: inherit;
     font-weight: inherit;
   }
+
+  :root {
+    --pink: mediumvioletred;
+    --green: teal;
+    --blue: slateblue;
+    --yellow: darkgoldenrod;
+    --orange: orangered;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --pink: hotpink;
+      --green: springgreen;
+      --blue: cyan;
+      --yellow: gold;
+      --orange: lightsalmon;
+    }
+  }
+
+  .post :global(code .comment) {
+    color: var(--orange);
+  }
+  .post :global(code .tag),
+  .post :global(code .keyword),
+  .post :global(code .operator) {
+    color: var(--blue);
+  }
+  .post :global(code .punctuation),
+  .post :global(code .parameter) {
+    color: var(--pink);
+  }
+  .post :global(code .attr-name),
+  .post :global(code .function) {
+    color: var(--yellow);
+  }
+  .post :global(code .attr-value),
+  .post :global(code .string) {
+    color: var(--green);
+  }
 </style>
