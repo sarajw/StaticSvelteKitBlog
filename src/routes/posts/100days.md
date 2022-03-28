@@ -1,12 +1,24 @@
 ---
 title: "#100DaysOfCode"
-date: "around 2022/02/22"
+date: "2022/03/28"
 exerpt: Copying and pasting my tweets on the matter as I slowly make my way through nonconsecutively the 100 days.
 image: twitter.png
 ---
 
-[![Twitter account @sarajwallen](/images/blog/twitter.png)](https://twitter.com/sarajwallen)
+![Twitter account @sarajwallen](/images/blog/twitter.png)
 <p class="caption">My twitter account is <a href="https://twitter.com/sarajwallen">@sarajwallen</a> :)</p>
+
+## Day 33/#100DaysOfCode 
+
+Well I just went to simply add my dev.to post to my own blog, both written in markdown so it should be easy, right?
+
+Wrong!
+
+A fair bit of work to escape the ```<tags>``` outside of code blocks properly, & style code blocks to be responsive...
+
+### Day 33 continued:
+
+So new blog post here - I've just had a bit of fun colouring the code: https://blog.sarawallen.com/posts/details
 
 ## Day 32/#100DaysOfCode 
 

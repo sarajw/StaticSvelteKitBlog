@@ -44,7 +44,7 @@
 </script>
 
 <header>
-  <a class="name" href="/">Sara J. Wallén</a>
+  <div class="name"><a href="/">Sara J. Wallén</a></div>
   <nav>
     <ul>
       <li class="home" style="z-index: {homeZindex}">
