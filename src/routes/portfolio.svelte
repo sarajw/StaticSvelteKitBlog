@@ -231,17 +231,18 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 8px;
+    gap: calc(0.25rem + 0.5vmin);
     margin: 5vw 5vw calc(3vw + var(--h0));
   }
 
   .container {
-    width: calc(50% - 4px);
+    width: calc(50% - (0.25rem + 0.5vmin) / 2);
+    max-width: 800px;
     aspect-ratio: 1;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 8px;
+    gap: calc(0.25rem + 0.5vmin);
   }
 
   .container > div,
@@ -333,9 +334,6 @@
   }
 
   @media only screen and (max-width: 600px) {
-    .portfolio {
-      gap: 8px;
-    }
     .container {
       width: 100%;
     }

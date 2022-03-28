@@ -122,6 +122,8 @@
 
   pre {
     font-size: clamp(0.25rem, 2vw, 1rem);
+    line-height: clamp(0.275rem, 2.2vw, 1.1rem);
+    white-space: pre;
     width: max-content;
     margin: 0 auto;
   }

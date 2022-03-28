@@ -64,14 +64,14 @@
   }
   .post :global(pre) {
     margin: 0.5rem 0;
-    padding: 0.75rem 1rem;
+    padding: 3vmin 4vmin;
     background-color: var(--textinv);
     border-radius: var(--border-radii);
     white-space: pre-wrap;
   }
   .post :global(code) {
     font-size: var(--sml);
-    line-height: var(--h3);
+    line-height: 1.25em;
   }
   .post :global(h2 code) {
     font-size: inherit;
