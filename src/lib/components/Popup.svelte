@@ -35,8 +35,10 @@
       <h2>{title}</h2>
       {#if urlNoHttp}
         <h3>
-          <a href={url ? url : `/images/stuff/${local}`} rel="external"
-            >{url ? urlNoHttp : local}</a
+          <a
+            href={url ? url : `/images/stuff/${local}`}
+            rel="external"
+            target="_blank">{url ? urlNoHttp : local}</a
           >
         </h3>
       {/if}

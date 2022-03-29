@@ -18,7 +18,7 @@
   >
     <input type="hidden" name="form-name" value="contact" />
     <p class="emailLink">
-      <a href="mailto:webdev@sarawallen.com">webdev@sarawallen.com</a>
+      Email <a href="mailto:dev@sarawallen.com">dev@sarawallen.com</a>
       <br />Click^ to use your own email app,
       <br />otherwise please use the form:
     </p>
@@ -41,6 +41,11 @@
       <button type="submit"><b>Send</b></button>
     </p>
   </form>
+  <p class="emailLink">
+    Looking for my socials? :)
+    <br />
+    <a href="https://sarawallen.com#contact" target="_blank">sarawallen.com</a>
+  </p>
 </div>
 
 <style>
@@ -58,7 +63,6 @@
   }
   form {
     width: min-content;
-    margin-bottom: 5vw;
   }
   input,
   textarea {

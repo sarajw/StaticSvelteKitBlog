@@ -8,6 +8,15 @@ image: twitter.png
 ![Twitter account @sarajwallen](/images/blog/twitter.png)
 <p class="caption">My twitter account is <a href="https://twitter.com/sarajwallen">@sarajwallen</a> :)</p>
 
+## Day 34/#100DaysOfCode 
+
+- signed up to @flaviocopes' 2022 bootcamp
+- made some minor fixes on [blog.sarawallen.com](http://blog.sarawallen.com)
+- set up [sarawallen.com](http://sarawallen.com) to auto-deploy from git
+- wrote down some notes for little web-app idea
+
+Nothing big and clever but still chugging along... :)
+
 ## Day 33/#100DaysOfCode 
 
 Well I just went to simply add my dev.to post to my own blog, both written in markdown so it should be easy, right?
@@ -18,7 +27,7 @@ A fair bit of work to escape the ```<tags>``` outside of code blocks properly, &
 
 ### Day 33 continued:
 
-So new blog post here - I've just had a bit of fun colouring the code: https://blog.sarawallen.com/posts/details
+So new blog post here - I've just had a bit of fun colouring the code: [blog.sarawallen.com/posts/details](https://blog.sarawallen.com/posts/details)
 
 ## Day 32/#100DaysOfCode 
 
@@ -32,7 +41,7 @@ I was fiddling with the HTML ```<details>``` tag to try and trick it into becomi
 
 Well, it worked, but I also wanted it to close when clicking outside, so I had to add JS anyway 😅
 
-Have a look: http://details-nav.netlify.app
+Have a look: [details-nav.netlify.app](http://details-nav.netlify.app)
 
 ## Day 30/#100DaysOfCode
 
@@ -53,7 +62,7 @@ Plus a bunch of other twiddly things, I got lost in the mire of minor CSS tweaks
 
 ### Day 29 continued:
 
-I'm pleased with the interaction (on hover, or tap on mobile) on the CSS art at http://sarawallen.com
+I'm pleased with the interaction (on hover, or tap on mobile) on the CSS art at [sarawallen.com](http://sarawallen.com)
  
 First I was like boo, you can see how the shapes are constructed, and then I was like oh, cool, you can see how the shapes are constructed!
 
@@ -91,7 +100,7 @@ Question for video types - is there a known good codec and compression level tha
 
 ## Day 24/#100DaysOfCode
 
-Fixed some things on http://blog.sarawallen.com ... broken some other things, always the way 😅
+Fixed some things on [blog.sarawallen.com](http://blog.sarawallen.com) ... broken some other things, always the way 😅
 
 ### Day 24 continued
 
@@ -114,7 +123,7 @@ Next up: Custom submission and error pages!
 
 ## Day 22/#100DaysOfCode 
 
-Unsure whether I want to merge http://sarawallen.com and http://blog.sarawallen.com just yet.
+Unsure whether I want to merge [blog.sarawallen.com](http://blog.sarawallen.com) and [sarawallen.com](http://sarawallen.com) just yet.
 
 The former is made with pure HTML & CSS, it would almost be sad to stuff it into the other one!
 
@@ -130,13 +139,13 @@ Also thank you Svelte for afterUpdate()! Took me a while to find it though...
 
 Well, it's a start! This was the header from an old Channel 4 Teletext page I used to read avidly as a teen, Mega-zine:
 
-~~https://inspiring-chandrasekhar-d972e0.netlify.app~~<br> *link no longer functional*
+~~inspiring-chandrasekhar-d972e0.netlify.app~~<br> *link no longer functional*
 
 Not a patch on your site @andrewjnile but fun to do!
 
 ### Day 20 continued
  
-Can now be found at https://mega-zine.netlify.app
+Can now be found at [mega-zine.netlify.app](https://mega-zine.netlify.app)
 
 ## ~~Day 18/#100DaysOfCode~~<br>Day 19/#100DaysOfCode 
 
@@ -161,9 +170,9 @@ My popups/modals have been made way better with JavaScript event.stopPropagation
 
 So the focus highlighting is back. I've made the function of the popups a little better. The ascii-art is now somewhat more viewable on mobiles.
 
-I've connected it to http://blog.sarawallen.com! 🎉
+I've connected it to [blog.sarawallen.com](http://blog.sarawallen.com)! 🎉
 
-And http://sarawallen.com now has styling to match :)
+And [sarawallen.com](http://sarawallen.com) now has styling to match :)
 
 ## Day 16/#100DaysOfCode 
 
@@ -176,7 +185,7 @@ Notes to self:
 * Focus highlighting - outline (+offset?) or border? ✅ done
 * Prioritise accessibility.
 * Consider elements expanding in place instead of introducing modals, ooh.
-* Host http://sarawallen.com font(s) locally.
+* Host [sarawallen.com](http://sarawallen.com) font(s) locally.
 * Make the ascii-art text responsive.
 
 ## Day 15/#100DaysOfCode
@@ -228,7 +237,7 @@ Then I missed out a forward slash which meant the built version of my new one co
 The upshot of this is I've just learned how I /should/ be using assets in SvelteKit,<br>~and~<br>
 the new version is now being pushed to GitHub from the start - and therefore also now being auto-built and deployed on Netlify. Winner.
 
-Temporary URL: https://hardcore-bose-029a18.netlify.app
+Temporary URL: ~~hardcore-bose-029a18.netlify.app~~<br> *link no longer functional*
 
 ## Day 11/#100DaysOfCode
 
@@ -240,9 +249,9 @@ Also still tussling with PowerShell at work…
 
 Already 10% done?
 
-I have a blog! A static one! Built with @sveltejs! Temporary site is here: https://pensive-murdock-678461.netlify.app
+I have a blog! A static one! Built with @sveltejs! Temporary site is here: ~~pensive-murdock-678461.netlify.app~~<br> *link no longer functional*
 
-The design is… hm. Trying to harmonise it with http://sarawallen.com. Very Under Construction 🏗️👷
+The design is… hm. Trying to harmonise it with [sarawallen.com](http://sarawallen.com). Very Under Construction 🏗️👷
 
 With thanks to @jjcollinsworth :)
 
@@ -295,9 +304,9 @@ Continuing @thenetninjauk’s Next.js tutorial :ninja:
 
 ## Day 2/#100DaysOfCode
 
-Edited some text in the landing page I made for my friend http://yasmin-brinkmann.com :)
+Edited some text in the landing page I made for my friend [yasmin-brinkmann.com](http://yasmin-brinkmann.com) :)
 
-Kicking myself about the things I don’t know by heart on https://css-speedrun.netlify.app !
+Kicking myself about the things I don’t know by heart on [css-speedrun.netlify.app](https://css-speedrun.netlify.app) !
 
 Learning that using Google Fonts without hosting them locally is not GDPR-compliant!
 

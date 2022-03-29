@@ -10,7 +10,7 @@
   <article>
     <h1>Welcome!</h1>
     <img src={headShot} width="400" alt="headshot" />
-    <p>Hi! I'm Sara. Do have a look around :)</p>
+    <p>Hi! I'm Sara. Have a look around :)</p>
   </article>
 </div>
 

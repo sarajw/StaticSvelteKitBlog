@@ -1,6 +1,7 @@
 <footer>
   <p>
-    <a href="/">{new Date().getFullYear()} Sara J. W.</a
+    <a href="/">{new Date().getFullYear()} Sara J. W.</a> |
+    <a href="https://sarawallen.com">sarawallen.com</a
     ><!-- &nbsp; | &nbsp; Impressum
     &nbsp; | &nbsp; Datenschutz -->
   </p>
