@@ -8,6 +8,8 @@ image: twitter.png
 ![Twitter account @sarajwallen](/images/blog/twitter.png)
 <p class="caption">My twitter account is <a href="https://twitter.com/sarajwallen">@sarajwallen</a> :)</p>
 
+<div class="tweet">
+
 ## Day 34/#100DaysOfCode 
 
 - signed up to @flaviocopes' 2022 bootcamp
@@ -16,6 +18,8 @@ image: twitter.png
 - wrote down some notes for little web-app idea
 
 Nothing big and clever but still chugging along... :)
+
+</div><div class="tweet">
 
 ## Day 33/#100DaysOfCode 
 
@@ -29,11 +33,15 @@ A fair bit of work to escape the ```<tags>``` outside of code blocks properly, &
 
 So new blog post here - I've just had a bit of fun colouring the code: [blog.sarawallen.com/posts/details](https://blog.sarawallen.com/posts/details)
 
+</div><div class="tweet">
+
 ## Day 32/#100DaysOfCode 
 
 Apparently if you transform:translate() an element, Firefox still gives it the space it would have taken up before it was moved. A bit like position: relative I suppose?
 
 So now I know... but only after a good period spent scratching my head over it 😅
+
+</div><div class="tweet">
 
 ## Day 31/#100DaysOfCode 
 
@@ -43,12 +51,16 @@ Well, it worked, but I also wanted it to close when clicking outside, so I had t
 
 Have a look: [details-nav.netlify.app](http://details-nav.netlify.app)
 
+</div><div class="tweet">
+
 ## Day 30/#100DaysOfCode
 
 I am stuck in ever-decreasing circles of fiddling with stuff on my landing page and blog, I really need to get on with more learning!
 
 Considering joining 
 @flaviocopes' bootcamp this year, and in the meantime I'm looking back into @wesbos' JavaScript notes.
+
+</div><div class="tweet">
 
 ## Day 29/#100DaysOfCode
 
@@ -66,6 +78,8 @@ I'm pleased with the interaction (on hover, or tap on mobile) on the CSS art at 
  
 First I was like boo, you can see how the shapes are constructed, and then I was like oh, cool, you can see how the shapes are constructed!
 
+</div><div class="tweet">
+
 ## Day 28/#100DaysOfCode
 
 Things to fix on landing page:
@@ -78,6 +92,8 @@ Improvements:
 - add privacy policy / 'Impressum'
 - social icons to line up based on portrait/landscape
 
+</div><div class="tweet">
+
 ## Day 27/#100DaysOfCode
 
 The last couple of days, I
@@ -85,11 +101,15 @@ The last couple of days, I
 - played with new svh/lvh/dvh etc CSS units on my newly updated old iPhone 7, hope it comes to more (particularly mobile) browsers soon!
 - messed with webflow a bit
 
+</div><div class="tweet">
+
 ## Day 26/#100DaysOfCode 
 
 Using PowerShell at work again, creating image lists for ffmpeg to turn into automated time-lapse videos.
 
 Question for video types - is there a known good codec and compression level that is playable on almost all systems and isn't too lossy? libx264?
+
+</div><div class="tweet">
 
 ## Day 25/#100DaysOfCode (1/4 done!)
 
@@ -97,6 +117,8 @@ Question for video types - is there a known good codec and compression level tha
 * Investigate linear-gradient Safari issue [it was broken CSS] ✅
 * Work out what element is making the whole page have focus style (the dashed green line) & turn off ✅
 * Finish contact form thank you page ✅
+
+</div><div class="tweet">
 
 ## Day 24/#100DaysOfCode
 
@@ -112,6 +134,8 @@ Notes to self:
 * Finish contact form thank you page
 * Create custom 404 page
 
+</div><div class="tweet">
+
 ## Day 23/#100DaysOfCode
 
 * Sort out contact form* ✅
@@ -121,6 +145,8 @@ Notes to self:
 
 Next up: Custom submission and error pages!
 
+</div><div class="tweet">
+
 ## Day 22/#100DaysOfCode 
 
 Unsure whether I want to merge [blog.sarawallen.com](http://blog.sarawallen.com) and [sarawallen.com](http://sarawallen.com) just yet.
@@ -129,11 +155,15 @@ The former is made with pure HTML & CSS, it would almost be sad to stuff it into
 
 I'm very pleased with the blog's navigation now, though.
 
+</div><div class="tweet">
+
 ## Day 21/#100DaysOfCode 
 
 I have been wrangling the tabs and colours in the navigation of my blog, definitely got some work to do to get tabs to come forward when active, but am slowly finding my way.
 
 Also thank you Svelte for afterUpdate()! Took me a while to find it though...
+
+</div><div class="tweet">
 
 ## Day 20/#100DaysOfCode
 
@@ -146,6 +176,8 @@ Not a patch on your site @andrewjnile but fun to do!
 ### Day 20 continued
  
 Can now be found at [mega-zine.netlify.app](https://mega-zine.netlify.app)
+
+</div><div class="tweet">
 
 ## ~~Day 18/#100DaysOfCode~~<br>Day 19/#100DaysOfCode 
 
@@ -160,11 +192,15 @@ Like I say, distracted.
 
 I am planning stuff though, trying to find a niche of things to make - I am considering mocking up old TV idents and teletext pages in HTML & CSS for fun :)
 
+</div><div class="tweet">
+
 ## Day 18/#100DaysOfCode 
 
 Added a secondary pop colour. Not sure about them... And the light/dark modes also need a manual toggle.
 
 My popups/modals have been made way better with JavaScript event.stopPropagation() and CSS overscroll-behavior: contain 🚀
+
+</div><div class="tweet">
 
 ## Day 17/#100DaysOfCode 
 
@@ -173,6 +209,8 @@ So the focus highlighting is back. I've made the function of the popups a little
 I've connected it to [blog.sarawallen.com](http://blog.sarawallen.com)! 🎉
 
 And [sarawallen.com](http://sarawallen.com) now has styling to match :)
+
+</div><div class="tweet">
 
 ## Day 16/#100DaysOfCode 
 
@@ -188,11 +226,15 @@ Notes to self:
 * Host [sarawallen.com](http://sarawallen.com) font(s) locally.
 * Make the ascii-art text responsive.
 
+</div><div class="tweet">
+
 ## Day 15/#100DaysOfCode
 
 Battled windows command line, installing make, but failing to compile a TTF-WOFF2 converter. Never mind, I managed to get hold of the woff2 font file I wanted in the end!
 
 Svelte blog also progressing, using CSS grid a bit more. Separating out components :)
+
+</div><div class="tweet">
 
 ## Day 14/#100DaysOfCode
 
@@ -204,13 +246,14 @@ Working on making my own pop-up/modal component for use in my portfolio/stuff se
 
 Notes to self before bed:
 
-Fix padding discrepancy between /blog and /stuff on mobile
-
-Reconsider popup position (fixed? absolute?) and how to darken rest of site behind it (huge box shadow? Is that legit CSS?)
+- Fix padding discrepancy between /blog and /stuff on mobile
+- Reconsider popup position (fixed? absolute?) and how to darken rest of site behind it (huge box shadow? Is that legit CSS?)
 
 Add content:
-Contact 
-Front page (hero?)
+* Contact 
+* Front page (hero?)
+
+</div><div class="tweet">
 
 ## Day 13/#100DaysOfCode 
 
@@ -223,6 +266,8 @@ There are so many cool complex things you can do in webdev frameworks, but I'm t
 Just to add that I'm getting some great support from the @SvelteSociety and @KevinJPowell's discord servers, not to mention conversations I've had here on twitter.
 
 I'm so thankful for the communities around development 🙏♥️
+
+</div><div class="tweet">
 
 ## Day 12/#100DaysOfCode
 
@@ -239,11 +284,15 @@ the new version is now being pushed to GitHub from the start - and therefore als
 
 Temporary URL: ~~hardcore-bose-029a18.netlify.app~~<br> *link no longer functional*
 
+</div><div class="tweet">
+
 ## Day 11/#100DaysOfCode
 
 Arguing with some aspects of @sveltejs because it seems every which way of making a website involves some fudging, somewhere! Otherwise, I like it very much as a ‘modern’ way of building websites :)
 
 Also still tussling with PowerShell at work…
+
+</div><div class="tweet">
 
 ## Day 10/#100DaysOfCode
 
@@ -255,11 +304,15 @@ The design is… hm. Trying to harmonise it with [sarawallen.com](http://sarawal
 
 With thanks to @jjcollinsworth :)
 
+</div><div class="tweet">
+
 ## Day 9/#100DaysOfCode
 
 More PowerShell, more SvelteKit static blog building.
 
 With the latter I really should finish the tutorial before messing with parts of it, because inevitably it gets around to what I want to try anyway, and does whatever it is way more efficiently! ^_^
+
+</div><div class="tweet">
 
 ## Day 8/#100DaysOfCode
 
@@ -268,11 +321,15 @@ With the latter I really should finish the tutorial before messing with parts of
 
 Wish me luck!
 
+</div><div class="tweet">
+
 ## Day 7/#100DaysOfCode
 
 On the day job at @MKtimelapse - playing with PowerShell and using it to create a file list for ffmpeg to turn into an auto-generated time-lapse movie.
 
 I did it a while ago so first I’m trying to understand my old code (🤦) before I adapt it to new uses…
+
+</div><div class="tweet">
 
 ## Day 6/#100DaysOfCode
 
@@ -280,15 +337,21 @@ Oops. Opening a Svelte project in VSCode just closed the Next one. I guess now I
 
 Also having a first peek at webflow, even if that’s in opposition to what I’m trying to learn. I’m intrigued.
 
+</div><div class="tweet">
+
 ## Day 5/#100DaysOfCode
 
 Managing to eke out an hour before I go to bed. I’m pausing the next.js tutorial because the svelte one is right in front of me and isn’t requiring me to look at a video right now - I much prefer text/interaction based stuff!
+
+</div><div class="tweet">
 
 ## Day 4/#100DaysOfCode
 
 Still on @thenetninjauk’s Next.js tutorial - now we’re actually getting into more JavaScript!
 
 I’m still stuck between “Ooo this is clever” and “All this abstraction feels so unnecessary…” - but then I haven’t built huge dynamic sites or apps (…yet!)
+
+</div><div class="tweet">
 
 ## Not-a-Day/#100DaysOfCode
 
@@ -298,9 +361,13 @@ Currently doing a Next.js tutorial
 Depending on how I feel at the end of that, I may or may not look at React or Svelte.
 Next project goal: Make myself a blog site.
 
+</div><div class="tweet">
+
 ## Day 3/#100DaysOfCode
 
 Continuing @thenetninjauk’s Next.js tutorial :ninja:
+
+</div><div class="tweet">
 
 ## Day 2/#100DaysOfCode
 
@@ -310,6 +377,8 @@ Kicking myself about the things I don’t know by heart on [css-speedrun.netlify
 
 Learning that using Google Fonts without hosting them locally is not GDPR-compliant!
 
+</div><div class="tweet">
+
 ## So. #100DaysOfCode - let’s do this.
 
 They won’t be consecutive. But I will account for them.
@@ -317,3 +386,5 @@ They won’t be consecutive. But I will account for them.
 Day 1/100 - setting myself up to have a play with @nextjs
 
 Smart to skip over React entirely to play here first? Who knows! Don’t know until I try…
+
+</div><div class="tweet">

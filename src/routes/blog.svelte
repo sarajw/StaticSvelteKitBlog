@@ -23,8 +23,8 @@
 <div class="blogIndex">
   <ul>
     {#each posts as post}
-      <a href={post.path}>
-        <li>
+      <li>
+        <a href={post.path}>
           <!-- svelte-ignore a11y-missing-attribute -->
           <img src="../images/blog/{post.meta.image}" />
           <article>
@@ -34,8 +34,8 @@
             <p>{post.meta.exerpt}</p>
             <p class="posted">Posted {post.meta.date}</p>
           </article>
-        </li>
-      </a>
+        </a>
+      </li>
     {/each}
   </ul>
 </div>
@@ -50,7 +50,7 @@
     justify-content: center;
     gap: 3vw;
   }
-  li {
+  li a {
     display: flex;
     max-width: 60ch;
     min-width: 10rem;
@@ -78,8 +78,8 @@
   .posted {
     text-align: right;
   }
-  a:hover li,
-  a:focus-visible li {
+  a:hover,
+  a:focus-visible {
     transition: transform 0.1s ease;
     transform: translate(1px, 1px);
     box-shadow: 2px 2px 10px -9px var(--shadow);

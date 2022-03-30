@@ -54,8 +54,9 @@
   }
   .post :global(img) {
     display: block;
-    border-radius: 0.25rem;
+    border-radius: var(--border-radii);
     margin: 1rem auto 0;
+    box-shadow: 1px 1px 15px -12px var(--shadow);
   }
   .post :global(.caption) {
     text-align: center;
@@ -65,8 +66,9 @@
   .post :global(pre) {
     margin: 0.5rem 0;
     padding: 3vmin 4vmin;
-    background-color: var(--textinv);
+    background-color: var(--bass);
     border-radius: var(--border-radii);
+    box-shadow: 1px 1px 15px -12px var(--shadow);
     white-space: pre-wrap;
   }
   .post :global(code) {
@@ -78,6 +80,12 @@
     line-height: inherit;
     font-family: inherit;
     font-weight: inherit;
+  }
+  .post :global(.tweet) {
+    padding: 0 clamp(0.5rem, 3vmin, 1rem) 1vmin;
+    background-color: var(--bass);
+    border-radius: var(--border-radii);
+    box-shadow: 1px 1px 15px -12px var(--shadow);
   }
 
   :root {
