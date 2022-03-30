@@ -10,6 +10,18 @@ image: twitter.png
 
 <div class="tweet">
 
+## Day 35/#100DaysOfCode 
+
+So my little web app idea is nothing new, just a measurements converter - but - I want to make it generate pretty images of silly units like the ubiquitous London bus, blue whales, cups of coffee, whatever else of a standard size that I can draw :)
+
+### Day 35 continued:
+
+I just want to make something cute that can show off some (even if quite simple) coding, while also allowing for humour and creativity/art (I like drawing and don't do enough of it).
+
+Drawing up fractions of those units could be fun esp if I make them some level of 3D! 🐳
+
+</div><div class="tweet">
+
 ## Day 34/#100DaysOfCode 
 
 - signed up to @flaviocopes' 2022 bootcamp
