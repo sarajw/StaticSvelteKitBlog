@@ -97,7 +97,7 @@
     ul {
       gap: 5vw;
     }
-    li {
+    li a {
       flex-wrap: wrap;
     }
     img {
