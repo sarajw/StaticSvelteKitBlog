@@ -1,6 +1,6 @@
 ---
 title: "#100DaysOfCode"
-date: "2022/03/28"
+date: "2022/04/01"
 exerpt: Copying and pasting my tweets on the matter as I slowly make my way through nonconsecutively the 100 days.
 image: twitter.png
 ---
@@ -9,6 +9,16 @@ image: twitter.png
 <p class="caption">My twitter account is <a href="https://twitter.com/sarajwallen">@sarajwallen</a> :)</p>
 
 <div class="tweet">
+
+## Day 36/#100DaysOfCode
+
+It's not big and clever, but it's mine! Eventually this will do more than just output strings, but I figure sorting out the maths is the first part...
+
+P.S. The AEC Routemaster is the classic London Bus :)
+
+[![Vanilla JavaScript doing some maths](/images/blog/converter_js.png)](/images/blog/converter_js.png)
+
+</div><div class="tweet">
 
 ## Day 35/#100DaysOfCode 
 
