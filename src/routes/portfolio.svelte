@@ -94,6 +94,7 @@
       class="bigsq"
       id="b2"
       style="background-image: url('/images/stuff/mktimelapse_sqthumb.png')"
+      title="Open MK timelapse GmbH"
     >
       <h1 on:click={() => (show_b2 = true)} class="caption">
         MK time&shy;lapse
@@ -120,9 +121,10 @@
     {/if}
     <div class="smsq2" id="c2" />
     <button
-      class="bigrow"
       id="d2"
+      class="bigrow"
       style="background-image: url('/images/stuff/binnenalster_small.jpg')"
+      title="Open Hamburg"
     >
       <h1 on:click={() => (show_d2 = true)} class="caption">Hamburg</h1>
     </button>
@@ -148,6 +150,7 @@
       class="smsq1"
       id="b3"
       style="background-image: url('/images/stuff/mega-zine.png')"
+      title="Open Mega-Zine"
     >
       <h2 on:click={() => (show_b3 = true)} class="caption">Mega-zine</h2>
     </button>
@@ -175,11 +178,11 @@
         </div>
       </Popup>
     {/if}
-    <div class="shcol" id="c3" />
     <button
       class="shrow"
-      id="d3"
+      id="c3"
       style="background-image: url('/images/stuff/tumblr_small.png')"
+      title="Open Tumblr"
     >
       <h1 on:click={() => (show_c3 = true)} class="caption">Tumblr</h1>
     </button>
@@ -201,6 +204,7 @@
         </div>
       </Popup>
     {/if}
+    <div class="shcol" id="d3" />
   </section>
 
   <section class="container box4">
@@ -208,7 +212,9 @@
     <div class="shrow" id="b4" />
     <button
       class="bigsq"
+      id="c4"
       style="background-image: url('/images/stuff/ascii.png')"
+      title="Open Ascii Art"
     >
       <h1 on:click={() => (show_c4 = true)} class="caption">ASCII Art</h1>
     </button>

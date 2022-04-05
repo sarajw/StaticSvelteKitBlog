@@ -25,7 +25,7 @@
 
 <div on:click={close} class="popwrap">
   <article on:click|stopPropagation class="popup">
-    <button on:click={close}>X</button>
+    <button on:click={close} title="Close">X</button>
     {#if image}<img
         src="/images/stuff/{image}"
         {alt}
