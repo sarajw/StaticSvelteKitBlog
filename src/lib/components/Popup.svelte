@@ -53,8 +53,8 @@
 <style>
   button {
     position: absolute;
-    top: 4vw;
-    right: 4vw;
+    top: 1vw;
+    right: 1vw;
     width: calc(2rem + 1vw);
     aspect-ratio: 1;
     line-height: calc(2rem + 1vw);
@@ -78,6 +78,9 @@
 
   .popwrap {
     position: fixed;
+    display: grid;
+    place-content: center;
+    place-items: center;
     top: 0;
     right: 0;
     bottom: 0;
@@ -87,7 +90,10 @@
     z-index: 20;
   }
   .popup {
+    position: relative;
     margin: 0 auto;
+    width: 100%;
+    max-width: 75rem;
     min-height: 30%;
     max-height: 100%;
     background-color: var(--bass);

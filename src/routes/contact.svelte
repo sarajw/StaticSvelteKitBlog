@@ -18,7 +18,7 @@
   >
     <input type="hidden" name="form-name" value="contact" />
     <p class="emailLink">
-      Email <a href="mailto:dev@sarawallen.com">dev@sarawallen.com</a>
+      <a href="mailto:dev@sarawallen.com">dev@sarawallen.com</a>
       <br />Click^ to use your own email app,
       <br />otherwise please use the form:
     </p>

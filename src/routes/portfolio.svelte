@@ -186,7 +186,7 @@
     {#if show_c3}
       <Popup
         on:closePopup={popupClose}
-        title="Swintänzerin"
+        title="Swingtänzerin"
         url="https://swingtanzerin.tumblr.com/"
         image="tumblr.png"
         asprat="7/5"
