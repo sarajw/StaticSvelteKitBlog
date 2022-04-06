@@ -27,7 +27,7 @@
         <a href={post.path}>
           <!-- svelte-ignore a11y-missing-attribute -->
           <img src="../images/blog/{post.meta.image}" />
-          <article>
+          <article pubdate={post.meta.date}>
             <h2>
               {post.meta.title}
             </h2>

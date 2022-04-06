@@ -16,7 +16,7 @@
     <p class="posted">Posted on {datestring}</p>
   </div>
 
-  <article class="post">
+  <article class="post" pubdate={date}>
     <slot />
   </article>
 </div>
