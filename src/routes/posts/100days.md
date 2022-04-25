@@ -1,14 +1,100 @@
 ---
 title: "#100DaysOfCode"
-date: "2022/04/01"
+date: "2022/04/25"
 exerpt: Copying and pasting my tweets on the matter as I slowly make my way through nonconsecutively the 100 days.
 image: twitter.png
 ---
 
 ![Twitter account @sarajwallen](/images/blog/twitter.png)
+
 <p class="caption">My twitter account is <a href="https://twitter.com/sarajwallen">@sarajwallen</a> :)</p>
 
 <div class="tweet">
+
+## Day 44/#100DaysOfCode
+
+My little site about centering is coming along, but whyever did I choose to look at Flex first! I'll go back for the simpler bits like text-align and margin: 0 auto...
+
+The structure is still working itself out, and I'm not convinced it'll remain 1-page...
+
+[![Regretful git commit message](/images/blog/commit.png)](/images/blog/commit.png)
+
+</div><div class="tweet">
+
+## Day 43/#100DaysOfCode
+
+Yes I've skipped a few days!
+
+I've just now started working on a "Centering in CSS" guide. I want it to be super easy to understand and use! So far I've only set up the barest skeleton.
+
+You can watch along as it grows, if you like:
+[centering.netlify.app](https://centering.netlify.app)
+
+### Day 43 continued:
+
+I have turned off my PC because bedtime, but I now have so many ideas of how to make this all display properly on mobile and desktop browser, oooh...
+
+Getting stuff centered properly in CSS can be bewildering. I hope to help by displaying how to do it in many layout situations 🙂
+
+</div><div class="tweet">
+
+## Day 42/#100DaysOfCode
+
+Finished the section of #bootcampdev that introduced @tailwindcss and used @astrodotbuild as the build tool.
+
+Will definitely explore the latter in more depth, there's a lot of power we didn't use this time!
+
+Silly but did the trick:
+[dashing-marshmallow-fc25c7.netlify.app](https://dashing-marshmallow-fc25c7.netlify.app)
+
+</div><div class="tweet">
+
+## Day 41/#100DaysOfCode
+
+So I was about to get all upset at @tailwindcss and how I was getting caught up in a bunch of breakpoints, until my CSS brain came back and said CALC! CLAMP!
+
+Turns out you can use them inside tailwind too, for example:
+<code>text-[calc(1.5rem + 3vw)]</code>
+
+</div><div class="tweet">
+
+## Day 40/#100DaysOfCode
+
+Ahahaha. I suck at sticking to naming conventions:
+[github.com/sarajw?tab=repositories](https://github.com/sarajw?tab=repositories)
+
+Also, I really need a product idea - my design feels just have nothing to riff on... #bootcampdev
+
+[![My first page built using Astro](/images/blog/astro.jfif)](/images/blog/astro.jfif)
+
+</div><div class="tweet">
+
+## Day 39/#100DaysOfCode
+
+Week 2 of @flaviocopes' #bootcampdev and now we're going to start building out a site for an imaginary product using @astrodotbuild
+
+- I'm excited!
+
+But... I need an idea for said product 🤔
+
+</div><div class="tweet">
+
+## Day 38/#100DaysOfCode
+
+My first play with TailwindCSS, via @flaviocopes' 2022 bootcamp:
+[resonant-cajeta-3049be.netlify.app](https://resonant-cajeta-3049be.netlify.app)
+
+Not gonna lie, I'm suspicious because I like vanilla CSS so much, but I can see that it has its place. Just a bunch more syntax to learn 😮‍💨
+
+</div><div class="tweet">
+
+## Day 37/#100DaysOfCode
+
+Well, I've been working on a minisite that I can't make public - but still, I made a minisite! And whipped it up pretty fast too! No frameworks this time, as I do like a bit of doing-it-by-hand.
+
+If it eventually bears fruit I will certainly post it up...
+
+</div><div class="tweet">
 
 ## Day 36/#100DaysOfCode
 
@@ -20,7 +106,7 @@ P.S. The AEC Routemaster is the classic London Bus :)
 
 </div><div class="tweet">
 
-## Day 35/#100DaysOfCode 
+## Day 35/#100DaysOfCode
 
 So my little web app idea is nothing new, just a measurements converter - but - I want to make it generate pretty images of silly units like the ubiquitous London bus, blue whales, cups of coffee, whatever else of a standard size that I can draw :)
 
@@ -32,7 +118,7 @@ Drawing up fractions of those units could be fun esp if I make them some level o
 
 </div><div class="tweet">
 
-## Day 34/#100DaysOfCode 
+## Day 34/#100DaysOfCode
 
 - signed up to @flaviocopes' 2022 bootcamp
 - made some minor fixes on [blog.sarawallen.com](http://blog.sarawallen.com)
@@ -43,13 +129,13 @@ Nothing big and clever but still chugging along... :)
 
 </div><div class="tweet">
 
-## Day 33/#100DaysOfCode 
+## Day 33/#100DaysOfCode
 
 Well I just went to simply add my dev.to post to my own blog, both written in markdown so it should be easy, right?
 
 Wrong!
 
-A fair bit of work to escape the ```<tags>``` outside of code blocks properly, & style code blocks to be responsive...
+A fair bit of work to escape the `<tags>` outside of code blocks properly, & style code blocks to be responsive...
 
 ### Day 33 continued:
 
@@ -57,7 +143,7 @@ So new blog post here - I've just had a bit of fun colouring the code: [blog.sar
 
 </div><div class="tweet">
 
-## Day 32/#100DaysOfCode 
+## Day 32/#100DaysOfCode
 
 Apparently if you transform:translate() an element, Firefox still gives it the space it would have taken up before it was moved. A bit like position: relative I suppose?
 
@@ -65,9 +151,9 @@ So now I know... but only after a good period spent scratching my head over it �
 
 </div><div class="tweet">
 
-## Day 31/#100DaysOfCode 
+## Day 31/#100DaysOfCode
 
-I was fiddling with the HTML ```<details>``` tag to try and trick it into becoming an elegant non-js navigation clicky menu.
+I was fiddling with the HTML `<details>` tag to try and trick it into becoming an elegant non-js navigation clicky menu.
 
 Well, it worked, but I also wanted it to close when clicking outside, so I had to add JS anyway 😅
 
@@ -79,7 +165,7 @@ Have a look: [details-nav.netlify.app](http://details-nav.netlify.app)
 
 I am stuck in ever-decreasing circles of fiddling with stuff on my landing page and blog, I really need to get on with more learning!
 
-Considering joining 
+Considering joining
 @flaviocopes' bootcamp this year, and in the meantime I'm looking back into @wesbos' JavaScript notes.
 
 </div><div class="tweet">
@@ -97,7 +183,7 @@ Plus a bunch of other twiddly things, I got lost in the mire of minor CSS tweaks
 ### Day 29 continued:
 
 I'm pleased with the interaction (on hover, or tap on mobile) on the CSS art at [sarawallen.com](http://sarawallen.com)
- 
+
 First I was like boo, you can see how the shapes are constructed, and then I was like oh, cool, you can see how the shapes are constructed!
 
 </div><div class="tweet">
@@ -105,11 +191,13 @@ First I was like boo, you can see how the shapes are constructed, and then I was
 ## Day 28/#100DaysOfCode
 
 Things to fix on landing page:
+
 - ugly drop shadows
 - social icons should be white for dark mode
 - get all h3 headings to line up
 
 Improvements:
+
 - CSS art interactivity
 - add privacy policy / 'Impressum'
 - social icons to line up based on portrait/landscape
@@ -119,13 +207,14 @@ Improvements:
 ## Day 27/#100DaysOfCode
 
 The last couple of days, I
+
 - watched @traversymedia's 2022 guide which was really insightful
 - played with new svh/lvh/dvh etc CSS units on my newly updated old iPhone 7, hope it comes to more (particularly mobile) browsers soon!
 - messed with webflow a bit
 
 </div><div class="tweet">
 
-## Day 26/#100DaysOfCode 
+## Day 26/#100DaysOfCode
 
 Using PowerShell at work again, creating image lists for ffmpeg to turn into automated time-lapse videos.
 
@@ -135,10 +224,10 @@ Question for video types - is there a known good codec and compression level tha
 
 ## Day 25/#100DaysOfCode (1/4 done!)
 
-* Fix index page for dark mode ✅
-* Investigate linear-gradient Safari issue [it was broken CSS] ✅
-* Work out what element is making the whole page have focus style (the dashed green line) & turn off ✅
-* Finish contact form thank you page ✅
+- Fix index page for dark mode ✅
+- Investigate linear-gradient Safari issue [it was broken CSS] ✅
+- Work out what element is making the whole page have focus style (the dashed green line) & turn off ✅
+- Finish contact form thank you page ✅
 
 </div><div class="tweet">
 
@@ -150,26 +239,26 @@ Fixed some things on [blog.sarawallen.com](http://blog.sarawallen.com) ... broke
 
 Notes to self:
 
-* Fix index page for dark mode
-* Investige linear-gradient Safari discrepancy
-* Work out what element is making the whole page have focus style (the dashed green line) and turn it off
-* Finish contact form thank you page
-* Create custom 404 page
+- Fix index page for dark mode
+- Investige linear-gradient Safari discrepancy
+- Work out what element is making the whole page have focus style (the dashed green line) and turn it off
+- Finish contact form thank you page
+- Create custom 404 page
 
 </div><div class="tweet">
 
 ## Day 23/#100DaysOfCode
 
-* Sort out contact form* ✅
-* Make my sites function in mobile-landscape-mode 😵 - eeh, mostly ✅
+- Sort out contact form\* ✅
+- Make my sites function in mobile-landscape-mode 😵 - eeh, mostly ✅
 
-*The contact form was a proper pain, it took me a while to work out what Netlify needed me to do to make it work.
+\*The contact form was a proper pain, it took me a while to work out what Netlify needed me to do to make it work.
 
 Next up: Custom submission and error pages!
 
 </div><div class="tweet">
 
-## Day 22/#100DaysOfCode 
+## Day 22/#100DaysOfCode
 
 Unsure whether I want to merge [blog.sarawallen.com](http://blog.sarawallen.com) and [sarawallen.com](http://sarawallen.com) just yet.
 
@@ -179,7 +268,7 @@ I'm very pleased with the blog's navigation now, though.
 
 </div><div class="tweet">
 
-## Day 21/#100DaysOfCode 
+## Day 21/#100DaysOfCode
 
 I have been wrangling the tabs and colours in the navigation of my blog, definitely got some work to do to get tabs to come forward when active, but am slowly finding my way.
 
@@ -191,24 +280,25 @@ Also thank you Svelte for afterUpdate()! Took me a while to find it though...
 
 Well, it's a start! This was the header from an old Channel 4 Teletext page I used to read avidly as a teen, Mega-zine:
 
-~~inspiring-chandrasekhar-d972e0.netlify.app~~<br> *link no longer functional*
+~~inspiring-chandrasekhar-d972e0.netlify.app~~<br> _link no longer functional_
 
 Not a patch on your site @andrewjnile but fun to do!
 
 ### Day 20 continued
- 
+
 Can now be found at [mega-zine.netlify.app](https://mega-zine.netlify.app)
 
 </div><div class="tweet">
 
-## ~~Day 18/#100DaysOfCode~~<br>Day 19/#100DaysOfCode 
+## ~~Day 18/#100DaysOfCode~~<br>Day 19/#100DaysOfCode
 
 I dunno now, I did some things earlier but I've already forgotten what they were? Ukraine-related news and anxiety (rightly) overwhelms everything else.
 
 Слава Україні!
 
 ### Day 19 continued
-...this should have been Day 19/#100DaysOfCode 
+
+...this should have been Day 19/#100DaysOfCode
 
 Like I say, distracted.
 
@@ -216,7 +306,7 @@ I am planning stuff though, trying to find a niche of things to make - I am cons
 
 </div><div class="tweet">
 
-## Day 18/#100DaysOfCode 
+## Day 18/#100DaysOfCode
 
 Added a secondary pop colour. Not sure about them... And the light/dark modes also need a manual toggle.
 
@@ -224,7 +314,7 @@ My popups/modals have been made way better with JavaScript event.stopPropagation
 
 </div><div class="tweet">
 
-## Day 17/#100DaysOfCode 
+## Day 17/#100DaysOfCode
 
 So the focus highlighting is back. I've made the function of the popups a little better. The ascii-art is now somewhat more viewable on mobiles.
 
@@ -234,19 +324,21 @@ And [sarawallen.com](http://sarawallen.com) now has styling to match :)
 
 </div><div class="tweet">
 
-## Day 16/#100DaysOfCode 
+## Day 16/#100DaysOfCode
 
 Added a pop colour to my 'blogolio' amongst other little fixes. The front, stuff and contact pages need content.
 
 I also need to work on my main landing page - I want to keep it, but the styling needs an overhaul, and I must locally host the font...
 
 ### Day 16 continued
+
 Notes to self:
-* Focus highlighting - outline (+offset?) or border? ✅ done
-* Prioritise accessibility.
-* Consider elements expanding in place instead of introducing modals, ooh.
-* Host [sarawallen.com](http://sarawallen.com) font(s) locally.
-* Make the ascii-art text responsive.
+
+- Focus highlighting - outline (+offset?) or border? ✅ done
+- Prioritise accessibility.
+- Consider elements expanding in place instead of introducing modals, ooh.
+- Host [sarawallen.com](http://sarawallen.com) font(s) locally.
+- Make the ascii-art text responsive.
 
 </div><div class="tweet">
 
@@ -272,12 +364,13 @@ Notes to self before bed:
 - Reconsider popup position (fixed? absolute?) and how to darken rest of site behind it (huge box shadow? Is that legit CSS?)
 
 Add content:
-* Contact 
-* Front page (hero?)
+
+- Contact
+- Front page (hero?)
 
 </div><div class="tweet">
 
-## Day 13/#100DaysOfCode 
+## Day 13/#100DaysOfCode
 
 2nd attempt at the svelte static blog looks good, and now I'm trying to build out the portfolio/stuff section.
 
@@ -304,7 +397,7 @@ Then I missed out a forward slash which meant the built version of my new one co
 The upshot of this is I've just learned how I /should/ be using assets in SvelteKit,<br>~and~<br>
 the new version is now being pushed to GitHub from the start - and therefore also now being auto-built and deployed on Netlify. Winner.
 
-Temporary URL: ~~hardcore-bose-029a18.netlify.app~~<br> *link no longer functional*
+Temporary URL: ~~hardcore-bose-029a18.netlify.app~~<br> _link no longer functional_
 
 </div><div class="tweet">
 
@@ -320,7 +413,7 @@ Also still tussling with PowerShell at work…
 
 Already 10% done?
 
-I have a blog! A static one! Built with @sveltejs! Temporary site is here: ~~pensive-murdock-678461.netlify.app~~<br> *link no longer functional*
+I have a blog! A static one! Built with @sveltejs! Temporary site is here: ~~pensive-murdock-678461.netlify.app~~<br> _link no longer functional_
 
 The design is… hm. Trying to harmonise it with [sarawallen.com](http://sarawallen.com). Very Under Construction 🏗️👷
 
@@ -332,7 +425,7 @@ With thanks to @jjcollinsworth :)
 
 More PowerShell, more SvelteKit static blog building.
 
-With the latter I really should finish the tutorial before messing with parts of it, because inevitably it gets around to what I want to try anyway, and does whatever it is way more efficiently! ^_^
+With the latter I really should finish the tutorial before messing with parts of it, because inevitably it gets around to what I want to try anyway, and does whatever it is way more efficiently! ^\_^
 
 </div><div class="tweet">
 
