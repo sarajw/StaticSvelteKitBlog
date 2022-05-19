@@ -7,15 +7,7 @@
 </svelte:head>
 
 <div class="contact">
-  <h1>Get in touch:</h1>
-
-  <form
-    name="contact"
-    method="POST"
-    data-netlify="true"
-    Content-Type="application/x-www-form-urlencoded"
-    action="/thankyou"
-  >
+  <form name="contact" method="POST" data-netlify="true" Content-Type="application/x-www-form-urlencoded" action="/thankyou">
     <input type="hidden" name="form-name" value="contact" />
     <p class="emailLink">
       <a href="mailto:dev@sarawallen.com">dev@sarawallen.com</a>

@@ -26,20 +26,12 @@
 <div on:click={close} class="popwrap">
   <article on:click|stopPropagation class="popup">
     <button on:click={close} title="Close">X</button>
-    {#if image}<img
-        src="/images/stuff/{image}"
-        {alt}
-        style:aspect-ratio={asprat}
-      />{/if}
+    {#if image}<img src="/images/stuff/{image}" {alt} style:aspect-ratio={asprat} />{/if}
     <div class="heading">
       <h2>{title}</h2>
       {#if urlNoHttp}
         <h3>
-          <a
-            href={url ? url : `/images/stuff/${local}`}
-            rel="external"
-            target="_blank">{url ? urlNoHttp : local}</a
-          >
+          <a href={url ? url : `/images/stuff/${local}`} rel="external" target="_blank">{url ? urlNoHttp : local}</a>
         </h3>
       {/if}
     </div>

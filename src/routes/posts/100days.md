@@ -1,6 +1,6 @@
 ---
 title: "#100DaysOfCode"
-date: "2022/04/25"
+date: "2022/05/19"
 exerpt: Copying and pasting my tweets on the matter as I slowly make my way through nonconsecutively the 100 days.
 image: twitter.png
 ---
@@ -10,6 +10,96 @@ image: twitter.png
 <p class="caption">My twitter account is <a href="https://twitter.com/sarajwallen">@sarajwallen</a> :)</p>
 
 <div class="tweet">
+
+## Day 52/#100DaysOfCode
+
+#bootcampdev - using @prisma and @PostgreSQL to build an API
+
+</div><div class="tweet">
+
+## Day 51/#100DaysOfCode
+
+Learning more about APIs, specifically REST for the moment but I need to get @GraphQL on my radar too.
+
+#bootcampdev will start beefing up the project work in the coming weeks - looking forward to build build building, 🧱 by 🧱 :)
+
+</div><div class="tweet">
+
+## Day 50/#100DaysOfCode
+
+I just had a great video chat/screenshare with @grahamashton and @angstlotse to discuss elements of our bootcamp :)
+
+Honestly I'm honoured to be able to chat with and receive (and hopefully one day I'll also give!) support from these two 🥰
+
+</div><div class="tweet">
+
+## Day 49/#100DaysOfCode
+
+I'm revising SQL - I did once build a huge project with a whole load of updates and adds and inner joins and outer joins and all sorts of things in between with PHP - but that was many years ago now!
+
+#bootcampdev
+
+</div><div class="tweet">
+
+## Day 48/#100DaysOfCode
+
+I'm using [centering.netlify.app](https://centering.netlify.app) just to experiment really - the content is definitely incomplete!
+
+Particularly playing with CSS colour-scheme at the moment, trying make light and dark mode (only switchable based on OS setting) as automated as possible.
+
+</div><div class="tweet">
+
+## Day 47/#100DaysOfCode
+
+Besides bootcamping I can never resist some messing with CSS - saw the cute animated underlines on the ProtonMail site menu and made my own (code in replies):
+
+Click to see the video on twitter:
+[![Animated underlines video thumbnail](/images/blog/animated_underlines.png)](https://twitter.com/i/status/1522676448800256000)
+
+### Day 47 continued:
+
+<pre>.hovertest::after &lcub;
+    content: "";
+    display: block;
+    width: 16ch;
+    border-top: 2px solid silver;
+    transform: rotateY(90deg);
+    transition: ease 0.5s;
+&rcub;
+.hovertest:hover::after &lcub;
+    transform: rotateY(0deg);
+    transition: ease 0.5s;
+&rcub;</pre>
+
+### Day 47 continued-continued:
+
+What I haven't figured out is whether there's an easy way to make the ::after pseudoelement width automatically the same as the element it's attached to...
+
+It might be that ::after isn't the best solution but some kind of nesting of DIVs, but still :)
+
+**Reader, she did figure it out later :)**
+
+</div><div class="tweet">
+
+## Day 46/#100DaysOfCode
+
+Same as before, I'm busy with the #bootcampdev course - now we're getting into React, via @nextjs.
+
+I did start with Next at the beginning of my 100 days, then got distracted by @sveltejs - so I've finally come full circle!
+
+Bring it on 💪
+
+</div><div class="tweet">
+
+## Day 45/#100DaysOfCode
+
+It's really a few days mashed into one but I've only been able to work a little here and there:
+
+Turning the handle on the #bootcampdev course - learning more new stuff now :)
+
+Working on my centering page, I keep getting stuck playing with CSS as usual!
+
+</div><div class="tweet">
 
 ## Day 44/#100DaysOfCode
 
