@@ -1,7 +1,7 @@
 ---
 title: "How We All Benefit from Accessibility"
 date: "2022/05/21"
-exerpt: A general musing on accessibiliy (a.k.a. a11y), online and offline.
+exerpt: A general musing on accessibility (a.k.a. a11y), online and offline.
 image: accessibility.png
 ---
 
@@ -15,7 +15,7 @@ So, the same goes for the web.
 
 ## We all benefit
 
-What not evenyone realises is how much accessibility improvements actually help us all. Wheelchair ramps? Also good for people pushing children in prams and buggies. Elevators/lifts? Saves you lugging that heavy suitcase up the stairs. Also some things that are just 'nice' for the rest of us can be very important for others - a quiet coach on a train? So relaxing. Also great for keeping overwhelming sounds down for people with auditory processing disorders.
+What not everyone realises is how much accessibility improvements actually help us all. Wheelchair ramps? Also good for people pushing children in prams and buggies. Elevators/lifts? Saves you lugging that heavy suitcase up the stairs. Also some things that are just 'nice' for the rest of us can be very important for others - a quiet coach on a train? So relaxing. Also great for keeping overwhelming sounds down for people with auditory processing disorders.
 
 Ditto online - subtitles on videos? So useful if you want to watch a video quietly, or in a loud environment, or if you have no earbuds with you. Good, semantic HTML structure under a website? Great for screen readers and also makes for clear, well-structured visual user interfaces too. Dark mode websites? Nice to use in the evenings if you like to keep your surroundings dark or save your OLED-screened mobile phone battery, and also helpful if you suffer migraines and bright backgrounds trigger it.
 
