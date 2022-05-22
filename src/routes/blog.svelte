@@ -25,8 +25,7 @@
     {#each posts as post}
       <li>
         <a href={post.path}>
-          <!-- svelte-ignore a11y-missing-attribute -->
-          <img src="../images/blog/{post.meta.image}" />
+          <img src="../images/blog/{post.meta.image}" alt={post.meta.caption} />
           <article pubdate={post.meta.date}>
             <h2>
               {post.meta.title}

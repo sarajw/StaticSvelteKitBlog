@@ -3,17 +3,17 @@ title: Why I Dance, Nov 2012
 date: "2012/11/28"
 exerpt: I began dancing in January 2007 (first, leroc, then I discovered swing/lindy about 5 months later) - really, I was looking for a hobby.
 image: dancing.jpg
+caption: Performing with Swing Dance Bristol (image credit Christopher Allen)
 ---
 
 ## Preface, 2022
+
 This was posted a good decade ago. Since then a lot has happened, my writing style has probably changed, I have had times with more dancing and less dancing.
 
 Of course in these pandemic times there has been no almost no going out and social dancing at all (I went once in October 2021 before another big COVID-19 wave kicked off), and that’s been so very hard.
 
-![Performing with Swing Dance Bristol](/images/blog/dancing.jpg)
-<p class="caption">Performing with Swing Dance Bristol (image credit Christopher Allen)</p>
-
 ## Original Blog Post
+
 There’s a few facets to this. I’ll try to keep it coherent!
 
 I began dancing in January 2007 (first, leroc, then I discovered swing/lindy about 5 months later) - really, I was looking for a hobby. I was becoming increasingly fat (turns out I had a mild problem but it was also through inactivity) and boring, watching a lot of TV, and immersing myself in the internet. It seemed one way to “get a life”.
@@ -25,6 +25,7 @@ It’s like - well - instead of having to be in a dark pumping club full of alco
 It is good, clean, amazing fun - and it had been missing. But I didn’t know I was missing it until I tried it. Since learning to dance I have honestly and truthfully been a more fulfilled person: I don’t drink nearly as much as I did; I’m no longer fat-fat albeit arguably still cuddly; I don’t really have time for television - and I am fairly sure I now have a life!
 
 ### Soooooo that’s the story. But WHY does it feel so good?
+
 Hrrmmmmm good question.
 
 I think we have a combination of several effects (this list is not exhaustive, and I don’t have the brain-energy to drill down into the different styles of dance):

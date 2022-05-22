@@ -1,5 +1,6 @@
 <!-- __layout.svelte -->
 <script>
+  import { onMount } from "svelte";
   import Header from "$lib/components/Header.svelte";
   import Footer from "$lib/components/Footer.svelte";
   import { page } from "$app/stores";
@@ -13,6 +14,14 @@
 
   afterUpdate(() => {
     route = $page.url.pathname.slice(1);
+  });
+  onMount(() => {
+    let preferredColorScheme = "";
+    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      preferredColorScheme = "dark";
+    } else {
+      preferredColorScheme = "light";
+    }
   });
 </script>
 
@@ -43,13 +52,7 @@
     background-size: cover, clamp(200px, 25vw, 400px);
     background-repeat: no-repeat, repeat;
     background-position: center, center;
-    background-image: linear-gradient(
-        var(--bass),
-        var(--basstransp) 30%,
-        var(--basstransp) 70%,
-        var(--bass)
-      ),
-      var(--tile);
+    background-image: linear-gradient(var(--bass), var(--basstransp) 30%, var(--basstransp) 70%, var(--bass)), var(--tile);
   }
   .blog,
   [class^="posts"] {

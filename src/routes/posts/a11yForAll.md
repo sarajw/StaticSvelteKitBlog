@@ -3,6 +3,7 @@ title: "How We All Benefit from Accessibility"
 date: "2022/05/21"
 exerpt: A general musing on accessibility (a.k.a. a11y), online and offline.
 image: accessibility.png
+caption: "Accessibility/a11y icon: a stylised human body inside a circle"
 ---
 
 ## Accessibility on the web (a.k.a. a11y)

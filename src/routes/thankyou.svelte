@@ -1,5 +1,6 @@
 <svelte:head>
   <meta http-equiv="refresh" content="5;URL=/contact" />
+  <title>sara j. wallén | Thank You!</title>
 </svelte:head>
 
 <div class="thanks">

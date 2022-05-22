@@ -3,13 +3,22 @@ title: "#100DaysOfCode"
 date: "2022/05/19"
 exerpt: Copying and pasting my tweets on the matter as I slowly make my way through nonconsecutively the 100 days.
 image: twitter.png
+caption: Profile picture of my twitter account
 ---
 
-![Twitter account @sarajwallen](/images/blog/twitter.png)
-
-<p class="caption">My twitter account is <a href="https://twitter.com/sarajwallen">@sarajwallen</a> :)</p>
+Want to see more? I post other stuff too! Head on over to [@sarajwallen](https://twitter.com/sarajwallen) :)
 
 <div class="tweet">
+
+## Day 53/#100DaysOfCode
+
+Had what appeared to be a catastrophic failure in my SvelteKit blog.
+
+I'm still sort of unclear as to what happened, but what I've come away with is this:
+
+Don't ignore warnings in the terminal, they might actually fix things for you 😅
+
+</div><div class="tweet">
 
 ## Day 52/#100DaysOfCode
 

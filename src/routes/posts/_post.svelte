@@ -1,6 +1,9 @@
 <script>
   export let title;
   export let date;
+  export let exerpt;
+  export let image;
+  export let caption;
 
   let options = { year: "numeric", month: "long", day: "numeric" };
   let datestring = new Date(date).toLocaleString("en-GB", options);
@@ -13,10 +16,13 @@
 <div class="blogpost">
   <div class="heading">
     <h1>{title}</h1>
+    <p class="exerpt">{exerpt}</p>
     <p class="posted">Posted on {datestring}</p>
   </div>
 
   <article class="post" pubdate={date}>
+    <img src="/images/blog/{image}" alt={caption} />
+    <p class="caption">{caption}</p>
     <slot />
   </article>
 </div>
@@ -35,8 +41,24 @@
     align-items: center;
     gap: 0 1rem;
   }
+  .heading h1,
+  .posted {
+    color: var(--linkspop);
+  }
+  .exerpt {
+    color: var(--hover2nd);
+    font-size: var(--h3);
+    line-height: var(--h2);
+    font-style: italic;
+  }
   .posted {
     margin-left: auto;
+  }
+  .caption,
+  .post :global(.caption) {
+    text-align: center;
+    margin-top: -0.5rem;
+    font-size: var(--sml);
   }
   .post :global(li) {
     font-size: var(--p);
@@ -57,11 +79,6 @@
     border-radius: var(--border-radii);
     margin: 1rem auto 0;
     box-shadow: 1px 1px 15px -12px var(--shadow);
-  }
-  .post :global(.caption) {
-    text-align: center;
-    margin-top: -0.5rem;
-    font-size: var(--sml);
   }
   .post :global(pre) {
     margin: 0.5rem 0;
