@@ -10,6 +10,17 @@ Want to see more? I post other stuff too! Head on over to [@sarajwallen](https:/
 
 <div class="tweet">
 
+## Day 54/#100DaysOfCode
+
+Me: Stop fannying about with the blog and get on with #bootcampdev!
+
+Also me: Writing blog posts on accessibility, breaking and fixing blog site...
+
+Note to self:
+Add blog title-picture captions to markdown frontmatter and use them as index image ALT tags
+
+</div><div class="tweet">
+
 ## Day 53/#100DaysOfCode
 
 Had what appeared to be a catastrophic failure in my SvelteKit blog.
