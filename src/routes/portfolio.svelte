@@ -8,6 +8,7 @@
   let show_b3 = false;
   let show_c3 = false;
   let show_c4 = false;
+  let show_d4 = false;
 
   function popupClose(event) {
     show_a1 = false;
@@ -17,6 +18,7 @@
     show_b3 = false;
     show_c3 = false;
     show_c4 = false;
+    show_d4 = false;
   }
 </script>
 
@@ -228,7 +230,31 @@
         </div>
       </Popup>
     {/if}
-    <div class="smsq1" id="d4" />
+    <button
+      class="smsq1"
+      id="d4"
+      style="background-image: url('/images/stuff/blogger_small.png')"
+      title="Open Blogger"
+    >
+      <h1 on:click={() => (show_d4 = true)} class="caption">Blogger</h1>
+    </button>
+    {#if show_d4}
+      <Popup
+        on:closePopup={popupClose}
+        title="Blogger Blog"
+        url="http://sarajwallen.blogspot.com/"
+        image="blogger.png"
+        asprat="22/15"
+        alt="A bunch of image tiles showing the most recent (but still very old) posts on my Blogger blog."
+      >
+        <div slot="desc">
+          <p>An even older blog than my Tumblr!</p>
+          <p>
+            Feel free to browse. Again, lots of swing dance related content but other stuff too.
+          </p>
+        </div>
+      </Popup>
+    {/if}
   </section>
 </div>
 

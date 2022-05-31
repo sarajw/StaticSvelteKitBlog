@@ -1,6 +1,6 @@
 ---
 title: "#100DaysOfCode"
-date: "2022/05/19"
+date: "2022/05/31"
 exerpt: Copying and pasting my tweets on the matter as I slowly make my way through nonconsecutively the 100 days.
 image: twitter.png
 caption: Profile picture of my twitter account
@@ -9,6 +9,62 @@ caption: Profile picture of my twitter account
 Want to see more? I post other stuff too! Head on over to [@sarajwallen](https://twitter.com/sarajwallen) :)
 
 <div class="tweet">
+
+## Day 58/#100DaysOfCode 
+
+The friend for whom I made a landing page as a learning exercise is now wanting to edit it without bothering me, which is fine - it was asked if it could be moved to WordPress, eep!
+
+After much deliberation, I think the best solution is actually just
+
+### Day 58 continued:
+
+hosting it on Github and letting it update to Netlify (which also has handy native Forms support for the contact form), adding big obvious comments in the index.html that make it clear where is safe to edit.
+
+It's not complex enough to build into a CMS!
+
+</div><div class="tweet">
+
+## Day 57/#100DaysOfCode 
+
+Oh my. Authentication is a Whole Thing, isn't it. #bootcampdev
+
+I'm also writing my 2nd blog post on accessibility.
+
+I feel like a fraud because there's so much to learn, but also it might be good for others to read a simple overview of some aspects of it.
+
+### Day 57 continued:
+
+Notes to self for a11y article 2:
+
+- Change Site structure heading to Page structure
+- Separate Readers section into Screen readers and Reader mode
+- Include reference to a screen reader moving through a page as well as just tabbing through focusable things like links
+
+</div><div class="tweet">
+
+## Day 56/#100DaysOfCode
+
+#bootcampdev is back to forms, this time in React. I find it funny that we have to stop default behaviour to grab data.
+
+I also read a thread by @jaffathecake about SPAs and the mess of URLs and content and History API 🤯
+
+Modern web development is wild...
+
+</div><div class="tweet">
+
+## Day 55/#100DaysOfCode 
+
+API done. Honestly, I'm scratching my head at the syntax we're using to talk to Prisma and wondering why not skip the middleman and just write SQL, but I'm sure it'll make more sense the more JS gets comfy in my mental muscle memory.
+
+### Day 55 continued:
+
+Oh and I sorted out the ALT text thing.
+
+I probably should refactor my portfolio's modals to `<dialog>` some time too but... I made them from scratch myself and I'm low-key proud of having done so!
+
+So many things need fixing up and making shiny. Maybe after finishing #bootcampdev!
+
+</div><div class="tweet">
 
 ## Day 54/#100DaysOfCode
 
