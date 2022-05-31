@@ -10,6 +10,16 @@ Want to see more? I post other stuff too! Head on over to [@sarajwallen](https:/
 
 <div class="tweet">
 
+## Day 59/#100DaysOfCode*
+
+#bootcampdev is spinning up a twitter clone this week!
+
+I hope I manage to finish it and I hope even more that I manage to find some time to put my own stamp on it...
+
+\* haha yes, I'm letting days and days slip away between posting these...
+
+</div><div class="tweet">
+
 ## Day 58/#100DaysOfCode 
 
 The friend for whom I made a landing page as a learning exercise is now wanting to edit it without bothering me, which is fine - it was asked if it could be moved to WordPress, eep!
