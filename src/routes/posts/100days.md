@@ -10,6 +10,16 @@ Want to see more? I post other stuff too! Head on over to [@sarajwallen](https:/
 
 <div class="tweet">
 
+## Day 60/#100DaysOfCode
+
+My goodness there's a lot to take in. I'm glad we'll be doing project after project, in the hope more and more becomes familiar - right now I'm swimming in unfamiliar code!
+
+I like it though. As usual I just want to get to the styling part 😎
+
+#bootcampdev
+
+</div><div class="tweet">
+
 ## Day 59/#100DaysOfCode*
 
 #bootcampdev is spinning up a twitter clone this week!
