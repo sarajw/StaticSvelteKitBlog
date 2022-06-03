@@ -6,9 +6,28 @@ image: twitter.png
 caption: Profile picture of my twitter account
 ---
 
-Want to see more? I post other stuff too! Head on over to [@sarajwallen](https://twitter.com/sarajwallen) :)
+Want to see more? I post other stuff too: [@sarajwallen](https://twitter.com/sarajwallen) :)
 
 <div class="tweet">
+
+## Day 61/#100DaysOfCode
+
+For the twitter clone, a check on whether a username was already taken was left up to us to figure out.
+
+It seemed simple, but then I needed to change a load of behaviours based on the outcome of the check, that was harder!
+
+Did it, though! 💫
+
+#bootcampdev
+
+### Day 61 continued:
+
+For those interested (@njong_emy!), right now it's looking like this - so far most of the work has gone into the database and auth and API:
+![Screenshot of my 'Cheeper' Twitter clone](/images/blog/cheeper.jfif)
+
+Yes, it's like Twitter, but Cheeper...
+
+</div><div class="tweet">
 
 ## Day 60/#100DaysOfCode
 
