@@ -10,6 +10,36 @@ Want to see more? I post other stuff too: [@sarajwallen](https://twitter.com/sar
 
 <div class="tweet">
 
+## Day 63/#100DaysOfCode 
+
+My twitter clone is almost fully working, I'm not sure of a lot of things in it, it's all very clever and I certainly can't imagine ever building such a thing by myself right now. It'll come in time I'm sure...
+
+..I still want to style it better, too!
+
+### Day 63 continued:
+
+Either way, it's up online - you can try to sign in if you like, but unless I contact you with your magic link, you won't be able to log in.
+
+There's still some minor browsing possible without signing up :)
+
+[twitter-clone-sarajw.vercel.app](https://twitter-clone-sarajw.vercel.app)
+
+#bootcampdev
+
+</div><div class="tweet">
+
+## Day 62/#100DaysOfCode
+
+Twitter clone (mine's called 'Cheeper'!) progress, still very simple looking - only got this weekend before we start a new project next week, so we'll see how far I can take it...
+
+#bootcampdev - @flaviocopes
+
+Light & Dark modes, logged in and logged out:
+![Light mode screenshot of my 'Cheeper' Twitter clone](/images/blog/cheeper-light.jfif)
+![Dark mode screenshot of my 'Cheeper' Twitter clone](/images/blog/cheeper-dark.jfif)
+
+</div><div class="tweet">
+
 ## Day 61/#100DaysOfCode
 
 For the twitter clone, a check on whether a username was already taken was left up to us to figure out.
