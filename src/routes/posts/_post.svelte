@@ -71,7 +71,7 @@
     margin-top: var(--p);
     color: var(--linkspop);
   }
-  .post :global(h3) {
+  .post :global(h3), .post :global(h4) {
     color: var(--hover2nd);
   }
   .post :global(img) {
@@ -103,6 +103,15 @@
     background-color: var(--bass);
     border-radius: var(--border-radii);
     box-shadow: 1px 1px 15px -12px var(--shadow);
+  }
+  .post :global(table) {
+    margin-block: 1rem;
+  }
+  .post :global(:is(td, th)) {
+    padding: 0.5ch 1ch;
+  }
+  .post :global(thead) {
+    border-bottom: 1px solid var(--shadow);
   }
 
   :root {

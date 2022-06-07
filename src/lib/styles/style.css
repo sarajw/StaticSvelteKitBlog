@@ -14,7 +14,7 @@
 	--shadow2nd: hsla(var(--2nd) 75% / 0.5);
 	
 	--links: hsl(var(--grey) 30%);
-	--linkspop: hsl(var(--pop) 40%);
+	--linkspop: hsl(var(--pop) 35%);
 	--links2nd: hsl(var(--2nd) 40%);
 
 	--hover: hsl(var(--grey) 50%);
@@ -42,7 +42,7 @@
 	--scrollbar: hsl(var(--grey) 75%);
 	--scrollhover: hsl(var(--grey) 70%);
 
-	--homeFilter: invert(60%) sepia(6%) saturate(3338%) hue-rotate(126deg) brightness(84%) contrast(98%);
+	--homeFilter: invert(39%) sepia(53%) saturate(480%) hue-rotate(126deg) brightness(98%) contrast(90%);
 	--homeFilterHover: invert(32%) sepia(18%) saturate(1644%) hue-rotate(272deg) brightness(92%) contrast(87%);
 
 	/* scaling */
@@ -58,6 +58,7 @@
     --h1: clamp(1.5rem, 6vw, 2rem);
     --h2: clamp(1.3rem, 5.5vw, 1.75rem);
     --h3: clamp(1.1rem, 5vw, 1.5rem);
+    --h4: clamp(1.0rem, 4.75vw, 1.3rem);
     --p: clamp(0.9rem, 4.5vw, 1.1rem);
     --sml: clamp(0.6rem, 4vw, 1rem);
     --gap: clamp(0.4rem, 3vw, 0.6rem);
@@ -186,7 +187,7 @@ footer {
     grid-area: footer;
 }
 
-p, h1, h2, h3 {
+p, h1, h2, h3, h4 {
     padding: 0.5em 0;
 }
 
@@ -201,6 +202,10 @@ h2 {
 h3 {
     font-size: var(--h3);
     line-height: var(--h2);
+}
+h3 {
+    font-size: var(--h4);
+    line-height: var(--h3);
 }
 p {
     font-size: var(--p);
