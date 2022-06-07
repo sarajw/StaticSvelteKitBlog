@@ -112,7 +112,7 @@ In fact reader modes are often a variation on this theme by default; an off-whit
 
 ### Migraines
 
-@[Tiia](@TiiaAurora) made me aware of [a study of migraine sufferers](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4011802/) where their aversion to contrast and the movement of a grating pattern was tested. A very brief summary of the results is tabulated below:
+[@Tiia](https://twitter.com/TiiaAurora) made me aware of [a study of migraine sufferers](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4011802/) where their aversion to contrast and the movement of a grating pattern was tested. A very brief summary of the results is tabulated below:
 
 > **Table 1**: Mean (standard deviation) percent contrast of the grating at which the participant chose to abort the trial. The data are shown separately for migraineurs and controls for each type of grating (static, drifting and vibrating).
 
