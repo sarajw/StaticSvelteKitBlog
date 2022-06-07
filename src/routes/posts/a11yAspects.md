@@ -1,9 +1,9 @@
 ---
-title: "Aspects of Accessibility (a11y) - Semantics, Contrast and... Anxiety?"
+title: "A11y: Semantics, Contrast and... Anxiety?"
 date: "2022/06/07"
-exerpt: There is a lot to take in. The temptation is to just carry on and pretend we didn't read that very confronting article making it clear we need to Do Better.
+exerpt: It's a lot. It's tempting to pretend we didn't read that very confronting article telling us we need to Do Better.
 image: a11yAspects.png
-caption: "A screenshot of semantic HTML, starting with stark harsh colours on the left to a less contrasty right hand side overlaid with fluffy clouds"
+caption: "Somewhat semantic HTML, fading from harsh colours to a more serene state."
 ---
 
 A caveat - I am learning while writing. My own homepage & portfolio need work too!
