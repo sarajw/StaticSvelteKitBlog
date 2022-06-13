@@ -5,8 +5,10 @@
   let show_b1 = false;
   let show_b2 = false;
   let show_d2 = false;
+  let show_a3 = false;
   let show_b3 = false;
   let show_c3 = false;
+  let show_a4 = false;
   let show_c4 = false;
   let show_d4 = false;
 
@@ -15,8 +17,10 @@
     show_b1 = false;
     show_b2 = false;
     show_d2 = false;
+    show_a3 = false;
     show_b3 = false;
     show_c3 = false;
+    show_a4 = false;
     show_c4 = false;
     show_d4 = false;
   }
@@ -44,7 +48,7 @@
         url="https://sarawallen.com"
         image="sarawallen_com_large.png"
         asprat="4/3"
-        alt="Sara's main landing page"
+        alt="Sara's main landing page - the screenshot shows the nagivation of the website with the INTRO: Hi! Welcome :) and STUFF: Web Development & Design tabs in view"
       >
         <div slot="desc">
           <p>
@@ -71,7 +75,7 @@
         url="https://yasmin-brinkmann.de"
         image="yasmin_large.png"
         asprat="16/9"
-        alt="Yasmin Brinkmann desktop website screenshot"
+        alt="Yasmin Brinkmann's website - the headline is Praxis für systemische Beratung, Coaching & Biographiearbeit and there is a picture of her with her arms folded wearing a red top and a fetchingly striped blazer."
       >
         <div slot="desc">
           <p>
@@ -96,7 +100,6 @@
       class="bigsq"
       id="b2"
       style="background-image: url('/images/stuff/mktimelapse_sqthumb.png')"
-      title="Open MK timelapse GmbH"
     >
       <h1 on:click={() => (show_b2 = true)} class="caption">
         MK time&shy;lapse
@@ -109,7 +112,7 @@
         url="https://mktimelapse.com"
         image="mktimelapse_large.png"
         asprat="16/9"
-        alt="MK timelapse GmbH desktop website screenshot"
+        alt="MK timelapse GmbH desktop website screenshot. The hero image is a skyscraper under construction."
       >
         <div slot="desc">
           <p>
@@ -126,7 +129,6 @@
       id="d2"
       class="bigrow"
       style="background-image: url('/images/stuff/binnenalster_small.jpg')"
-      title="Open Hamburg"
     >
       <h1 on:click={() => (show_d2 = true)} class="caption">Hamburg</h1>
     </button>
@@ -137,7 +139,7 @@
         local="binnenalster.jpg"
         image="binnenalster.jpg"
         asprat="4/3"
-        alt="A photo of the Hamburg Binnenalster"
+        alt="A photo of the Hamburg Binnenalster, taken from the north-western corner"
       >
         <div slot="desc">
           <p>A nice photo I took :)</p>
@@ -148,6 +150,32 @@
 
   <section class="container box3">
     <div class="bigsq" id="a3" />
+    <button
+      class="bigsq"
+      id="a3"
+      style="background-image: url('/images/stuff/blogolio_sq.png')"
+    >
+      <h2 on:click={() => (show_a3 = true)} class="caption">Blogolio</h2>
+    </button>
+    {#if show_a3}
+      <Popup
+        on:closePopup={popupClose}
+        title="Blogolio: this blog & portfolio"
+        url="https://blog.sarawallen.com/"
+        image="blogolio_large.png"
+        asprat="16/9"
+        alt="A screenshot of the front page of the blog featuring my head and shoulders. I have glasses on my head and a purple top and grey cardigan on."
+      >
+        <div slot="desc">
+          <p>
+            I built this blog to introduce myself to the world of frameworks, and I started with SvelteKit via this article: <a href="https://joshcollinsworth.com/blog/build-static-sveltekit-markdown-blog">Let's learn SvelteKit by building a static Markdown blog from scratch</a>
+          </p>
+          <p>
+            I then spent lots of time making up the modals in this portfolio, and I'm quite proud of it - however! Now really I ought to refactor them using &lt;dialog&gt; elements...
+          </p>
+        </div>
+      </Popup>
+    {/if}
     <button
       class="smsq1"
       id="b3"
@@ -163,7 +191,7 @@
         url="https://mega-zine.netlify.app/"
         image="mega-zine.png"
         asprat="8/5"
-        alt="Mega-zine teletext mock-up screenshot"
+        alt="Mega-zine teletext mock-up - pixellated neon letters and blocky image with a tongue sticking out on a black background"
       >
         <div slot="desc">
           <p>
@@ -210,7 +238,31 @@
   </section>
 
   <section class="container box4">
-    <div class="shcol" id="a4" />
+    <button
+      class="shcol"
+      id="a4"
+      style="background-image: url('/images/stuff/cheeper_small.png')"
+      title="Open Cheeper"
+    >
+      <h1 on:click={() => (show_a4 = true)} class="caption">Chee&#8203;per</h1>
+    </button>
+    {#if show_a4}
+      <Popup
+        on:closePopup={popupClose}
+        title="Cheeper - a Twitter clone"
+        url="https://twitter-clone-sarajw.vercel.app"
+        image="cheeper_large.png"
+        asprat="16/9"
+        alt="Cheeper is a Twitter clone"
+      >
+        <div slot="desc">
+          <p>One of the projects made during Flavio Copes' 2022 Bootcamp.</p>
+          <p>
+            If you'd like to sign in to play, please follow the sign up then contact me - an email is never sent, but I can go see the dummy and give you a magic link :)
+          </p>
+        </div>
+      </Popup>
+    {/if}
     <div class="shrow" id="b4" />
     <button
       class="bigsq"
@@ -236,7 +288,7 @@
       style="background-image: url('/images/stuff/blogger_small.png')"
       title="Open Blogger"
     >
-      <h1 on:click={() => (show_d4 = true)} class="caption">Blogger</h1>
+      <h1 on:click={() => (show_d4 = true)} class="caption">Blog&#8203;ger</h1>
     </button>
     {#if show_d4}
       <Popup

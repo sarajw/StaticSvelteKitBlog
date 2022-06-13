@@ -1,6 +1,6 @@
 ---
 title: "#100DaysOfCode"
-date: "2022/05/31"
+date: "2022/06/13"
 exerpt: Copying and pasting my tweets on the matter as I slowly make my way through nonconsecutively the 100 days.
 image: twitter.png
 caption: Profile picture of my twitter account
@@ -9,6 +9,20 @@ caption: Profile picture of my twitter account
 Want to see more? I post other stuff too: [@sarajwallen](https://twitter.com/sarajwallen) :)
 
 <div class="tweet">
+
+## Day 64/#100DaysOfCode 
+
+Yes coding! Yes, I'm still doing it!
+
+My twitter clone's DB fell down, but now it's up again :)
+
+It definitely needs tweaks but I'm falling behind, so pushing on with the job board that is/was this week's project.
+
+#bootcampdev @flaviocopes
+
+\[insert 'just keep swimming' Finding Nemo GIF here!\]
+
+</div><div class="tweet">
 
 ## Day 63/#100DaysOfCode 
 
