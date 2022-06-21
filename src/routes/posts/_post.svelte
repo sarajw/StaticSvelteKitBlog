@@ -87,6 +87,8 @@
     border-radius: var(--border-radii);
     box-shadow: 1px 1px 15px -12px var(--shadow);
     white-space: pre-wrap;
+    max-width: 100%;
+    overflow-x: auto;
   }
   .post :global(code) {
     font-size: var(--sml);
@@ -106,6 +108,7 @@
   }
   .post :global(table) {
     margin-block: 1rem;
+    font-size: var(--sml);
   }
   .post :global(:is(td, th)) {
     padding: 0.5ch 1ch;
