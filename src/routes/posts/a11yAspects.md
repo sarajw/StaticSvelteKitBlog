@@ -46,11 +46,11 @@ Not only can we use various levels of heading (`<h1>` to `<h6>`) like in word-pr
     <header>
         <h1>Website name</h1>
         <nav>
-          <menu>
+          <ul>
             <li>Home</li>
             <li>Blog</li>
             <li>Contact</li>
-          </menu>
+          </ul>
         </nav>
     </header>
     <main>

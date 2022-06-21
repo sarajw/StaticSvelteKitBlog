@@ -1,6 +1,6 @@
 ---
 title: "#100DaysOfCode"
-date: "2022/06/13"
+date: "2022/06/21"
 exerpt: Copying and pasting my tweets on the matter as I slowly make my way through nonconsecutively the 100 days.
 image: twitter.png
 caption: Profile picture of my twitter account
@@ -9,6 +9,32 @@ caption: Profile picture of my twitter account
 Want to see more? I post other stuff too: [@sarajwallen](https://twitter.com/sarajwallen) :)
 
 <div class="tweet">
+
+## Day 67/#100DaysOfCode 
+
+Urghhh, I just wasted an hour deep in if-elses, trying to be too clever.
+
+I don't have to do all those silly little edge cases I was trying to include for completeness. Move on, woman.
+
+Have commented the offending code instead of deleting, just in case...
+
+</div><div class="tweet">
+
+## Day 66/#100DaysOfCode 
+
+Going to have to back off the #bootcampdev for a while to concentrate on another little project or two.
+
+I'm sad not to be keeping up with the latest week, but I need to prioritise. The materials will still be there when I get back to it :)
+
+</div><div class="tweet">
+
+## Day 65/#100DaysOfCode
+
+I've been working on my friend @Beniswriting's new website. So far I've made a relatively simple one-page landing site, but I plan to throw it into @astrodotbuild so that it's easier to expand later on :)
+
+Currently to be seen at https://benjamin-dickson.netlify.app
+
+</div><div class="tweet">
 
 ## Day 64/#100DaysOfCode 
 
