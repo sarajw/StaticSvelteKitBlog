@@ -1,7 +1,7 @@
 ---
 title: "#100DaysOfCode"
 date: "2022/06/21"
-exerpt: Copying and pasting my tweets on the matter as I slowly make my way through nonconsecutively the 100 days.
+exerpt: Copying and pasting my tweets on the matter as I slowly make my way non-consecutively through the 100 days.
 image: twitter.png
 caption: Profile picture of my twitter account
 ---
