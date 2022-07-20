@@ -1,6 +1,6 @@
 ---
 title: "#100DaysOfCode"
-date: "2022/06/21"
+date: "2022/07/20"
 exerpt: Copying and pasting my tweets on the matter as I slowly make my way non-consecutively through the 100 days.
 image: twitter.png
 caption: Profile picture of my twitter account
@@ -9,6 +9,81 @@ caption: Profile picture of my twitter account
 Want to see more? I post other stuff too: [@sarajwallen](https://twitter.com/sarajwallen) :)
 
 <div class="tweet">
+
+</div><div class="tweet">
+
+## Day 75/#100DaysOfCode (very-non-consecutive)
+
+I have clearly coded in the last 2 weeks but it's so normal now that I forget to log it :)
+
+I have:
+✨ (mostly) finished Ben's website
+✨ been messing around with light/dark mode toggles
+✨ largely finished a private (for now) project
+
+</div><div class="tweet">
+
+## Day 74/#100DaysOfCode
+
+How many times am I going to have my @reactjs components go weird and unresponsive, before I learn to put the @emotioncss styled components outside of the export default function 🤦
+
+Took me ages to figure it out this time. Hopefully I've learned my lesson!
+
+</div><div class="tweet">
+
+## Day 73/#100DaysOfCode 
+
+No image ALT because writing it here:
+Screenshot of failed Vercel deployments because of TS errors. The top commit message is "TS is hard hahaha"
+
+Ooof. I'm doing a timed task. This is taking tiiiime!
+![description in text above](/images/blog/vercel-errors.png)
+
+</div><div class="tweet">
+
+## Day 72/#100DaysOfCode
+
+I often feel like I'm not doing it right when I'm staring blankly at docs or code feeling like I'll never get it.
+
+Then slowly, I do. Somehow.
+
+Seems not all progress comes from activity - are my braincells rearranging themselves as I stare?
+
+</div><div class="tweet">
+
+## Day 71/#100DaysOfCode 
+
+Stream (or scream!) of consciousness:
+
+TypeScript errors, HTMLElement, document not defined, object is possibly 'null', 'style' does not exist on type 'Element', useEffect to the rescue, but not like that, or that, OK so that works - but not this...
+
+🤯 🥰
+
+</div><div class="tweet">
+
+## Day 70/#100DaysOfCode 
+
+Separating out components on a friend's site in @astrodotbuild & getting lost in props & where to put various bits of JS and CSS - it's fun but some of those errors really aren't useful!
+
+Learning things in one place and applying them in another is cool :)
+
+</div><div class="tweet">
+
+## Day 69(nice)/#100DaysOfCode 
+
+Trying @emotioncss styled components in @nextjs.
+
+Seems once you have a bunch of concepts (not syntax, who can remember that) in your head, learning new stuff accelerates.
+
+I still know I KnOw NotHiNG, but I do know how to get started with new stuff!
+
+</div><div class="tweet">
+
+## Day 68/#100DaysOfCode
+
+I'm attempting the use of TypeScript ☠️ Wish me luck!
+
+</div><div class="tweet">
 
 ## Day 67/#100DaysOfCode 
 
@@ -32,7 +107,7 @@ I'm sad not to be keeping up with the latest week, but I need to prioritise. The
 
 I've been working on my friend @Beniswriting's new website. So far I've made a relatively simple one-page landing site, but I plan to throw it into @astrodotbuild so that it's easier to expand later on :)
 
-Currently to be seen at https://benjamin-dickson.netlify.app
+Currently to be seen at ~~https://benjamin-dickson.netlify.app~~<br> _link no longer functional_
 
 </div><div class="tweet">
 
