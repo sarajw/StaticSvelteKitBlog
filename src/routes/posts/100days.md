@@ -14,10 +14,7 @@ Want to see more? I post other stuff too: [@sarajwallen](https://twitter.com/sar
 
 I have clearly coded in the last 2 weeks but it's so normal now that I forget to log it :)
 
-I have:
-✨ (mostly) finished Ben's website
-✨ been messing around with light/dark mode toggles
-✨ largely finished a private (for now) project
+I have:<br>✨ (mostly) finished Ben's website<br>✨ been messing around with light/dark mode toggles<br>✨ largely finished a private (for now) project
 
 </div><div class="tweet">
 
