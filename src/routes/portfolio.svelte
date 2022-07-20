@@ -9,6 +9,7 @@
   let show_b3 = false;
   let show_c3 = false;
   let show_a4 = false;
+  let show_b4 = false;
   let show_c4 = false;
   let show_d4 = false;
 
@@ -21,6 +22,7 @@
     show_b3 = false;
     show_c3 = false;
     show_a4 = false;
+    show_b4 = false;
     show_c4 = false;
     show_d4 = false;
   }
@@ -99,28 +101,26 @@
     <button
       class="bigsq"
       id="b2"
-      style="background-image: url('/images/stuff/mktimelapse_sqthumb.png')"
+      style="background-image: url('/images/stuff/bendickson_sq.png')"
     >
       <h1 on:click={() => (show_b2 = true)} class="caption">
-        MK time&shy;lapse
+        Benjamin Dickson
       </h1>
     </button>
     {#if show_b2}
       <Popup
         on:closePopup={popupClose}
-        title="MK timelapse GmbH"
-        url="https://mktimelapse.com"
-        image="mktimelapse_large.png"
+        title="Benjamin Dickson"
+        url="https://bendickson.co.uk/"
+        image="bendickson.jpg"
         asprat="16/9"
-        alt="MK timelapse GmbH desktop website screenshot. The hero image is a skyscraper under construction."
+        alt="Benjamin Dickson, Comics Writer & Artist desktop website screenshot. His four most recent comic covers are displayed in a row under the title."
       >
         <div slot="desc">
           <p>
-            I work for MK timelapse GmbH, which in 2019 really needed an updated
-            website. I hopped on to Wix, chose a template and then modified it
-            heavily to reflect the feel of the new (at the time) MK logo.
+            My friend Ben needed a new responsive website to replace an ageing Wordpress site which was not responsive at all. I love building sites with such interesting content!
           </p>
-          <p>I plan to revisit the design of this site using maybe Webflow.</p>
+          <p>I built this site with the Astro framework.</p>
         </div>
       </Popup>
     {/if}
@@ -263,7 +263,34 @@
         </div>
       </Popup>
     {/if}
-    <div class="shrow" id="b4" />
+    <button
+      class="shrow"
+      id="b4"
+      style="background-image: url('/images/stuff/mktimelapse_small.png')"
+    >
+      <h1 on:click={() => (show_b4 = true)} class="caption">
+        MK time&shy;lapse
+      </h1>
+    </button>
+    {#if show_b4}
+      <Popup
+        on:closePopup={popupClose}
+        title="MK timelapse GmbH"
+        url="https://mktimelapse.com"
+        image="mktimelapse_large.png"
+        asprat="16/9"
+        alt="MK timelapse GmbH desktop website screenshot. The hero image is a skyscraper under construction."
+      >
+        <div slot="desc">
+          <p>
+            I work for MK timelapse GmbH, which in 2019 really needed an updated
+            website. I hopped on to Wix, chose a template and then modified it
+            heavily to reflect the feel of the new (at the time) MK logo.
+          </p>
+          <p>I plan to revisit the design of this site using maybe Webflow.</p>
+        </div>
+      </Popup>
+    {/if}
     <button
       class="bigsq"
       id="c4"
