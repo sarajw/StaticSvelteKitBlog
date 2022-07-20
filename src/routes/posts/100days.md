@@ -10,8 +10,6 @@ Want to see more? I post other stuff too: [@sarajwallen](https://twitter.com/sar
 
 <div class="tweet">
 
-</div><div class="tweet">
-
 ## Day 75/#100DaysOfCode (very-non-consecutive)
 
 I have clearly coded in the last 2 weeks but it's so normal now that I forget to log it :)
