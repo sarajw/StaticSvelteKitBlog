@@ -1,6 +1,6 @@
 ---
 title: "#100DaysOfCode"
-date: "2022/07/20"
+date: "2022/08/18"
 exerpt: Copying and pasting my tweets on the matter as I slowly make my way non-consecutively through the 100 days.
 image: twitter.png
 caption: Profile picture of my twitter account
@@ -9,6 +9,16 @@ caption: Profile picture of my twitter account
 Want to see more? I post other stuff too: [@sarajwallen](https://twitter.com/sarajwallen) :)
 
 <div class="tweet">
+
+## Day 76/#100DaysOfCode 
+
+Been on hiatus, went on a family holiday, now I'm messing with PowerShell to try and get something working for my current company in the coming 2 weeks.
+
+LOTS of googling for syntax!
+
+Often coding is just algebra, with each language having its own syntax..
+
+</div><div class="tweet">
 
 ## Day 75/#100DaysOfCode (very-non-consecutive)
 
@@ -416,9 +426,7 @@ Also, I really need a product idea - my design feels just have nothing to riff o
 
 ## Day 39/#100DaysOfCode
 
-Week 2 of @flaviocopes' #bootcampdev and now we're going to start building out a site for an imaginary product using @astrodotbuild
-
-- I'm excited!
+Week 2 of @flaviocopes' #bootcampdev and now we're going to start building out a site for an imaginary product using @astrodotbuild - I'm excited!
 
 But... I need an idea for said product 🤔
 

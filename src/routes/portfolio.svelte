@@ -348,7 +348,7 @@
 
   .container {
     width: calc(50% - (0.25rem + 0.5vmin) / 2);
-    max-width: 800px;
+    max-width: max(800px, 100%/3);
     aspect-ratio: 1;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
