@@ -129,26 +129,17 @@
     <button
       class="smsq2"
       id="c2"
-      style="background-image: url('/images/stuff/lightdark.png')"
-      title="Open Mega-Zine"
+      style="background-image: url('/images/stuff/ascii.png')"
+      title="Open Ascii Art"
     >
-      <h2 on:click={() => (show_c2 = true)} class="caption">Light&shy;/Dark Mode</h2>
+      <h1 on:click={() => (show_c2 = true)} class="caption">ASCII Art</h1>
     </button>
     {#if show_c2}
-      <Popup
-        on:closePopup={popupClose}
-        title="Light/Dark Mode"
-        url="https://color-scheme-light-dark.netlify.app/"
-        image="lightdark_lrg.png"
-        asprat="16/9"
-        alt="Screenshot from a mini site showing the code and outcome of making a light/dark mode switcher"
-      >
+      <Popup on:closePopup={popupClose} title="Ascii Art" rawtext={Ascii}>
         <div slot="desc">
           <p>
-            This is a mini site made to be an explainer, showing the code and outcome of making a light/dark mode switcher.
-          </p>
-          <p>
-            It leans heavily on the color-scheme CSS property.
+            When I was 15 or so I frequented several USENET newsgroups,
+            particularly alt.fan.eddie-izzard and alt.ascii-art:
           </p>
         </div>
       </Popup>
@@ -322,17 +313,26 @@
     <button
       class="bigsq"
       id="c4"
-      style="background-image: url('/images/stuff/ascii.png')"
-      title="Open Ascii Art"
+      style="background-image: url('/images/stuff/lightdark.png')"
+      title="Open Light/Dark Mode"
     >
-      <h1 on:click={() => (show_c4 = true)} class="caption">ASCII Art</h1>
+      <h2 on:click={() => (show_c4 = true)} class="caption">Light&shy;/Dark Mode</h2>
     </button>
     {#if show_c4}
-      <Popup on:closePopup={popupClose} title="Ascii Art" rawtext={Ascii}>
+      <Popup
+        on:closePopup={popupClose}
+        title="Light/Dark Mode"
+        url="https://color-scheme-light-dark.netlify.app/"
+        image="lightdark_lrg.png"
+        asprat="16/9"
+        alt="Screenshot from a mini site showing the code and outcome of making a light/dark mode switcher"
+      >
         <div slot="desc">
           <p>
-            When I was 15 or so I frequented several USENET newsgroups,
-            particularly alt.fan.eddie-izzard and alt.ascii-art:
+            This is a mini site made to be an explainer, showing the code and outcome of making a light/dark mode switcher.
+          </p>
+          <p>
+            It leans heavily on the color-scheme CSS property.
           </p>
         </div>
       </Popup>
