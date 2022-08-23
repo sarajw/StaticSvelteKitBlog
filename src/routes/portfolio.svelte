@@ -7,6 +7,7 @@
   let show_d2 = false;
   let show_a3 = false;
   let show_b3 = false;
+  let show_c2 = false;
   let show_c3 = false;
   let show_a4 = false;
   let show_b4 = false;
@@ -20,6 +21,7 @@
     show_d2 = false;
     show_a3 = false;
     show_b3 = false;
+    show_c2 = false;
     show_c3 = false;
     show_a4 = false;
     show_b4 = false;
@@ -124,7 +126,33 @@
         </div>
       </Popup>
     {/if}
-    <div class="smsq2" id="c2" />
+    <button
+      class="smsq2"
+      id="c2"
+      style="background-image: url('/images/stuff/lightdark.png')"
+      title="Open Mega-Zine"
+    >
+      <h2 on:click={() => (show_c2 = true)} class="caption">Light&shy;/Dark Mode</h2>
+    </button>
+    {#if show_c2}
+      <Popup
+        on:closePopup={popupClose}
+        title="Light/Dark Mode"
+        url="https://color-scheme-light-dark.netlify.app/"
+        image="lightdark_lrg.png"
+        asprat="16/9"
+        alt="Screenshot from a mini site showing the code and outcome of making a light/dark mode switcher"
+      >
+        <div slot="desc">
+          <p>
+            This is a mini site made to be an explainer, showing the code and outcome of making a light/dark mode switcher.
+          </p>
+          <p>
+            It leans heavily on the color-scheme CSS property.
+          </p>
+        </div>
+      </Popup>
+    {/if}
     <button
       id="d2"
       class="bigrow"
