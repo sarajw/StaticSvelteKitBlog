@@ -10,8 +10,6 @@ Want to see more? I post other stuff too: [@sarajwallen](https://twitter.com/sar
 
 <div class="tweet">
 
-Finally time for Day++;
-
 ## Day 79/#100DaysOfCode
 
 I want to get some work done to harmonise my homepage(s)!
