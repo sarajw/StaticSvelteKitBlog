@@ -1,6 +1,6 @@
 ---
 title: "#100DaysOfCode"
-date: "2022/08/18"
+date: "2022/09/21"
 exerpt: Copying and pasting my tweets on the matter as I slowly make my way non-consecutively through the 100 days.
 image: twitter.png
 caption: Profile picture of my twitter account
@@ -9,6 +9,66 @@ caption: Profile picture of my twitter account
 Want to see more? I post other stuff too: [@sarajwallen](https://twitter.com/sarajwallen) :)
 
 <div class="tweet">
+
+Finally time for Day++;
+
+## Day 79/#100DaysOfCode
+
+I want to get some work done to harmonise my homepage(s)!
+
+I also think it may be about time I learned how to integrate a headless CMS into my site.
+
+What's the simplest headless CMS to use with 
+@astrodotbuild? @storyblok? Other?
+
+### Day 79 continued:
+
+Work on the frankenhomepage begins:
+https://sarawallen-astro.netlify.app
+
+Yeah, it's messy. Trying to make elements of both http://sarawallen.com and http://blog.sarawallen.com come together into a single, more cohesive whole. Wish me luck!
+
+</div><div class="tweet">
+
+## Day 78/#100DaysOfCode
+
+OK, I can refactor my home page to switch light/dark mode without JS, to a degree, but I can't switch the color-scheme of the root element this way.
+
+I really want color-scheme to do the heavy lifting here, as that's what it's for.
+
+Ideal :has() use case!
+![see above](/images/blog/ideal-has.png)
+
+Code in image:
+<pre>:root:has(#toggle:checked) &lcub;
+    color-scheme: dark;
+&rcub;</pre>
+
+</div><div class="tweet">
+
+## Day 77/#100DaysOfCode
+
+I'm refactoring http://sarawallen.com a little because it really should be using 'color-scheme: light dark' by now and, hm.
+
+Until now it just followed the light or dark mode of the user's OS, thinking it would be nice to add a mode toggle. However...
+
+1/2
+
+Adding a toggle needs JS. So far http://sarawallen.com is pure HTML & CSS. Worth it?
+
+I could probably do a hidden checkbox thing, to keep it all JS-less, but I'm not so sure how accessible that is, and I suspect I'd end up having to provide some extra logic in JS anyway..
+
+2/2
+
+### Day 77 continued:
+
+Welp, I went ahead and did it.
+
+Not sure it's a full overhaul, but some updating has happened. Feel free to report any weirdness:
+
+https://sarawallen.com
+
+</div><div class="tweet">
 
 ## Day 76/#100DaysOfCode 
 
