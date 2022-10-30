@@ -11,6 +11,7 @@
     <h1>Welcome!</h1>
     <img src={headShot} width="400" alt="headshot" />
     <p>Hi! I'm Sara. Have a look around :)</p>
+    <p>This website is no longer current, see <a href="https://sarajoy.dev" target="_blank">sarajoy.dev</a> for the latest updates :)</p>
   </article>
 </div>
 

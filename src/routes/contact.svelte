@@ -9,11 +9,6 @@
 <div class="contact">
   <form name="contact" method="POST" data-netlify="true" Content-Type="application/x-www-form-urlencoded" action="/thankyou">
     <input type="hidden" name="form-name" value="contact" />
-    <p class="emailLink">
-      <a href="mailto:dev@sarawallen.com">dev@sarawallen.com</a>
-      <br />Click^ to use your own email app,
-      <br />otherwise please use the form:
-    </p>
     <p>
       <label
         >Name:
@@ -36,7 +31,7 @@
   <p class="emailLink">
     Looking for my socials? :)
     <br />
-    <a href="https://sarawallen.com#contact" target="_blank">sarawallen.com</a>
+    <a href="https://sarajoy.dev/#find" target="_blank">sarajoy.dev</a>
   </p>
 </div>
 
